@@ -32,11 +32,15 @@ In the managed cloud workspace, use `npm ci --cache /tmp/sips-npm-cache` when th
 ### Features
 
 - Cursor-following pouring animation, rising liquid, click controls and reset.
-- Six classic cocktails searchable by name and ingredient, with spirit and flavor filters.
+- Fifty classic cocktails searchable by name and ingredient, with spirit and flavor filters.
 - Ingredient cabinet, recipe matching, missing-ingredient counts and shopping recommendations.
 - Recipe details, quantities for 1–8 servings and step-by-step mixing guidance.
 - Chinese / English switch with a saved language preference.
 - Locally saved favorites and cabinet, responsive layouts, keyboard focus and reduced-motion support.
+
+### Recipe sources
+
+The 50 recipes use the publicly accessible [teijo/iba-cocktails](https://github.com/teijo/iba-cocktails) compilation at commit `5f1e5dd4a2189adc3854a51d7b48640bd86e9f76`. This is a third-party IBA compilation, **not a verification against the current IBA website and not Difford’s Guide recipes**. Ingredient measures are converted from cl to ml (1 cl = 10 ml). Instructions are paraphrased and translated. Necessary ingredients mentioned in preparation are included; garnishes appear in the steps. Time estimates, flavor labels, colors and simplified glass artwork are editorial. Each recipe links to the pinned source, and `data/sources/iba-provenance.json` records the original ingredient facts used for verification.
 
 ### Project structure
 
@@ -44,14 +48,15 @@ In the managed cloud workspace, use `npm ci --cache /tmp/sips-npm-cache` when th
 | --- | --- |
 | `src/main.tsx` | Page components, interactions, SVG artwork and recipe dialog |
 | `src/style.css` | Colors, typography and responsive layouts |
-| `src/data.ts` | Recipes, ingredients, matching and recommendations |
+| `src/data.ts` | Types, matching and recommendations |
+| `src/cocktails.json` | 50 bilingual recipes, measures and pinned source links |
 | `src/i18n.tsx` | Language provider, UI translations and English recipe instructions |
 | `src/data.test.ts` | Matching and recommendation tests |
 | `src/i18n.test.ts` | Translation and recipe coverage tests |
 
 **Stack:** React 19, TypeScript, Vite, Lucide, CSS and Vitest.
 
-No backend, accounts or paid services are required. Google Fonts is optional and falls back to system fonts. Your bar starts empty. Ice and water are assumed staples and excluded from matching; all other ingredients listed in a recipe count toward availability. Servings scale linearly; shake larger orders in batches. Recipes use common preparations and can be adjusted to taste.
+No backend, accounts or paid services are required. Google Fonts is optional and falls back to system fonts. Your bar starts empty. Ice is assumed; other listed required ingredients count toward availability, including water where the recipe lists it. Optional ingredients and decorative garnishes do not block a match. Unspecified quantities stay unmeasured when servings change. Servings scale linearly; shake larger orders in batches. Recipes use common preparations and can be adjusted to taste.
 
 Possible next steps: more recipes, ingredient substitutions, timers, photography, custom recipes and cloud sync.
 
@@ -87,11 +92,15 @@ npm run preview
 ### 已包含
 
 - 首页鼠标跟随倒酒、液面上升、点击控制和重新倒酒。
-- 六款经典配方，按基酒、风味、名称和材料筛选。
+- 50 款经典配方，按基酒、风味、名称和材料筛选。
 - 酒柜材料管理、完整配方匹配、缺失材料数量与补货建议。
 - 配方详情、1–8 杯用量换算及分步教学。
 - 中英文切换与本地语言偏好保存。
 - 本地保存酒柜与收藏，移动端布局、键盘焦点和减少动态效果支持。
+
+### 配方来源
+
+50 款配方采用可访问的 [teijo/iba-cocktails](https://github.com/teijo/iba-cocktails) 公开整理数据，固定版本为 `5f1e5dd4a2189adc3854a51d7b48640bd86e9f76`。它是第三方整理的 IBA 配方，**未与当前 IBA 官网核验，也不是 Difford’s Guide 的配方版本**。按 1 cl = 10 ml 转换用量，制作步骤经过转述及翻译。原文做法中提及的必需材料已补入清单，装饰材料在步骤中说明。时间、风味分类、颜色与简化杯型为编辑信息。每款详情都提供固定版本来源链接，`data/sources/iba-provenance.json` 保存用于核对的原始材料事实。
 
 ### 继续修改
 
@@ -99,13 +108,14 @@ npm run preview
 | --- | --- |
 | `src/main.tsx` | 页面、交互、SVG 插画与配方弹窗 |
 | `src/style.css` | 颜色、排版、响应式样式 |
-| `src/data.ts` | 配方数据、材料匹配和补货推荐 |
+| `src/data.ts` | 数据类型、材料匹配和补货推荐 |
+| `src/cocktails.json` | 50 款双语配方、用量与固定版本来源链接 |
 | `src/i18n.tsx` | 语言状态、界面翻译及英文配方教学 |
 | `src/data.test.ts` | 核心匹配逻辑测试 |
 | `src/i18n.test.ts` | 翻译与配方完整性测试 |
 
 **技术栈：**React 19、TypeScript、Vite、Lucide、原生 CSS、Vitest。
 
-无需后端、账号或付费服务；Google Fonts 为可选增强，加载失败时使用本机字体。酒柜初始为空，按需勾选。冰块和水为默认基础用品，不参与匹配；配方中列出的其他材料均参与匹配。份数换算按线性比例显示，多杯调制建议分批摇和。配方为常见做法，具体风味可按个人口味调整。
+无需后端、账号或付费服务；Google Fonts 为可选增强，加载失败时使用本机字体。酒柜初始为空，按需勾选。默认有冰块，其他列出的必需材料（包括配方列明的水）均参与匹配。可选材料与装饰材料不影响匹配；未注明精确用量的材料，在份数变化时保留原本的定性用量。份数换算按线性比例显示，多杯调制建议分批摇和。配方为常见做法，具体风味可按个人口味调整。
 
 后续可扩展更多配方、材料替代、计时器、真实照片、自定义配方和云端同步。

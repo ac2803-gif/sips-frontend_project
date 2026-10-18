@@ -1,0 +1,678 @@
+{
+  "source": "Difford's Guide",
+  "sourceType": "user-supplied search listing HTML",
+  "inputSha256": "6a692ffa1ab59d90de7ea57a2161a67b9f0b159ecfb9cb00b8238c5a13b70c1a",
+  "recipeCount": 24,
+  "completeRecipeCount": 0,
+  "notes": "Reference index only. No quantities or instructions were present in the supplied listing. Images are reference URLs, not downloaded or published photo assets. Not imported into the app until complete recipe details are verified.",
+  "recipes": [
+    {
+      "name": "Negroni Cocktail",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1392/negroni-cocktail",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/oryvaO/default/0/512x.webp?v=1737701576",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Red bitter liqueur",
+          "optional": false
+        },
+        {
+          "name": "Rosso/sweet vermouth",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Last Word",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1133/last-word",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/3r47bA/default/0/512x.webp?v=1781258017",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Chartreuse Green",
+          "optional": false
+        },
+        {
+          "name": "Maraschino liqueur",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Chilled water",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Naked & Famous",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/3640/naked-and-famous",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/AP7eVR/default/0/512x.webp?v=1737701594",
+      "ingredients": [
+        {
+          "name": "Mezcal",
+          "optional": false
+        },
+        {
+          "name": "Orange-red aperitivo",
+          "optional": false
+        },
+        {
+          "name": "Chartreuse Yellow",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Daiquiri (Difford's recipe)",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/611/daiquiri-diffords-recipe",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/zAM3bO/default/0/512x.webp?v=1758195717",
+      "ingredients": [
+        {
+          "name": "Light white rum",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Sugar syrup 'rich' (2:1)",
+          "optional": false
+        },
+        {
+          "name": "Daiquiri bitters",
+          "optional": true
+        },
+        {
+          "name": "Chilled water",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Penicillin",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/2539/penicillin",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/rVQZpA/default/0/512x.webp?v=1739983925",
+      "ingredients": [
+        {
+          "name": "Scotch whisky",
+          "optional": false
+        },
+        {
+          "name": "Ginger liqueur",
+          "optional": false
+        },
+        {
+          "name": "Peated malt whisky",
+          "optional": false
+        },
+        {
+          "name": "Lemon juice",
+          "optional": false
+        },
+        {
+          "name": "Honey & water syrup",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Margarita",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1255/margarita",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/zAM6Nr/default/1/512x.webp?v=1767877432",
+      "ingredients": [
+        {
+          "name": "Reposado tequila",
+          "optional": false
+        },
+        {
+          "name": "Triple sec",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Agave syrup",
+          "optional": false
+        },
+        {
+          "name": "Margarita Bitters",
+          "optional": true
+        },
+        {
+          "name": "Saline solution 4:1",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Mezcal Margarita",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/2497/mezcal-margarita",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/RJeq8O/default/0/512x.webp?v=1737701586",
+      "ingredients": [
+        {
+          "name": "Mezcal",
+          "optional": false
+        },
+        {
+          "name": "Triple sec",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Agave syrup",
+          "optional": false
+        },
+        {
+          "name": "Saline solution 4:1",
+          "optional": true
+        },
+        {
+          "name": "Margarita Bitters",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Left Bank Martini",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/2464/left-bank-martini",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/Ro6MPO/default/1/512x.webp?v=1752834449",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Elderflower liqueur",
+          "optional": false
+        },
+        {
+          "name": "Chardonnay wine",
+          "optional": false
+        },
+        {
+          "name": "Dry vermouth",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Poet's Dream",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1576/poets-dream",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/GreD6A/default/0/512x.webp?v=1770370330",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Bénédictine D.O.M.",
+          "optional": false
+        },
+        {
+          "name": "Dry vermouth",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Dry Martini 'Preferred' (5:1 ratio)",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/676/dry-martini-preferred-51-ratio",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/GrexqA/default/1/512x.webp?v=1784885905",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Dry vermouth",
+          "optional": false
+        },
+        {
+          "name": "Orange bitters",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Martinez (Difford's recipe)",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1264/martinez-diffords-recipe",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/GRozJO/default/0/512x.webp?v=1737701576",
+      "ingredients": [
+        {
+          "name": "Oude genever",
+          "optional": false
+        },
+        {
+          "name": "Rosso/sweet vermouth",
+          "optional": false
+        },
+        {
+          "name": "Dry vermouth",
+          "optional": false
+        },
+        {
+          "name": "Orange Curaçao",
+          "optional": false
+        },
+        {
+          "name": "Aromatic bitters",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Difford's Fruit Cup No.1 (gin based & Pimm's Cup-like)",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/2169/diffords-fruit-cup-no1-gin-based-and-pimms-cup-like",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/RZ01Zr/default/0/512x.webp?v=1784202500",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Orange Curaçao",
+          "optional": false
+        },
+        {
+          "name": "Rosso/sweet vermouth",
+          "optional": false
+        },
+        {
+          "name": "Aromatic bitters",
+          "optional": false
+        },
+        {
+          "name": "Ginger ale",
+          "optional": false
+        },
+        {
+          "name": "Cola",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Dry Martini (15:1 ratio) Montgomery's",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/2508/dry-martini-151-ratio-montgomerys",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/OnlWPA/default/0/512x.webp?v=1737701586",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Dry vermouth",
+          "optional": false
+        },
+        {
+          "name": "Orange bitters",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Paper Plane",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/3630/paper-plane",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/rgb0wA/default/0/512x.webp?v=1737701594",
+      "ingredients": [
+        {
+          "name": "Bourbon whiskey",
+          "optional": false
+        },
+        {
+          "name": "Amaro (e.g. Nonino)",
+          "optional": false
+        },
+        {
+          "name": "Orange-red aperitivo",
+          "optional": false
+        },
+        {
+          "name": "Lemon juice",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Vieux Carré Cocktail",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/2048/vieux-carre-cocktail",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/ry8g4A/default/0/512x.webp?v=1737701583",
+      "ingredients": [
+        {
+          "name": "Rye whiskey 50% abv",
+          "optional": false
+        },
+        {
+          "name": "Cognac (brandy)",
+          "optional": false
+        },
+        {
+          "name": "Rosso/sweet vermouth",
+          "optional": false
+        },
+        {
+          "name": "Bénédictine D.O.M.",
+          "optional": false
+        },
+        {
+          "name": "Creole bitters",
+          "optional": false
+        },
+        {
+          "name": "Aromatic bitters",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Whiskey Sour (Difford's recipe)",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/2083/whiskey-sour-diffords-recipe",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/rVQbYA/default/0/512x.webp?v=1737701584",
+      "ingredients": [
+        {
+          "name": "Bourbon whiskey",
+          "optional": false
+        },
+        {
+          "name": "Lemon juice",
+          "optional": false
+        },
+        {
+          "name": "Sugar syrup 'rich' (2:1)",
+          "optional": false
+        },
+        {
+          "name": "Aromatic bitters",
+          "optional": false
+        },
+        {
+          "name": "Saline solution 4:1",
+          "optional": true
+        },
+        {
+          "name": "Egg white (pasteurised)",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Espresso Martini",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/725/espresso-martini",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/LRZqYO/default/0/512x.webp?v=1762165086",
+      "ingredients": [
+        {
+          "name": "Vodka",
+          "optional": false
+        },
+        {
+          "name": "Espresso coffee (hot)",
+          "optional": false
+        },
+        {
+          "name": "Coffee liqueur",
+          "optional": false
+        },
+        {
+          "name": "Saline solution 4:1",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Enzoni",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/5591/enzoni",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/Am6vyr/default/0/512x.webp?v=1737701604",
+      "ingredients": [
+        {
+          "name": "Green grapes (seedless)",
+          "optional": false
+        },
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Red bitter liqueur",
+          "optional": false
+        },
+        {
+          "name": "Lemon juice",
+          "optional": false
+        },
+        {
+          "name": "Sugar syrup 'rich' (2:1)",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Mojito Cocktail",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1341/mojito-cocktail",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/YAkkNA/default/0/512x.webp?v=1737701576",
+      "ingredients": [
+        {
+          "name": "Mint leaves",
+          "optional": false
+        },
+        {
+          "name": "Light gold rum 1-3yo",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Sugar syrup 'rich' (2:1)",
+          "optional": false
+        },
+        {
+          "name": "Soda water",
+          "optional": false
+        },
+        {
+          "name": "Daiquiri bitters",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Singapore Sling",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/4627/singapore-sling",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/O7W8DO/default/0/512x.webp?v=1737701600",
+      "ingredients": [
+        {
+          "name": "Gin",
+          "optional": false
+        },
+        {
+          "name": "Cherry brandy",
+          "optional": false
+        },
+        {
+          "name": "Bénédictine D.O.M.",
+          "optional": false
+        },
+        {
+          "name": "Triple sec",
+          "optional": false
+        },
+        {
+          "name": "Pineapple juice",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Grenadine syrup",
+          "optional": false
+        },
+        {
+          "name": "Aromatic bitters",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Ultima Palabra",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/3663/ultima-palabra",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/rN4n5R/default/0/512x.webp?v=1737701594",
+      "ingredients": [
+        {
+          "name": "Mezcal",
+          "optional": false
+        },
+        {
+          "name": "Chartreuse Green",
+          "optional": false
+        },
+        {
+          "name": "Maraschino liqueur",
+          "optional": false
+        },
+        {
+          "name": "Pineapple juice",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Chilled water",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Caipirinha",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/354/caipirinha",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/LR1oar/default/0/512x.webp?v=1737701572",
+      "ingredients": [
+        {
+          "name": "Lime (fresh)",
+          "optional": false
+        },
+        {
+          "name": "Powdered sugar",
+          "optional": false
+        },
+        {
+          "name": "Chilled water",
+          "optional": true
+        },
+        {
+          "name": "Cachaça (unaged)",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Sazerac (Difford's split base)",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1752/sazerac-diffords-split-base",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/oOn59r/default/0/512x.webp?v=1737701580",
+      "ingredients": [
+        {
+          "name": "Absinthe",
+          "optional": false
+        },
+        {
+          "name": "Chilled water",
+          "optional": true
+        },
+        {
+          "name": "Cognac (brandy)",
+          "optional": false
+        },
+        {
+          "name": "Rye whiskey 50% abv",
+          "optional": false
+        },
+        {
+          "name": "Bourbon whiskey",
+          "optional": false
+        },
+        {
+          "name": "Sugar syrup 'rich' (2:1)",
+          "optional": false
+        },
+        {
+          "name": "Creole bitters",
+          "optional": false
+        },
+        {
+          "name": "Aromatic bitters",
+          "optional": false
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    },
+    {
+      "name": "Tommy's Margarita",
+      "sourceUrl": "https://www.diffordsguide.com/cocktails/recipe/1975/tommys-margarita",
+      "referenceImageUrl": "https://cdn.diffordsguide.com/cocktail/AQQ2MA/default/0/512x.webp?v=1737701583",
+      "ingredients": [
+        {
+          "name": "Reposado tequila",
+          "optional": false
+        },
+        {
+          "name": "Lime juice",
+          "optional": false
+        },
+        {
+          "name": "Agave syrup",
+          "optional": false
+        },
+        {
+          "name": "Margarita Bitters",
+          "optional": true
+        }
+      ],
+      "status": "listing-only; quantities, method and image palette not yet verified"
+    }
+  ]
+}

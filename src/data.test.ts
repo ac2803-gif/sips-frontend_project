@@ -1,27 +1,57 @@
 import { describe, expect, it } from 'vitest';
 import { cocktails, ingredients, missingIngredients, recommendIngredient } from './data';
+import provenance from '../data/sources/iba-provenance.json';
 
-describe('酒柜配方匹配', () => {
- it('空酒柜不会匹配到可制作的配方', () => {
-  expect(cocktails.filter(c => missingIngredients(c, []).length === 0)).toHaveLength(0);
+describe('recipe provenance and bar matching', () => {
+ it('contains 50 unique, complete recipes with pinned sources', () => {
+  expect(cocktails).toHaveLength(50);
+  expect(new Set(cocktails.map(c=>c.id)).size).toBe(50);
+  for (const c of cocktails) {
+   expect(c.source.version).toBe(provenance.commit);
+   expect(c.source.url).toContain(provenance.commit);
+   expect(c.ingredients.length).toBeGreaterThan(1);
+   expect(c.steps.length).toBeGreaterThan(1);
+   expect(c.ingredients.every(i=>i.amount===null || i.amount>0)).toBe(true);
+  }
  });
- it('包含全部必需材料才可制作，不能忽略装饰材料', () => {
-  const negroni = cocktails.find(c => c.id === 'negroni')!;
-  expect(missingIngredients(negroni, ['金酒','金巴利','甜味美思']).map(i => i.name)).toEqual(['橙子']);
-  expect(missingIngredients(negroni, ['金酒','金巴利','甜味美思','橙子'])).toHaveLength(0);
+ it('converts every measured source ingredient from cl to ml without changing ratios', () => {
+  for (const source of provenance.selected) {
+   const c=cocktails.find(c=>c.name===source.name)!;
+   source.ingredients.forEach((original,index)=>{
+    if ('amount' in original && original.amount!==undefined) {
+     expect(c.ingredients[index].unit).toBe('ml');
+     expect(c.ingredients[index].amount).toBeCloseTo(original.amount*10);
+    }
+   });
+  }
  });
- it('推荐能立即解锁配方的缺失材料', () => {
-  expect(recommendIngredient(['白朗姆酒','青柠汁'])).toEqual({ name: '糖浆', count: 1 });
+ it('does not fabricate an exact measure for unspecified syrup or soda',()=>{
+  const espresso=cocktails.find(c=>c.id==='espresso-martini')!;
+  expect(espresso.ingredients.find(i=>i.name==='糖浆')?.amount).toBeNull();
+  const mojito=cocktails.find(c=>c.id==='mojito')!;
+  expect(mojito.ingredients.find(i=>i.name==='苏打水')?.amount).toBeNull();
  });
- it('无单一材料可解锁配方时不虚构购买建议', () => {
+ it('does not match a recipe until all required ingredients are available',()=>{
+  const c=cocktails.find(c=>c.id==='negroni')!;
+  expect(missingIngredients(c,[])).toHaveLength(3);
+  expect(missingIngredients(c,['金酒','金巴利']).map(i=>i.name)).toEqual(['甜味美思']);
+  expect(missingIngredients(c,['金酒','金巴利','甜味美思'])).toHaveLength(0);
+ });
+ it('optional egg white does not prevent making a whiskey sour',()=>{
+  const c=cocktails.find(c=>c.id==='whiskey-sour')!;
+  expect(c.ingredients.find(i=>i.name==='蛋清')?.optional).toBe(true);
+  expect(missingIngredients(c,['波本威士忌','柠檬汁','糖浆'])).toHaveLength(0);
+ });
+ it('shopping recommendations count recipes that really become available',()=>{
+  const bar=['白朗姆酒','青柠汁'];
+  const recommendation=recommendIngredient(bar)!;
+  expect(recommendation.count).toBeGreaterThan(0);
+  const before=new Set(cocktails.filter(c=>missingIngredients(c,bar).length===0).map(c=>c.id));
+  const unlocked=cocktails.filter(c=>!before.has(c.id)&&missingIngredients(c,[...bar,recommendation.name]).length===0);
+  expect(unlocked).toHaveLength(recommendation.count);
+ });
+ it('does not invent recommendations for an empty or complete bar',()=>{
   expect(recommendIngredient([])).toBeUndefined();
   expect(recommendIngredient(ingredients)).toBeUndefined();
- });
- it('所有配方都有唯一标识、正数用量和实际制作步骤', () => {
-  expect(new Set(cocktails.map(c => c.id)).size).toBe(cocktails.length);
-  for (const c of cocktails) {
-   expect(c.ingredients.every(i => i.amount > 0)).toBe(true);
-   expect(c.steps.length).toBeGreaterThan(1);
-  }
  });
 });

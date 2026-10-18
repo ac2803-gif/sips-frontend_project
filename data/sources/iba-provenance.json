@@ -1,0 +1,1069 @@
+{
+  "sourceUrl": "https://github.com/teijo/iba-cocktails",
+  "commit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76",
+  "downloadSha256": "dce8d39f3c60ffa6df97154dc1ed4dca23f03d29d22a9cb96a564a1a73ac1c2f",
+  "note": "Third-party compilation of IBA recipes, not verified against the current IBA website and not Difford’s Guide recipes. 50 selected recipes. cl converted to ml using 1 cl = 10 ml. Unspecified quantities remain unspecified. Steps paraphrased and translated; timings, colors, flavors and simplified SVG glass shapes are editorial. Decorative garnishes are described in steps, not required for bar matching. Optional egg white is marked optional. Necessary ingredients mentioned in preparation are included.",
+  "selected": [
+    {
+      "name": "Vesper",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 0.75,
+          "ingredient": "Lillet Blonde"
+        }
+      ]
+    },
+    {
+      "name": "Negroni",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Campari"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Vermouth",
+          "label": "Sweet red vermouth"
+        }
+      ]
+    },
+    {
+      "name": "Old Fashioned",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Whiskey",
+          "label": "Bourbon or rye whiskey"
+        },
+        {
+          "special": "2 dashes Angostura Bitters"
+        },
+        {
+          "special": "1 sugar cube"
+        },
+        {
+          "special": "Few dashes plain water"
+        }
+      ]
+    },
+    {
+      "name": "Mojito",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "White rum",
+          "label": "White Cuban Rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Lime juice"
+        },
+        {
+          "special": "6 Mint sprigs"
+        },
+        {
+          "special": "2 teaspoons white sugar"
+        },
+        {
+          "special": "Soda water"
+        }
+      ]
+    },
+    {
+      "name": "Sea Breeze",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 12,
+          "ingredient": "Cranberry juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Grapefruit juice"
+        }
+      ]
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Tequila"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "White rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Triple Sec"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 2.5,
+          "ingredient": "Lemon juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 3.0,
+          "ingredient": "Syrup",
+          "label": "Gomme syrup"
+        },
+        {
+          "special": "1 dash of Cola"
+        }
+      ]
+    },
+    {
+      "name": "Clover Club",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Syrup",
+          "label": "Raspberry syrup"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lemon juice"
+        },
+        {
+          "special": "Few drops of Egg White"
+        }
+      ]
+    },
+    {
+      "name": "Angel Face",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Apricot brandy"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Calvados"
+        }
+      ]
+    },
+    {
+      "name": "Mimosa",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 7.5,
+          "ingredient": "Champagne"
+        },
+        {
+          "unit": "cl",
+          "amount": 7.5,
+          "ingredient": "Orange juice"
+        }
+      ]
+    },
+    {
+      "name": "Whiskey Sour",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Whiskey",
+          "label": "Bourbon whiskey"
+        },
+        {
+          "unit": "cl",
+          "amount": 3.0,
+          "ingredient": "Lemon juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Syrup",
+          "label": "Sugar syrup"
+        }
+      ]
+    },
+    {
+      "name": "Screwdriver",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 10,
+          "ingredient": "Orange juice"
+        }
+      ]
+    },
+    {
+      "name": "Cuba Libre",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "White rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 12,
+          "ingredient": "Cola"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Lime juice"
+        }
+      ]
+    },
+    {
+      "name": "Manhattan",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Whiskey",
+          "label": "Rye whiskey"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Vermouth",
+          "label": "Red vermouth"
+        },
+        {
+          "special": "1 dash Angostura Bitters"
+        }
+      ]
+    },
+    {
+      "name": "Gin Fizz",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Lemon juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Syrup",
+          "label": "Sugar syrup"
+        },
+        {
+          "unit": "cl",
+          "amount": 8,
+          "ingredient": "Soda water"
+        }
+      ]
+    },
+    {
+      "name": "Espresso Martini",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Coffee liqueur",
+          "label": "Kahlúa"
+        },
+        {
+          "special": "Sugar syrup (according to individual preference of sweetness)"
+        },
+        {
+          "special": "1 short strong Espresso"
+        }
+      ]
+    },
+    {
+      "name": "Margarita",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3.5,
+          "ingredient": "Tequila"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Triple Sec",
+          "label": "Cointreau"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lime juice"
+        }
+      ]
+    },
+    {
+      "name": "French 75",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lemon juice"
+        },
+        {
+          "special": "2 dashes Sugar syrup"
+        },
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "Champagne"
+        }
+      ]
+    },
+    {
+      "name": "Yellow Bird",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "White rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Galliano"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Triple Sec"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lime juice"
+        }
+      ]
+    },
+    {
+      "name": "Pina Colada",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "White rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 9,
+          "ingredient": "Pineapple juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Coconut milk"
+        }
+      ]
+    },
+    {
+      "name": "Aviation",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Cherry liqueur",
+          "label": "Maraschino"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lemon juice"
+        }
+      ]
+    },
+    {
+      "name": "Bellini",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 10,
+          "ingredient": "Prosecco"
+        },
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Peach puree"
+        }
+      ]
+    },
+    {
+      "name": "Grasshopper",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Créme liqueur",
+          "label": "White Créme de Cacao"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Créme liqueur",
+          "label": "Green Créme de Menthe"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Cream"
+        }
+      ]
+    },
+    {
+      "name": "Tequila Sunrise",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Tequila"
+        },
+        {
+          "unit": "cl",
+          "amount": 9,
+          "ingredient": "Orange juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Syrup",
+          "label": "Grenadine"
+        }
+      ]
+    },
+    {
+      "name": "Daiquiri",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "White rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 2.5,
+          "ingredient": "Lime juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Syrup",
+          "label": "Simple syrup"
+        }
+      ]
+    },
+    {
+      "name": "Rusty Nail",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Whiskey",
+          "label": "Scotch whisky"
+        },
+        {
+          "unit": "cl",
+          "amount": 2.5,
+          "ingredient": "Drambuie"
+        }
+      ]
+    },
+    {
+      "name": "Stinger",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Cognac"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Créme liqueur",
+          "label": "White Créme de Menthe"
+        }
+      ]
+    },
+    {
+      "name": "Golden Dream",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Galliano"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Triple Sec"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Orange juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Cream"
+        }
+      ]
+    },
+    {
+      "name": "God Mother",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3.5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 3.5,
+          "ingredient": "DiSaronno"
+        }
+      ]
+    },
+    {
+      "name": "Spritz Veneziano",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "Prosecco"
+        },
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Aperol"
+        },
+        {
+          "special": "Splash of Soda water"
+        }
+      ]
+    },
+    {
+      "name": "Bramble",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lemon juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Syrup",
+          "label": "Sugar syrup"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Blackberry liqueur"
+        }
+      ]
+    },
+    {
+      "name": "Alexander",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Cognac"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Créme liqueur",
+          "label": "Brown Créme de Cacao"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Cream"
+        }
+      ]
+    },
+    {
+      "name": "Lemon Drop Martini",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 2.5,
+          "ingredient": "Vodka",
+          "label": "Citron Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Triple Sec"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lemon juice"
+        }
+      ]
+    },
+    {
+      "name": "French Martini",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Raspberry liqueur"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Pineapple juice"
+        }
+      ]
+    },
+    {
+      "name": "Black Russian",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Coffee liqueur"
+        }
+      ]
+    },
+    {
+      "name": "Sex on the Beach",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Peach schnapps"
+        },
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Cranberry juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Orange juice"
+        }
+      ]
+    },
+    {
+      "name": "Sidecar",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Cognac"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Triple Sec"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Lemon juice"
+        }
+      ]
+    },
+    {
+      "name": "Sazerac",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Cognac"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Absinthe"
+        },
+        {
+          "special": "1 sugar cube"
+        },
+        {
+          "special": "2 dashes Peychaud’s bitters"
+        }
+      ]
+    },
+    {
+      "name": "Singapore Sling",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Cherry liqueur"
+        },
+        {
+          "unit": "cl",
+          "amount": 0.75,
+          "ingredient": "Triple Sec",
+          "label": "Cointreau"
+        },
+        {
+          "unit": "cl",
+          "amount": 0.75,
+          "ingredient": "DOM Bénédictine"
+        },
+        {
+          "unit": "cl",
+          "amount": 12.0,
+          "ingredient": "Pineapple juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lime juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Syrup",
+          "label": "Grenadine"
+        },
+        {
+          "special": "1 dash Angostura bitters"
+        }
+      ]
+    },
+    {
+      "name": "French Connection",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3.5,
+          "ingredient": "Cognac"
+        },
+        {
+          "unit": "cl",
+          "amount": 3.5,
+          "ingredient": "DiSaronno"
+        }
+      ]
+    },
+    {
+      "name": "Moscow Mule",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Vodka"
+        },
+        {
+          "unit": "cl",
+          "amount": 12,
+          "ingredient": "Ginger beer"
+        },
+        {
+          "unit": "cl",
+          "amount": 0.5,
+          "ingredient": "Lime juice"
+        },
+        {
+          "special": "1 slice lime in a highball glass"
+        }
+      ]
+    },
+    {
+      "name": "John Collins",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Lemon juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Syrup",
+          "label": "Sugar syrup"
+        },
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "Soda water"
+        }
+      ]
+    },
+    {
+      "name": "Kir",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 9,
+          "ingredient": "Dry White Wine"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Créme liqueur",
+          "label": "Créme de Cassis"
+        }
+      ]
+    },
+    {
+      "name": "Tommy's Margarita",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Tequila"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lime juice"
+        },
+        {
+          "special": "2 bar spoons of Agave nectar"
+        }
+      ]
+    },
+    {
+      "name": "Mary Pickford",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "White rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Cherry liqueur",
+          "label": "Maraschino"
+        },
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "Pineapple juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Syrup",
+          "label": "Grenadine"
+        }
+      ]
+    },
+    {
+      "name": "Hemingway Special",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "White rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Grapefruit juice"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Cherry liqueur",
+          "label": "Maraschino"
+        },
+        {
+          "unit": "cl",
+          "amount": 1.5,
+          "ingredient": "Lime juice"
+        }
+      ]
+    },
+    {
+      "name": "Dark 'n' Stormy",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "Dark rum"
+        },
+        {
+          "unit": "cl",
+          "amount": 10,
+          "ingredient": "Ginger beer"
+        }
+      ]
+    },
+    {
+      "name": "God Father",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 3.5,
+          "ingredient": "Whiskey",
+          "label": "Scotch whisky"
+        },
+        {
+          "unit": "cl",
+          "amount": 3.5,
+          "ingredient": "DiSaronno"
+        }
+      ]
+    },
+    {
+      "name": "Dry Martini",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 6,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 1,
+          "ingredient": "Vermouth",
+          "label": "Dry vermouth"
+        }
+      ]
+    },
+    {
+      "name": "Caipirinha",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 5,
+          "ingredient": "Cachaca"
+        },
+        {
+          "special": "half fresh lime cut into 4 wedges"
+        },
+        {
+          "special": "2 teaspoon sugar"
+        }
+      ]
+    },
+    {
+      "name": "White Lady",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Gin"
+        },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Triple Sec"
+        },
+        {
+          "unit": "cl",
+          "amount": 2,
+          "ingredient": "Lemon juice"
+        }
+      ]
+    }
+  ]
+}
