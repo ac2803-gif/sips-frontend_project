@@ -3,6 +3,17 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 
 export type Language = 'zh' | 'en';
 export const translations: Record<string, string> = {
+"滚动倒酒插画":"Scroll-controlled pouring illustration",
+"拖动酒瓶倾倒":"Drag the bottle to pour",
+"倾斜程度":"Bottle tilt",
+"向下滚动倒酒，向上滚动回看":"Scroll down to pour. Scroll up to rewind.",
+"这一杯好了，松手让酒瓶回正":"Your drink is ready. Release to set the bottle upright.",
+"倾角越大，酒流越快":"Tilt further to pour faster.",
+"按住酒瓶左右拖动，松手回正":"Drag the bottle sideways. Release to set it upright.",
+"键盘：按住空格倒酒，松开停止。":"Keyboard: hold Space to pour, release to stop.",
+"换一杯，再用滚动探索它的风味。":"Pick another drink. Scroll to mix it.",
+"换一杯，再亲手为它倾倒。":"Pick another drink. Pour it your way.",
+
 "自动倒酒插画":"Automatic pouring illustration",
 "正在调制…":"Mixing\u2026",
 "看看怎么调":"Make this drink",

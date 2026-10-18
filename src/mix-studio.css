@@ -39,3 +39,26 @@
 @keyframes mix-result-enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:760px){.mix-result{margin-top:0}.mix-studio{margin-top:20px}}
 @media(prefers-reduced-motion:reduce){.mix-bottle-shell,.mix-glass-scene,.mix-result-copy{animation:none;transition:none}.mix-stage--finished .mix-bottle-shell{display:none}}
+/* Desktop uses a scroll chapter; touch layouts keep normal page flow. */
+.mix-bottle-shell,.mix-glass-scene,.mix-stage--finished .mix-bottle-shell,.mix-stage--finished .mix-glass-scene{opacity:1;transform:none;animation:none;transition:none}
+.mix-stage--finished .mix-orbit{opacity:1}.mix-result--mixing .mix-recipe-link{opacity:1;transform:none}
+.mix-gesture-note{font-size:10px;line-height:1.9;text-align:center;color:#77896a;margin:0 auto 15px;padding:0 10px;min-height:20px}
+.mix-bottle{touch-action:pan-y pinch-zoom}.mix-studio--drag .mix-bottle,.mix-studio--drag .mix-bottle *{pointer-events:auto;cursor:grab}
+.mix-studio--drag .is-dragging .mix-bottle,.mix-studio--drag .is-dragging .mix-bottle *{cursor:grabbing}
+.mix-studio--drag .mix-bottle:focus-visible{outline:2px solid #bd7c48;outline-offset:6px}
+.mix-keyboard-tip{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.mix-canvas-wrap:has(.mix-bottle:focus-visible) .mix-keyboard-tip{position:static;display:block;width:auto;height:auto;margin:0 auto 10px;overflow:visible;clip-path:none;text-align:center;font-size:10px;color:#7c8e6b;white-space:normal}
+.mix-drag-cue{position:absolute;left:74%;top:43%;z-index:2;display:grid;place-items:center;width:30px;height:30px;border:1px solid #c5cfb6;border-radius:50%;background:#f9faf0e6;color:#607b4e;font-size:18px;pointer-events:none;animation:mix-drag-guide 1.8s ease-in-out 3}
+@keyframes mix-drag-guide{0%,100%{transform:translateX(-6px)}50%{transform:translateX(6px)}}
+@media(min-width:901px) and (hover:hover) and (pointer:fine){
+ .hero{min-height:calc(100svh + 480px);align-items:start}
+ .hero-copy{position:sticky;top:90px;align-self:start}
+ .mix-studio--scroll{position:sticky;top:20px;align-self:start}
+ .mix-studio--scroll .mix-stage{aspect-ratio:560/410}
+ .mix-studio--scroll .mix-art{height:100%;position:absolute;inset:0;aspect-ratio:auto}
+}
+@media(max-width:900px),(hover:none),(pointer:coarse){
+ .hero{grid-template-columns:1fr;min-height:0}.hero-copy{position:static}.mix-studio--drag{max-width:500px;margin:24px auto 0;position:relative}
+ .mix-gesture-note{font-size:11px;margin-bottom:16px}.mix-studio--drag .mix-stage{touch-action:pan-y pinch-zoom}
+}
+@media(prefers-reduced-motion:reduce){.mix-stage--finished .mix-bottle-shell{display:block}.mix-drag-cue{animation:none}.mix-bottle{transition:none!important}}

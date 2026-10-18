@@ -24,16 +24,27 @@ export const glassShapes = {
  highball: { top: 242, bottom: 426, full: 262, left: 210, right: 310, rim: 50,
   path: 'M210 242 L218 417 Q260 434 302 417 L310 242 Z' },
 };
-export function pourGeometry(glass: Cocktail['glass'], progress: number, aim = { x: 0, y: 0 }, playing = false) {
+export const clamp = (value: number, min = 0, max = 1) => Math.max(min, Math.min(max,value));
+export const flowForTilt = (tilt: number) => clamp((tilt-.32)/.68);
+
+/** Three scroll chapters: lift the bottle, pour, then return upright. */
+export function scrollPourState(fraction: number, reduced = false) {
+ const scroll = clamp(fraction);
+ if (reduced) return {progress:scroll>=.12?100:0,tilt:0};
+ const progress=clamp((scroll-.12)/.76)*100;
+ const tilt=scroll<.12?scroll/.12:scroll>.88?(1-scroll)/.12:1;
+ return {progress,tilt:clamp(tilt)};
+}
+export function pourGeometry(glass: Cocktail['glass'], progress: number, tilt = 1) {
  const shape = glassShapes[glass];
- const x = Math.max(-1, Math.min(1, aim.x));
- const y = Math.max(-1, Math.min(1, aim.y));
- // The bottle rotates around its opening. The stream uses this same point,
- // so tracking, glass changes and viewport scaling never detach the stream.
- const spout = { x: 260 + x * 18, y: 158 + y * 7 };
- const angle = -20 + (playing ? 8 : 0) + x * 2;
- const liquidY = shape.bottom - (shape.bottom - shape.full) * Math.max(0, Math.min(100, progress)) / 100;
- return { shape, spout, angle, liquidY, stream: `M${spout.x} ${spout.y} C${spout.x} ${spout.y + 40} ${spout.x} ${liquidY - 30} ${spout.x} ${liquidY}` };
+ const amount = clamp(tilt);
+ const approach = clamp(amount/.32);
+ // An upright bottle parks beside the glass, then moves its opening directly
+ // above the bowl before any liquid is allowed to flow.
+ const spout = {x:420-160*approach,y:52+106*approach};
+ const angle=90-92*approach-18*flowForTilt(amount);
+ const liquidY=shape.bottom-(shape.bottom-shape.full)*clamp(progress,0,100)/100;
+ return {shape,spout,angle,liquidY,stream:`M${spout.x} ${spout.y} C${spout.x} ${spout.y+40} ${spout.x} ${liquidY-30} ${spout.x} ${liquidY}`};
 }
 
 /** Decorative citrus is drawn only when the actual instructions mention it. */
