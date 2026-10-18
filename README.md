@@ -31,9 +31,9 @@ In the managed cloud workspace, use `npm ci --cache /tmp/sips-npm-cache` when th
 
 ### Features
 
-- Touch and keyboard pouring controls, cursor-guided bottle movement, aligned liquid stream, automatic full-glass stop and reset.
+- One-tap random cocktail reveal: a short automatic pour, a retreating bottle and a finished drink with a recipe link. The illustration itself is not a button; there are no playback controls or percentage meters. Desktop pointers add subtle movement.
 - Random recipes drawn without replacement; choose all 50 cocktails or only recipes available in your bar. Glass shape, color, garnish and recipe link follow the selected drink.
-- Reduced-motion mode keeps the same controls with instant finished-glass previews instead of animation.
+- Reduced-motion mode shows the finished drink immediately. Background tabs pause and resume the reveal automatically.
 - Fifty classic cocktails searchable by name and ingredient, with spirit and flavor filters.
 - Ingredient cabinet, recipe matching, missing-ingredient counts and shopping recommendations.
 - Recipe details, quantities for 1–8 servings and step-by-step mixing guidance.
@@ -47,7 +47,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The tests run desktop and touch-enabled iPhone-size Chromium projects. They check touch controls, random recipe linkage, empty / single-recipe bars, reduced motion and mobile control bounds. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
+The tests run desktop and touch-enabled iPhone-size Chromium projects. They check automatic reveals, random recipe linkage, empty / single-recipe bars, reduced motion and mobile control bounds. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
 
 ### Recipe sources
 
@@ -106,9 +106,9 @@ npm run preview
 
 ### 已包含
 
-- 手机轻点及键盘开始、暂停和清空；电脑鼠标控制酒瓶，酒流对齐瓶口，满杯自动停止。
+- 点“今晚喝什么”随机抽酒后，自动倒酒、酒瓶退场，再展示成杯和配方入口。酒杯插画无需点击，界面不设播放控件或百分比；电脑端保留轻微鼠标跟随。
 - 随机抽取真实配方，一轮内不重复；可选择全部 50 款或仅抽酒柜能调的酒，杯型、配色、装饰和配方入口同步变化。
-- “减少动态效果”模式保留操作按钮，以即时成杯预览替代动画。
+- “减少动态效果”模式直接展示成杯；切到后台时暂停，返回后自动继续。
 - 50 款经典配方，按基酒、风味、名称和材料筛选。
 - 酒柜材料管理、完整配方匹配、缺失材料数量与补货建议。
 - 配方详情、1–8 杯用量换算及分步教学。
@@ -122,7 +122,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证触控、随机配方联动、空酒柜及单配方酒柜、减少动态效果和手机控件边界。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
+自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证自动成杯、随机配方联动、空酒柜及单配方酒柜、减少动态效果和手机控件边界。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
 
 ### 配方来源
 

@@ -3,6 +3,12 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 
 export type Language = 'zh' | 'en';
 export const translations: Record<string, string> = {
+"自动倒酒插画":"Automatic pouring illustration",
+"正在调制…":"Mixing\u2026",
+"看看怎么调":"Make this drink",
+"换一杯灵感":"Another surprise",
+"按一下，下一杯灵感就来了。":"One tap. A little inspiration, on the house.",
+
 "随机调酒工作台":"Random cocktail studio",
 "随机范围":"Pick from",
 "全部酒款":"All recipes",

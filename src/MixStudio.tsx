@@ -1,5 +1,5 @@
-import { useEffect, useId, useMemo, useRef, useState, type PointerEvent } from 'react';
-import { ArrowUpRight, Check, ChevronRight, Pause, Play, RotateCcw, Shuffle, Wine } from 'lucide-react';
+import { useCallback, useEffect, useId, useMemo, useRef, useState, type PointerEvent } from 'react';
+import { ArrowUpRight, ChevronRight, Shuffle, Wine } from 'lucide-react';
 import { cocktails, missingIngredients, type Cocktail } from './data';
 import { translate, useI18n } from './i18n';
 import { drawCocktail, pourGeometry, recipeGarnish } from './mix-utils';
@@ -17,12 +17,13 @@ function useMedia(query: string) {
  return matches;
 }
 
-function PourCanvas({ drink, autoPlay }: { drink: Cocktail; autoPlay: boolean }) {
+function PourCanvas({ drink, onComplete }: { drink: Cocktail; onComplete: () => void }) {
  const { t } = useI18n();
  const reduced = useMedia('(prefers-reduced-motion: reduce)');
- const finePointer = useMedia('(hover: hover) and (pointer: fine)');
- const [playing, setPlaying] = useState(autoPlay && !reduced);
- const [progress, setProgress] = useState(autoPlay && reduced ? 100 : 0);
+ const [phase, setPhase] = useState<'intro'|'pouring'|'finished'>(reduced ? 'finished' : 'intro');
+ const [visible, setVisible] = useState(!document.hidden);
+ const [progress, setProgress] = useState(reduced ? 100 : 0);
+ const playing = phase === 'pouring';
  const [aim, setAim] = useState({ x: 0, y: 0 });
  const progressRef = useRef(progress);
  const stageRef = useRef<SVGSVGElement>(null);
@@ -33,43 +34,41 @@ function PourCanvas({ drink, autoPlay }: { drink: Cocktail; autoPlay: boolean })
  const garnish = recipeGarnish(drink);
  const bottleLabel = translate(drink.base, 'en').toUpperCase();
  const citrus = garnish === 'orange' ? '#d58a33' : garnish === 'lime' ? '#8f9b46' : '#c3ae49';
- const complete = progress >= 100;
 
- useEffect(() => { progressRef.current = progress; }, [progress]);
  useEffect(() => {
-  if (!playing || reduced) return;
+  if (phase !== 'intro' || reduced || !visible) return;
+  const timer = window.setTimeout(() => setPhase('pouring'), 300);
+  return () => window.clearTimeout(timer);
+ }, [phase, reduced, visible]);
+ useEffect(() => {
+  if (!playing || reduced || !visible) return;
   let frame = 0;
   const started = performance.now();
   const initial = progressRef.current;
   const tick = (now: number) => {
-   const value = Math.min(100, initial + (now - started) / 48);
+   const value = Math.min(100, initial + (now - started) / 19);
    progressRef.current = value;
    setProgress(value);
    if (value < 100) frame = requestAnimationFrame(tick);
-   else setPlaying(false);
+   else setPhase('finished');
   };
   frame = requestAnimationFrame(tick);
   return () => cancelAnimationFrame(frame);
- }, [playing, reduced]);
+ }, [playing, reduced, visible]);
  useEffect(() => {
-  if (reduced) { setPlaying(false); setAim({ x: 0, y: 0 }); }
+  if (reduced) { progressRef.current = 100; setProgress(100); setPhase('finished'); setAim({ x: 0, y: 0 }); }
  }, [reduced]);
+ useEffect(() => { if (phase === 'finished') onComplete(); }, [phase, onComplete]);
  useEffect(() => {
-  const pauseWhenHidden = () => { if (document.hidden) setPlaying(false); };
-  document.addEventListener('visibilitychange', pauseWhenHidden);
+  const onVisibilityChange = () => setVisible(!document.hidden);
+  document.addEventListener('visibilitychange', onVisibilityChange);
   return () => {
-   document.removeEventListener('visibilitychange', pauseWhenHidden);
+   document.removeEventListener('visibilitychange', onVisibilityChange);
    cancelAnimationFrame(trackingFrame.current);
   };
  }, []);
 
- const toggle = () => {
-  if (reduced) { setProgress(complete ? 0 : 100); return; }
-  if (complete) { progressRef.current = 0; setProgress(0); setPlaying(true); }
-  else setPlaying(value => !value);
- };
- const reset = () => { setPlaying(false); progressRef.current = 0; setProgress(0); setAim({ x: 0, y: 0 }); };
- const track = (event: PointerEvent<HTMLButtonElement>) => {
+ const track = (event: PointerEvent<HTMLDivElement>) => {
   if (event.pointerType !== 'mouse' || reduced) return;
   const svg = stageRef.current;
   const matrix = svg?.getScreenCTM();
@@ -81,11 +80,10 @@ function PourCanvas({ drink, autoPlay }: { drink: Cocktail; autoPlay: boolean })
   cancelAnimationFrame(trackingFrame.current);
   trackingFrame.current = requestAnimationFrame(() => setAim(nextAim.current));
  };
- const action = reduced ? (complete ? '清空酒杯' : '查看成杯效果') : complete ? '再倒一次' : playing ? '暂停倒酒' : '开始倒酒';
  return <div className="mix-canvas-wrap">
-  <button className="mix-stage" type="button" onClick={toggle} onPointerMove={track}
+  <div className={`mix-stage mix-stage--${phase}`} onPointerMove={track}
    onPointerLeave={event => { if (event.pointerType === 'mouse') { cancelAnimationFrame(trackingFrame.current); setAim({ x: 0, y: 0 }); } }}
-   aria-label={t(action)} aria-pressed={playing} data-glass={drink.glass} data-cocktail={drink.id}>
+   role="img" aria-label={`${drink.name} · ${t('自动倒酒插画')}`} data-glass={drink.glass} data-cocktail={drink.id} data-phase={phase}>
    <span className="mix-orbit mix-orbit-one" /><span className="mix-orbit mix-orbit-two" />
    <span className="mix-art-label">A LITTLE MIX. A LITTLE MAGIC.</span>
    <svg className="mix-art" ref={stageRef} viewBox="0 0 560 480" aria-hidden="true">
@@ -95,8 +93,7 @@ function PourCanvas({ drink, autoPlay }: { drink: Cocktail; autoPlay: boolean })
      <clipPath id={`${uid}-glass`}><path d={shape.path}/></clipPath>
      <filter id={`${uid}-shadow`}><feGaussianBlur stdDeviation="5"/></filter>
     </defs>
-    <ellipse cx="260" cy="458" rx="88" ry="8" fill="#596044" opacity=".12" filter={`url(#${uid}-shadow)`}/>
-    <g className="mix-bottle" transform={`translate(${spout.x} ${spout.y}) rotate(${angle})`} data-spout-x={spout.x} data-spout-y={spout.y}>
+    <g className="mix-bottle-shell"><g className="mix-bottle" transform={`translate(${spout.x} ${spout.y}) rotate(${angle})`} data-spout-x={spout.x} data-spout-y={spout.y}>
      <path d="M0 -9 H45 Q55 -9 64 -23 L82 -49 Q89 -59 101 -59 H221 Q236 -59 236 -44 V44 Q236 59 221 59 H101 Q89 59 82 49 L64 23 Q55 9 45 9 H0Z" fill={`url(#${uid}-bottle)`}/>
      <path d="M48 -2 Q67 -3 83 -38 M111 -48H214" fill="none" stroke="#a8bb8b" strokeWidth="4" opacity=".25"/>
      <rect x="3" y="-12" width="14" height="24" rx="2" fill="#d9d0a7"/>
@@ -107,7 +104,8 @@ function PourCanvas({ drink, autoPlay }: { drink: Cocktail; autoPlay: boolean })
      <path d="M143 -8 H175" stroke="#acb28d"/>
      <text x="159" y="12" textAnchor="middle" fill="#35503d" fontFamily="Georgia" fontSize={bottleLabel.length>10?9:bottleLabel.length>6?12:18} letterSpacing="1.5">{bottleLabel}</text>
      <text x="159" y="30" textAnchor="middle" fill="#68775b" fontSize="4.4" letterSpacing=".8">THE COCKTAIL COLLECTION</text>
-    </g>
+    </g></g>
+    <g className="mix-glass-scene" style={phase==='finished'?{transform:`translate(${20+aim.x*3}px,${-58+aim.y*2}px)`}:undefined}><ellipse cx="260" cy="458" rx="88" ry="8" fill="#596044" opacity=".12" filter={`url(#${uid}-shadow)`}/>
     <path d={shape.path} fill="#fff" fillOpacity=".17" stroke="#b3b39c" strokeWidth="1.8"/>
     {playing && !reduced && <path className="mix-stream" d={stream} fill="none" stroke={drink.color} strokeWidth="4" strokeLinecap="round" opacity=".8" data-end-y={liquidY}/>}
     <g clipPath={`url(#${uid}-glass)`}>
@@ -122,16 +120,8 @@ function PourCanvas({ drink, autoPlay }: { drink: Cocktail; autoPlay: boolean })
     {['orange','lime','lemon'].includes(garnish) && <g transform={`translate(${shape.right-17} ${shape.top-1})`}><path d="M-20 2 Q3 -35 22 -5 Q32 13 4 20" fill="none" stroke={citrus} strokeWidth="8"/><path d="M-20 0 Q3 -35 22 -6" fill="none" stroke="#e4d6a0" strokeWidth="2"/></g>}
     {garnish==='mint' && <g transform={`translate(${shape.right-13} ${shape.top})`}><path d="M0 4Q-32-19-19-33Q4-24 0 4 M0 4Q3-36 22-30Q27-9 0 4" fill="#607b49"/></g>}
     {garnish==='olive' && <g transform={`translate(${shape.right-27} ${shape.top})`}><path d="M-9 21L19-38" stroke="#b19361" strokeWidth="2"/><ellipse cx="2" cy="-3" rx="10" ry="13" fill="#88904b"/><circle cx="3" cy="-6" r="3" fill="#a55b35"/></g>}
+    </g>
    </svg>
-   <span className="mix-stage-hint">{t(reduced ? '点击查看成杯效果' : finePointer ? '点击倒酒，移动鼠标控制酒瓶' : '轻点酒杯开始，再点暂停')}</span>
-  </button>
-  <div className="mix-playback">
-   <button className="mix-play" type="button" onClick={toggle} aria-label={t(action)}>
-    {playing ? <Pause size={15}/> : complete ? <Check size={15}/> : <Play size={15}/>}<span>{t(action)}</span>
-   </button>
-   <progress className="mix-progress" value={progress} max={100} aria-label={t('倒酒演示进度')}/>
-   <span className="mix-percent" aria-hidden="true">{Math.round(progress)}%</span>
-   <button className="mix-reset" type="button" onClick={reset} aria-label={t('清空酒杯')} disabled={progress===0 && !playing}><RotateCcw size={16}/></button>
   </div>
  </div>;
 }
@@ -141,30 +131,33 @@ export function MixStudio({ cabinet, onOpen, onManageBar }: { cabinet: string[];
  const [scope, setScope] = useState<'all'|'bar'>('all');
  const [currentId, setCurrentId] = useState(cocktails[0].id);
  const [drawCount, setDrawCount] = useState(0);
- const [autoPlay, setAutoPlay] = useState(false);
+ const [finishedKey, setFinishedKey] = useState('');
  const bag = useRef({ key:'', remaining: [] as string[] });
  const ready = useMemo(() => cocktails.filter(c => missingIngredients(c,cabinet).length===0), [cabinet]);
  const pool = scope==='all' ? cocktails : ready;
  const drink = pool.find(c => c.id===currentId) ?? pool[0];
  const poolKey = pool.map(c => c.id).join('|');
+ const canvasKey = `${scope}-${drink?.id}-${drawCount}`;
+ const finished = finishedKey === canvasKey;
+ const finish = useCallback(() => setFinishedKey(canvasKey), [canvasKey]);
  const randomize = () => {
   const next = drawCocktail(pool.map(c => c.id), drink?.id, bag.current.key===poolKey ? bag.current.remaining : []);
   if (!next.id) return;
   bag.current = { key: poolKey, remaining: next.remaining };
-  setCurrentId(next.id); setAutoPlay(true); setDrawCount(n=>n+1);
+  setCurrentId(next.id); setDrawCount(n=>n+1);
  };
- const changeScope = (next: 'all'|'bar') => { setScope(next); setAutoPlay(false); };
+ const changeScope = (next: 'all'|'bar') => setScope(next);
  return <section className="mix-studio" aria-label={t('随机调酒工作台')}>
   <div className="mix-scope" role="group" aria-label={t('随机范围')}>
    <button type="button" className={scope==='all'?'selected':''} aria-pressed={scope==='all'} onClick={()=>changeScope('all')}>{t('全部酒款')}<span>{cocktails.length}</span></button>
    <button type="button" className={scope==='bar'?'selected':''} aria-pressed={scope==='bar'} onClick={()=>changeScope('bar')}>{t('酒柜能调')}<span>{ready.length}</span></button>
   </div>
-  {drink ? <PourCanvas key={`${scope}-${drink.id}-${drawCount}`} drink={drink} autoPlay={autoPlay}/> : <div className="mix-empty"><Wine size={42} strokeWidth={1}/><h3>{t('酒柜还没有能调的酒')}</h3><p>{t('添加材料后，就能从可调配方中随机抽选。')}</p><button type="button" onClick={onManageBar}>{t('去整理酒柜')}<ArrowUpRight size={16}/></button></div>}
-  <div className="mix-result" aria-live="polite" aria-atomic="true">
-   <div className="mix-result-copy"><span className="mix-result-label">{t('这一杯灵感')}</span><h3>{drink ? drink.name : t('等待你的第一杯')}</h3><p>{drink ? `${language==='zh'?`${drink.zh} · `:''}${t(drink.base)} · ${t(drink.flavor)}` : t('也可以切换到全部酒款')}</p></div>
-   <button className="mix-recipe-link" type="button" onClick={()=>drink&&onOpen(drink)} disabled={!drink} aria-label={drink ? (language==='zh'?`查看${drink.zh}配方`:`View ${drink.name} recipe`) : t('查看配方')}>{t('查看配方')}<ChevronRight size={16}/></button>
+  {drink ? <PourCanvas key={canvasKey} drink={drink} onComplete={finish}/> : <div className="mix-empty"><Wine size={42} strokeWidth={1}/><h3>{t('酒柜还没有能调的酒')}</h3><p>{t('添加材料后，就能从可调配方中随机抽选。')}</p><button type="button" onClick={onManageBar}>{t('去整理酒柜')}<ArrowUpRight size={16}/></button></div>}
+  <div className={`mix-result ${finished?'mix-result--ready':'mix-result--mixing'}`} aria-live="polite" aria-atomic="true">
+   <div className="mix-result-copy" key={canvasKey}><span className="mix-result-label">{t('这一杯灵感')}</span><h3>{drink ? drink.name : t('等待你的第一杯')}</h3><p>{drink ? `${language==='zh'?`${drink.zh} · `:''}${t(drink.base)} · ${t(drink.flavor)}` : t('也可以切换到全部酒款')}</p></div>
+   <button className="mix-recipe-link" type="button" onClick={()=>drink&&onOpen(drink)} disabled={!drink || !finished} aria-label={drink ? (language==='zh'?`查看${drink.zh}配方`:`View ${drink.name} recipe`) : t('查看配方')}>{t(drink&&!finished?'正在调制…':'看看怎么调')}<ChevronRight size={16}/></button>
   </div>
-  <button className="mix-random" type="button" onClick={randomize} disabled={!pool.length}><Shuffle size={17}/>{t('随机来一杯')}<ArrowUpRight size={16}/></button>
-  <p className="mix-footnote">{t('从真实配方中随机抽选，演示颜色与简化杯型随酒款变化。')}</p>
+  <button className="mix-random" type="button" onClick={randomize} disabled={!pool.length}><Shuffle size={17}/>{t(drawCount===0?'今晚喝什么':'换一杯灵感')}<ArrowUpRight size={16}/></button>
+  <p className="mix-footnote">{t('按一下，下一杯灵感就来了。')}</p>
  </section>;
 }
