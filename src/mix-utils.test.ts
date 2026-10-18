@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { cocktails } from './data';
-import { drawCocktail, pourGeometry, recipeGarnish, flowForTilt, scrollPourState } from './mix-utils';
+import { drawCocktail, pourGeometry, recipeGarnish, flowForTilt, rightDragTilt, autoPourGeometry } from './mix-utils';
 
 describe('random cocktail selection', () => {
  it('visits all 50 recipes before repeating, then avoids an immediate repeat', () => {
@@ -50,22 +50,26 @@ describe('pour alignment',()=>{
  });
 });
 
- describe('independent scroll and drag controls',()=>{
- it('ties desktop fill directly to scroll position, including rewind',()=>{
-  expect(scrollPourState(0)).toEqual({progress:0,tilt:0});
-  expect(scrollPourState(.5).progress).toBeCloseTo(50);
-  expect(scrollPourState(1)).toEqual({progress:100,tilt:0});
-  expect(scrollPourState(.25).progress).toBeLessThan(scrollPourState(.7).progress);
+describe('automatic desktop and rightward phone controls',()=>{
+ it('ignores leftward motion and clamps rightward motion to the available room',()=>{
+  expect(rightDragTilt(-150,350)).toBe(0);
+  expect(rightDragTilt(0,350)).toBe(0);
+  expect(rightDragTilt(50,350)).toBeGreaterThan(0);
+  expect(rightDragTilt(150,350)).toBe(1);
+  expect(rightDragTilt(40,350,40)).toBe(1);
  });
- it('positions the opening over the bowl before pouring and increases rate with tilt',()=>{
+ it('increases flow with tilt and returns the phone bottle upright at zero',()=>{
   expect(flowForTilt(.2)).toBe(0);
   expect(flowForTilt(.5)).toBeGreaterThan(0);
   expect(flowForTilt(1)).toBeGreaterThan(flowForTilt(.5));
-  expect(flowForTilt(10)).toBe(1);
   expect(pourGeometry('highball',30,0).angle).toBe(90);
  });
- it('uses static empty/full poses for reduced motion',()=>{
-  expect(scrollPourState(.05,true)).toEqual({progress:0,tilt:0});
-  expect(scrollPourState(.5,true)).toEqual({progress:100,tilt:0});
+ it('keeps the desktop stream attached at all pointer extremes',()=>{
+  for(const x of [-1,0,1])for(const y of [-1,0,1]){
+   const pose=autoPourGeometry('highball',50,{x,y},true);
+   expect(pose.stream.startsWith(`M${pose.spout.x} ${pose.spout.y} `)).toBe(true);
+   expect(pose.spout.x).toBeGreaterThan(pose.shape.left);
+   expect(pose.spout.x).toBeLessThan(pose.shape.right);
+  }
  });
 });

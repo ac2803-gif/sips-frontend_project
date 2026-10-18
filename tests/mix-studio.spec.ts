@@ -1,24 +1,16 @@
 import { expect, test, type Page, type BrowserContext, type CDPSession } from '@playwright/test';
 
 const progress=(page:Page)=>page.locator('.mix-stage').getAttribute('data-progress').then(Number);
-async function scrollToFraction(page:Page,fraction:number){
- await page.evaluate(fraction=>{
-  const hero=document.querySelector('.hero')!;
-  const top=hero.getBoundingClientRect().top+scrollY;
-  const range=Math.max(240,hero.getBoundingClientRect().height-innerHeight+160);
-  window.scrollTo({top:Math.max(0,top-60+fraction*range),behavior:'instant'});
- },fraction);
-}
 async function startDrag(page:Page,context:BrowserContext,amount=1){
  const bottle=page.locator('.mix-bottle');
  await bottle.scrollIntoViewIfNeeded();
  const box=(await bottle.boundingBox())!;
  const travel=await page.locator('.mix-stage').evaluate(e=>Math.max(72,e.clientWidth*.3));
  const client=await context.newCDPSession(page);
- const x=box.x+box.width/2,y=box.y+box.height/2;
+ const x=box.x+box.width/2-8,y=box.y+box.height/2;
  await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y,id:1}]});
  for(let n=1;n<=5;n++){
-  await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x-travel*amount*n/5,y,id:1}]});
+  await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+travel*amount*n/5,y,id:1}]});
   await page.waitForTimeout(20);
  }
  return client;
@@ -27,28 +19,30 @@ async function release(client:CDPSession){await client.send('Input.dispatchTouch
 
 test.beforeEach(async({page})=>{await page.goto('/');});
 
-test('selects the correct desktop or phone controller and never starts from a click',async({page,isMobile})=>{
- await expect(page.locator('.mix-studio')).toHaveAttribute('data-layout',isMobile?'drag':'scroll');
+test('desktop starts automatically while phone waits for a rightward drag',async({page,isMobile})=>{
+ await expect(page.locator('.mix-studio')).toHaveAttribute('data-layout',isMobile?'drag':'auto');
  await expect(page.locator('.mix-playback, .mix-play, .mix-reset, progress')).toHaveCount(0);
- await expect.poll(()=>progress(page)).toBe(0);
- await page.waitForTimeout(300);
- expect(await progress(page)).toBe(0);
- if(isMobile){
-  await page.locator('.mix-bottle').tap();
-  await page.waitForTimeout(200);
+ if(!isMobile){
+  await expect.poll(()=>progress(page)).toBe(100);
+  await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));
+  expect(await progress(page)).toBe(100);
+ }else{
+  await expect.poll(()=>progress(page)).toBe(0);
+  await page.locator('.mix-bottle').tap();await page.waitForTimeout(200);
   expect(await progress(page)).toBe(0);
+  await expect(page.locator('.mix-drag-cue svg')).toHaveClass(/lucide-arrow-right/);
  }
+
 });
 
-test('desktop scrubs with scroll; touch pours with tilt and stops on release',async({page,context,isMobile})=>{
+test('desktop draws auto-pour; phone right-drag speed responds and release stops',async({page,context,isMobile})=>{
  if(!isMobile){
-  await scrollToFraction(page,.5);
-  await expect.poll(()=>progress(page)).toBeCloseTo(50,0);
-  const held=await progress(page);await page.waitForTimeout(300);
-  expect(await progress(page)).toBeCloseTo(held,1);
-  await scrollToFraction(page,1);await expect.poll(()=>progress(page)).toBe(100);
-  await scrollToFraction(page,.25);await expect.poll(()=>progress(page)).toBeLessThan(25);
-  await scrollToFraction(page,0);await expect.poll(()=>progress(page)).toBe(0);
+  const first=await page.locator('.mix-result h3').innerText();
+  await page.locator('.mix-random').click();
+  await expect(page.locator('.mix-result h3')).not.toHaveText(first);
+  await expect(page.locator('.mix-stream')).toHaveCount(1);
+  await expect.poll(()=>progress(page)).toBe(100);
+  await expect(page.locator('.mix-stream')).toHaveCount(0);
  }else{
   let client=await startDrag(page,context,.5);
   await expect(page.locator('.mix-stream')).toHaveCount(1);
@@ -83,7 +77,6 @@ test('vertical gestures on the bottle scroll the phone page without pouring',asy
 });
 
 test('random draws use the current control mode and open the correct recipe',async({page,isMobile})=>{
- if(!isMobile)await scrollToFraction(page,.6);
  const first=await page.locator('.mix-result h3').innerText();
  for(let n=0;n<3;n++)await page.locator('.mix-random').click();
  await expect(page.locator('.mix-result h3')).not.toHaveText(first);
@@ -96,7 +89,7 @@ test('random draws use the current control mode and open the correct recipe',asy
 test('reduced motion stays usable and language changes preserve the selected recipe',async({page,context,isMobile})=>{
  await page.emulateMedia({reducedMotion:'reduce'});
  if(isMobile){const client=await startDrag(page,context);await release(client);}
- else await scrollToFraction(page,.5);
+
  await expect.poll(()=>progress(page)).toBe(100);
  await expect(page.locator('.mix-stream')).toHaveCount(0);
  const recipe=await page.locator('.mix-result h3').innerText();
@@ -107,7 +100,7 @@ test('reduced motion stays usable and language changes preserve the selected rec
 
 test('touch bottle is keyboard operable and returns upright on key release',async({page})=>{
  await page.setViewportSize({width:390,height:844});
- const slider=page.getByRole('slider',{name:'拖动酒瓶倾倒'});
+ const slider=page.getByRole('slider',{name:'向右拖动酒瓶倾倒'});
  await slider.focus();await page.keyboard.down('Space');
  await expect.poll(()=>progress(page)).toBeGreaterThan(3);
  await page.keyboard.up('Space');
@@ -127,4 +120,13 @@ test('phone layouts keep the bottle and actions within the viewport',async({page
    expect(box.height).toBeGreaterThanOrEqual(44);
   }
  }
+});
+
+test('leftward phone drags do not tilt or pour',async({page,context,isMobile})=>{
+ if(!isMobile)await page.setViewportSize({width:390,height:844});
+ const client=await startDrag(page,context,-1);
+ await page.waitForTimeout(300);
+ expect(await progress(page)).toBe(0);
+ await expect(page.locator('.mix-stage')).toHaveAttribute('data-tilt','0.000');
+ await release(client);
 });

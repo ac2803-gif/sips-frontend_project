@@ -3,6 +3,9 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 
 export type Language = 'zh' | 'en';
 export const translations: Record<string, string> = {
+"向右拖动酒瓶倾倒":"Drag the bottle right to pour",
+"按住酒瓶向右拖动，松手自动回正":"Drag the bottle right. Release to set it upright.",
+
 "滚动倒酒插画":"Scroll-controlled pouring illustration",
 "拖动酒瓶倾倒":"Drag the bottle to pour",
 "倾斜程度":"Bottle tilt",

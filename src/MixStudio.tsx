@@ -1,8 +1,8 @@
-import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
-import { ArrowUpRight, ChevronRight, Shuffle, Wine } from 'lucide-react';
+import { useCallback, useEffect, useId, useMemo, useRef, useState, type PointerEvent } from 'react';
+import { ArrowRight, ArrowUpRight, ChevronRight, Shuffle, Wine } from 'lucide-react';
 import { cocktails, missingIngredients, type Cocktail } from './data';
 import { translate, useI18n } from './i18n';
-import { drawCocktail, pourGeometry, recipeGarnish } from './mix-utils';
+import { drawCocktail, pourGeometry, autoPourGeometry, recipeGarnish } from './mix-utils';
 import './mix-studio.css';
 import { usePourController } from './usePourController';
 
@@ -24,18 +24,28 @@ function PourCanvas({ drink, desktop, onComplete }: { drink: Cocktail; desktop: 
  const stageRef=useRef<HTMLDivElement>(null);
  const controller=usePourController(desktop,reduced,stageRef);
  const {progress,tilt,dragging,playing}=controller;
- const phase=progress>=100?'finished':playing?'pouring':progress>0?'paused':'ready';
+ const [aim,setAim]=useState({x:0,y:0});
+ const phase=progress>=100?'finished':playing?'pouring':progress>0?'paused':desktop?'intro':'ready';
  const uid=useId().replace(/:/g,'');
- const {shape,spout,angle,liquidY,stream}=pourGeometry(drink.glass,progress,tilt);
+ const {shape,spout,angle,liquidY,stream}=desktop?autoPourGeometry(drink.glass,progress,reduced?{x:0,y:0}:aim,playing):pourGeometry(drink.glass,progress,tilt);
  useEffect(()=>onComplete(progress>=100),[progress>=100,onComplete]);
  const garnish = recipeGarnish(drink);
  const bottleLabel = translate(drink.base, 'en').toUpperCase();
  const citrus = garnish === 'orange' ? '#d58a33' : garnish === 'lime' ? '#8f9b46' : '#c3ae49';
 
+ const move=(event:PointerEvent<HTMLDivElement>)=>{
+  if(!desktop){controller.move(event);return;}
+  if(event.pointerType!=='mouse'||reduced)return;
+  const svg=stageRef.current?.querySelector('svg');const matrix=svg?.getScreenCTM();
+  if(!svg||!matrix)return;
+  const point=svg.createSVGPoint();point.x=event.clientX;point.y=event.clientY;
+  const local=point.matrixTransform(matrix.inverse());
+  setAim({x:Math.max(-1,Math.min(1,(local.x-280)/230)),y:Math.max(-1,Math.min(1,(local.y-230)/190))});
+ };
  return <div className="mix-canvas-wrap">
   <div className={`mix-stage mix-stage--${phase} ${dragging?'is-dragging':''}`} ref={stageRef}
-   onPointerMove={controller.move} onPointerUp={controller.release} onPointerCancel={controller.release} onLostPointerCapture={event=>{if(event.target===event.currentTarget)controller.release(event)}}
-   role="group" aria-label={`${drink.name} · ${t(desktop?'滚动倒酒插画':'拖动酒瓶倾倒')}`} data-glass={drink.glass} data-cocktail={drink.id} data-phase={phase} data-progress={progress.toFixed(2)} data-tilt={tilt.toFixed(3)}>
+   onPointerMove={move} onPointerLeave={()=>{if(desktop)setAim({x:0,y:0})}} onPointerUp={controller.release} onPointerCancel={controller.release} onLostPointerCapture={event=>{if(event.target===event.currentTarget)controller.release(event)}}
+   role="group" aria-label={`${drink.name} · ${t(desktop?'自动倒酒插画':'向右拖动酒瓶倾倒')}`} data-glass={drink.glass} data-cocktail={drink.id} data-phase={phase} data-progress={progress.toFixed(2)} data-tilt={tilt.toFixed(3)}>
    <span className="mix-orbit mix-orbit-one" /><span className="mix-orbit mix-orbit-two" />
    <span className="mix-art-label">A LITTLE MIX. A LITTLE MAGIC.</span>
    <svg className="mix-art" viewBox="0 0 560 480">
@@ -46,7 +56,7 @@ function PourCanvas({ drink, desktop, onComplete }: { drink: Cocktail; desktop: 
      <filter id={`${uid}-shadow`}><feGaussianBlur stdDeviation="5"/></filter>
     </defs>
     <g className="mix-bottle-shell"><g className="mix-bottle" role={desktop?undefined:'slider'} tabIndex={desktop?undefined:0}
-     aria-label={desktop?undefined:t('拖动酒瓶倾倒')} aria-valuemin={desktop?undefined:0} aria-valuemax={desktop?undefined:100} aria-valuenow={desktop?undefined:Math.round(tilt*100)}
+     aria-label={desktop?undefined:t('向右拖动酒瓶倾倒')} aria-valuemin={desktop?undefined:0} aria-valuemax={desktop?undefined:100} aria-valuenow={desktop?undefined:Math.round(tilt*100)}
      aria-valuetext={desktop?undefined:`${t('倾斜程度')} ${Math.round(tilt*100)}%`} aria-describedby={desktop?undefined:`${uid}-gesture`}
      onPointerDown={controller.begin} onKeyDown={controller.keyDown} onKeyUp={controller.keyUp} onBlur={()=>controller.release()}
      style={{transition:!desktop&&!dragging&&!reduced?'transform .35s cubic-bezier(.2,.7,.3,1)':'none'}} transform={`translate(${spout.x} ${spout.y}) rotate(${angle})`} data-spout-x={spout.x} data-spout-y={spout.y}>
@@ -55,14 +65,14 @@ function PourCanvas({ drink, desktop, onComplete }: { drink: Cocktail; desktop: 
      <path d="M48 -2 Q67 -3 83 -38 M111 -48H214" fill="none" stroke="#a8bb8b" strokeWidth="4" opacity=".25"/>
      <rect x="3" y="-12" width="14" height="24" rx="2" fill="#d9d0a7"/>
      <ellipse className="mix-bottle-opening" cx="0" cy="0" rx="3" ry="9" fill="#28452f" stroke="#d9d0a7" strokeWidth="2"/>
-     <g transform="rotate(-90 159 0)"><rect x="104" y="-48" width="111" height="96" rx="2" fill="#eae6d0"/>
+     <g transform={desktop?undefined:'rotate(-90 159 0)'}><rect x="104" y="-48" width="111" height="96" rx="2" fill="#eae6d0"/>
      <rect x="111" y="-41" width="97" height="82" fill="none" stroke="#a2a77c"/>
      <text x="159" y="-19" textAnchor="middle" fill="#35503d" fontFamily="Georgia" fontSize="11" letterSpacing="4">SIPS</text>
      <path d="M143 -8 H175" stroke="#acb28d"/>
      <text x="159" y="12" textAnchor="middle" fill="#35503d" fontFamily="Georgia" fontSize={bottleLabel.length>10?9:bottleLabel.length>6?12:18} letterSpacing="1.5">{bottleLabel}</text>
      <text x="159" y="30" textAnchor="middle" fill="#68775b" fontSize="4.4" letterSpacing=".8">THE COCKTAIL COLLECTION</text></g></g>
     </g></g>
-    <g className="mix-glass-scene" aria-hidden="true"><ellipse cx="260" cy="458" rx="88" ry="8" fill="#596044" opacity=".12" filter={`url(#${uid}-shadow)`}/>
+    <g className="mix-glass-scene" aria-hidden="true" style={desktop&&phase==='finished'?{transform:`translate(${20+aim.x*3}px,${-58+aim.y*2}px)`}:undefined}><ellipse cx="260" cy="458" rx="88" ry="8" fill="#596044" opacity=".12" filter={`url(#${uid}-shadow)`}/>
     <path d={shape.path} fill="#fff" fillOpacity=".17" stroke="#b3b39c" strokeWidth="1.8"/>
     {playing && !reduced && <path className="mix-stream" d={stream} fill="none" stroke={drink.color} strokeWidth="4" strokeLinecap="round" opacity=".8" data-end-y={liquidY}/>}
     <g clipPath={`url(#${uid}-glass)`}>
@@ -79,9 +89,9 @@ function PourCanvas({ drink, desktop, onComplete }: { drink: Cocktail; desktop: 
     {garnish==='olive' && <g transform={`translate(${shape.right-27} ${shape.top})`}><path d="M-9 21L19-38" stroke="#b19361" strokeWidth="2"/><ellipse cx="2" cy="-3" rx="10" ry="13" fill="#88904b"/><circle cx="3" cy="-6" r="3" fill="#a55b35"/></g>}
     </g>
    </svg>
-   {!desktop&&progress===0&&!dragging&&<span className="mix-drag-cue" aria-hidden="true">↔</span>}
+   {!desktop&&progress===0&&!dragging&&<span className="mix-drag-cue" aria-hidden="true"><ArrowRight size={18}/></span>}
   </div>
-  <p className="mix-gesture-note" id={`${uid}-gesture`}>{t(desktop?'向下滚动倒酒，向上滚动回看':progress>=100?'这一杯好了，松手让酒瓶回正':dragging?'倾角越大，酒流越快':'按住酒瓶左右拖动，松手回正')}</p>
+  <p className="mix-gesture-note" hidden={desktop} id={`${uid}-gesture`}>{t(progress>=100?'这一杯好了，松手让酒瓶回正':dragging?'倾角越大，酒流越快':'按住酒瓶向右拖动，松手自动回正')}</p>
   {!desktop&&<span className="mix-keyboard-tip">{t('键盘：按住空格倒酒，松开停止。')}</span>}
  </div>;
 }
@@ -98,7 +108,7 @@ export function MixStudio({ cabinet, onOpen, onManageBar }: { cabinet: string[];
  const pool = scope==='all' ? cocktails : ready;
  const drink = pool.find(c => c.id===currentId) ?? pool[0];
  const poolKey = pool.map(c => c.id).join('|');
- const canvasKey = `${desktop?'scroll':'drag'}-${scope}-${drink?.id}-${drawCount}`;
+ const canvasKey = `${desktop?'auto':'drag'}-${scope}-${drink?.id}-${drawCount}`;
  const finished = finishedKey === canvasKey;
  const finish = useCallback((done:boolean) => setFinishedKey(previous=>done?canvasKey:previous===canvasKey?'':previous), [canvasKey]);
  const randomize = () => {
@@ -108,7 +118,7 @@ export function MixStudio({ cabinet, onOpen, onManageBar }: { cabinet: string[];
   setCurrentId(next.id); setDrawCount(n=>n+1);
  };
  const changeScope = (next: 'all'|'bar') => setScope(next);
- return <section className={`mix-studio ${desktop?'mix-studio--scroll':'mix-studio--drag'}`} data-layout={desktop?'scroll':'drag'} aria-label={t('随机调酒工作台')}>
+ return <section className={`mix-studio ${desktop?'mix-studio--auto':'mix-studio--drag'}`} data-layout={desktop?'auto':'drag'} aria-label={t('随机调酒工作台')}>
   <div className="mix-scope" role="group" aria-label={t('随机范围')}>
    <button type="button" className={scope==='all'?'selected':''} aria-pressed={scope==='all'} onClick={()=>changeScope('all')}>{t('全部酒款')}<span>{cocktails.length}</span></button>
    <button type="button" className={scope==='bar'?'selected':''} aria-pressed={scope==='bar'} onClick={()=>changeScope('bar')}>{t('酒柜能调')}<span>{ready.length}</span></button>
@@ -119,6 +129,6 @@ export function MixStudio({ cabinet, onOpen, onManageBar }: { cabinet: string[];
    <button className="mix-recipe-link" type="button" onClick={()=>drink&&onOpen(drink)} disabled={!drink} aria-label={drink ? (language==='zh'?`查看${drink.zh}配方`:`View ${drink.name} recipe`) : t('查看配方')}>{t('看看怎么调')}<ChevronRight size={16}/></button>
   </div>
   <button className="mix-random" type="button" onClick={randomize} disabled={!pool.length}><Shuffle size={17}/>{t(drawCount===0?'今晚喝什么':'换一杯灵感')}<ArrowUpRight size={16}/></button>
-  <p className="mix-footnote">{t(desktop?'换一杯，再用滚动探索它的风味。':'换一杯，再亲手为它倾倒。')}</p>
+  <p className="mix-footnote">{t(desktop?'按一下，下一杯灵感就来了。':'换一杯，再亲手为它倾倒。')}</p>
  </section>;
 }

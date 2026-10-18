@@ -27,13 +27,10 @@ export const glassShapes = {
 export const clamp = (value: number, min = 0, max = 1) => Math.max(min, Math.min(max,value));
 export const flowForTilt = (tilt: number) => clamp((tilt-.32)/.68);
 
-/** Three scroll chapters: lift the bottle, pour, then return upright. */
-export function scrollPourState(fraction: number, reduced = false) {
- const scroll = clamp(fraction);
- if (reduced) return {progress:scroll>=.12?100:0,tilt:0};
- const progress=clamp((scroll-.12)/.76)*100;
- const tilt=scroll<.12?scroll/.12:scroll>.88?(1-scroll)/.12:1;
- return {progress,tilt:clamp(tilt)};
+/** Keep rightward drags usable even when the finger starts near the edge. */
+export function rightDragTilt(delta:number,width:number,rightRoom=Infinity){
+ const travel=Math.max(32,Math.min(Math.max(72,width*.3),rightRoom));
+ return clamp(delta/travel);
 }
 export function pourGeometry(glass: Cocktail['glass'], progress: number, tilt = 1) {
  const shape = glassShapes[glass];
@@ -45,6 +42,14 @@ export function pourGeometry(glass: Cocktail['glass'], progress: number, tilt = 
  const angle=90-92*approach-18*flowForTilt(amount);
  const liquidY=shape.bottom-(shape.bottom-shape.full)*clamp(progress,0,100)/100;
  return {shape,spout,angle,liquidY,stream:`M${spout.x} ${spout.y} C${spout.x} ${spout.y+40} ${spout.x} ${liquidY-30} ${spout.x} ${liquidY}`};
+}
+
+/** The restored desktop reveal uses the original tipped-bottle composition. */
+export function autoPourGeometry(glass:Cocktail['glass'],progress:number,aim={x:0,y:0},playing=false){
+ const base=pourGeometry(glass,progress,1);
+ const x=clamp(aim.x,-1,1),y=clamp(aim.y,-1,1);
+ const spout={x:260+x*18,y:158+y*7};
+ return {...base,spout,angle:-20+(playing?8:0)+x*2,stream:`M${spout.x} ${spout.y} C${spout.x} ${spout.y+40} ${spout.x} ${base.liquidY-30} ${spout.x} ${base.liquidY}`};
 }
 
 /** Decorative citrus is drawn only when the actual instructions mention it. */

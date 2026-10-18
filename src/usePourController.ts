@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState, type KeyboardEvent, type PointerEvent, type RefObject } from 'react';
-import { flowForTilt, scrollPourState } from './mix-utils';
+import { flowForTilt, rightDragTilt } from './mix-utils';
 
-/** Scroll scrubbing on desktop; intent-aware horizontal dragging on touch layouts. */
+/** Automatic desktop reveal; rightward, intent-aware phone dragging. */
 export function usePourController(desktop: boolean, reduced: boolean, stage: RefObject<HTMLDivElement | null>) {
  const [progress, setProgress] = useState(0);
  const [tilt, setTilt] = useState(0);
  const [dragging, setDragging] = useState(false);
+ const [visible,setVisible]=useState(!document.hidden);
  const progressRef = useRef(0);
  const rateRef = useRef(0);
  const gesture = useRef<{id:number;x:number;y:number;active:boolean}|null>(null);
@@ -14,31 +15,22 @@ export function usePourController(desktop: boolean, reduced: boolean, stage: Ref
  rateRef.current = rate;
 
  useEffect(() => {
-  if (!desktop) return;
-  let frame = 0;
-  const update = () => {
-   frame = 0;
-   const hero = stage.current?.closest('.hero');
-   if (!hero) return;
-   const top = hero.getBoundingClientRect().top + window.scrollY;
-   const range = Math.max(240, hero.getBoundingClientRect().height - window.innerHeight + 160);
-   const fraction = (window.scrollY - (top - 60)) / range;
-   const next = scrollPourState(fraction, reduced);
-   progressRef.current = next.progress;
-   setProgress(next.progress); setTilt(next.tilt);
+  if(!desktop||!visible)return;
+  if(reduced){progressRef.current=100;setProgress(100);return;}
+  let frame=0;let timer=0;
+  const initial=progressRef.current;
+  const start=()=>{
+   const started=performance.now();
+   const tick=(now:number)=>{
+    const value=Math.min(100,initial+(now-started)/19);
+    progressRef.current=value;setProgress(value);
+    if(value<100)frame=requestAnimationFrame(tick);
+   };
+   frame=requestAnimationFrame(tick);
   };
-  const schedule = () => { if (!frame) frame = requestAnimationFrame(update); };
-  const observer = new ResizeObserver(schedule);
-  const hero = stage.current?.closest('.hero');
-  if (hero) observer.observe(hero);
-  window.addEventListener('scroll', schedule, {passive:true});
-  window.addEventListener('resize', schedule);
-  update();
-  return () => {
-   cancelAnimationFrame(frame); observer.disconnect();
-   window.removeEventListener('scroll',schedule); window.removeEventListener('resize',schedule);
-  };
- }, [desktop,reduced,stage]);
+  if(initial===0)timer=window.setTimeout(start,300);else if(initial<100)start();
+  return()=>{cancelAnimationFrame(frame);window.clearTimeout(timer);};
+ },[desktop,reduced,visible]);
 
  useEffect(() => {
   if (!running) return;
@@ -57,6 +49,7 @@ export function usePourController(desktop: boolean, reduced: boolean, stage: Ref
 
  useEffect(()=>{
   const stop=()=>{
+   setVisible(!document.hidden);
    if(!desktop&&document.hidden){gesture.current=null;setTilt(0);setDragging(false);}
   };
   document.addEventListener('visibilitychange',stop);
@@ -74,13 +67,14 @@ export function usePourController(desktop: boolean, reduced: boolean, stage: Ref
   if(!current.active){
    // Yield to the browser before capturing a predominantly vertical gesture.
    if(Math.abs(dy)>10&&Math.abs(dy)>Math.abs(dx)*1.2){gesture.current=null;return;}
-   if(Math.abs(dx)<8||Math.abs(dx)<Math.abs(dy)*1.3)return;
+   if(dx<8||dx<Math.abs(dy)*1.3)return;
    current.active=true;setDragging(true);
    event.currentTarget.setPointerCapture(event.pointerId);
   }
   if(event.cancelable)event.preventDefault();
-  const travel=Math.max(72,(stage.current?.clientWidth??320)*.3);
-  setTilt(Math.min(1,Math.abs(dx)/travel));
+  const rect=stage.current?.getBoundingClientRect();
+  const room=rect?rect.right-current.x-8:Infinity;
+  setTilt(rightDragTilt(dx,rect?.width??320,room));
  };
  const release=(event?:PointerEvent<HTMLDivElement>)=>{
   if(desktop)return;
@@ -89,7 +83,7 @@ export function usePourController(desktop: boolean, reduced: boolean, stage: Ref
  };
  const keyDown=(event:KeyboardEvent<SVGGElement>)=>{
   if(desktop)return;
-  if([' ','Enter','ArrowLeft','ArrowRight','Home','End'].includes(event.key)){
+  if([' ','Enter','ArrowRight','Home','End'].includes(event.key)){
    event.preventDefault();setDragging(true);
    if(event.key==='Home')setTilt(0);
    else if([' ','Enter','End'].includes(event.key))setTilt(1);
@@ -97,9 +91,9 @@ export function usePourController(desktop: boolean, reduced: boolean, stage: Ref
   }
  };
  const keyUp=(event:KeyboardEvent<SVGGElement>)=>{
-  if([' ','Enter','ArrowLeft','ArrowRight','Home','End'].includes(event.key)){
+  if([' ','Enter','ArrowRight','Home','End'].includes(event.key)){
    event.preventDefault();gesture.current=null;setTilt(0);setDragging(false);
   }
  };
- return {progress,tilt,dragging,playing:rate>0&&progress<100&&(!desktop||progress>0),begin,move,release,keyDown,keyUp};
+ return {progress,tilt,dragging,playing:desktop?visible&&progress>0&&progress<100:rate>0&&progress<100,begin,move,release,keyDown,keyUp};
 }

@@ -31,8 +31,8 @@ In the managed cloud workspace, use `npm ci --cache /tmp/sips-npm-cache` when th
 
 ### Features
 
-- Desktop: a sticky hero with scroll-controlled bottle tilt and liquid level. Scroll backward to rewind; elapsed time alone never fills the glass.
-- Phone / touch layouts: drag the bottle sideways to tip it. A larger tilt pours faster; release returns it upright and preserves the liquid already poured. Vertical swipes remain normal page scrolling. The bottle also supports holding Space or Enter on the keyboard.
+- Desktop: random selection automatically pours and reveals the drink, the bottle fades away, and the recipe link remains available. Subtle mouse-follow movement is retained; page scrolling does not control the pour.
+- Phone / touch layouts: drag the bottle to the right to tip it. Leftward swipes do not pour. A larger tilt pours faster; release returns it upright and preserves the liquid already poured. Vertical swipes remain normal page scrolling. The bottle also supports holding Space or Enter on the keyboard.
 - Random recipes drawn without replacement; choose all 50 cocktails or only recipes available in your bar. Glass shape, color, garnish and recipe link follow the selected drink.
 - Reduced-motion mode uses static poses instead of continuous liquid animation. Mobile pours stop when the page is hidden or a gesture is cancelled. Desktop and phone controllers are chosen using viewport width and pointer capabilities.
 - Fifty classic cocktails searchable by name and ingredient, with spirit and flavor filters.
@@ -48,7 +48,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The tests run desktop and touch-enabled iPhone-size Chromium projects. They check desktop scroll scrubbing, touch drag speed and release, vertical scrolling, keyboard operation, random recipe linkage, reduced motion and mobile bounds. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
+The tests run desktop and touch-enabled iPhone-size Chromium projects. They check automatic desktop reveals, rightward touch-drag speed and release, rejection of leftward pouring, vertical scrolling, keyboard operation, random recipe linkage, reduced motion and mobile bounds. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
 
 ### Recipe sources
 
@@ -60,7 +60,7 @@ The 50 recipes use the publicly accessible [teijo/iba-cocktails](https://github.
 | --- | --- |
 | `src/main.tsx` | Page components, card artwork and recipe dialog |
 | `src/MixStudio.tsx` | Shared illustration, device-specific hints and random cocktail studio |
-| `src/usePourController.ts` | Desktop scroll timeline and intent-aware phone drag controls |
+| `src/usePourController.ts` | Automatic desktop reveal and rightward phone drag controls |
 | `src/mix-utils.ts` | Shuffle bag, shared bottle / stream geometry and garnish selection |
 | `src/mix-studio.css` | Studio layout and mobile touch targets |
 | `src/style.css` | Colors, typography and responsive layouts |
@@ -108,8 +108,8 @@ npm run preview
 
 ### 已包含
 
-- 电脑端：首屏吸附，页面向下滚动时酒瓶倾斜、液面上升；向上滚动回看，停住页面时液面也停住。
-- 手机及触屏端：左右拖动酒瓶，倾角越大流速越快；松手停止并回正，已倒入的酒保留。上下滑动正常滚动页面；键盘可按住空格或回车倒酒。
+- 电脑端：抽酒后自动倒酒、酒瓶淡出，展示成杯和配方入口；保留轻微鼠标跟随，滚动页面不控制倒酒。
+- 手机及触屏端：仅向右拖动酒瓶，倾角越大流速越快；向左滑动不倒酒，松手停止并回正，已倒入的酒保留。上下滑动正常滚动页面；键盘可按住空格或回车倒酒。
 - 随机抽取真实配方，一轮内不重复；可选择全部 50 款或仅抽酒柜能调的酒，杯型、配色、装饰和配方入口同步变化。
 - “减少动态效果”模式使用静态姿态替代连续动画；手机切到后台或手势取消时停止倒酒。根据屏幕宽度及指针能力切换控制方式。
 - 50 款经典配方，按基酒、风味、名称和材料筛选。
@@ -125,7 +125,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证电脑滚动进度、触屏拖动流速及松手停止、正常上下滚动、键盘操作、随机配方联动、减少动态效果和手机控件边界。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
+自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证电脑自动成杯、手机仅右拖倒酒及松手停止、正常上下滚动、键盘操作、随机配方联动、减少动态效果和手机控件边界。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
 
 ### 配方来源
 
@@ -137,7 +137,7 @@ npm run test:e2e
 | --- | --- |
 | `src/main.tsx` | 页面、卡片插画与配方弹窗 |
 | `src/MixStudio.tsx` | 共享插画、双端提示和随机调酒工作台 |
-| `src/usePourController.ts` | 电脑滚动时间线及手机手势控制 |
+| `src/usePourController.ts` | 电脑自动成杯及手机右拖手势控制 |
 | `src/mix-utils.ts` | 不重复抽选、瓶口与酒流统一坐标、装饰选择 |
 | `src/mix-studio.css` | 工作台布局及手机触控区域 |
 | `src/style.css` | 颜色、排版、响应式样式 |
