@@ -31,12 +31,23 @@ In the managed cloud workspace, use `npm ci --cache /tmp/sips-npm-cache` when th
 
 ### Features
 
-- Cursor-following pouring animation, rising liquid, click controls and reset.
+- Touch and keyboard pouring controls, cursor-guided bottle movement, aligned liquid stream, automatic full-glass stop and reset.
+- Random recipes drawn without replacement; choose all 50 cocktails or only recipes available in your bar. Glass shape, color, garnish and recipe link follow the selected drink.
+- Reduced-motion mode keeps the same controls with instant finished-glass previews instead of animation.
 - Fifty classic cocktails searchable by name and ingredient, with spirit and flavor filters.
 - Ingredient cabinet, recipe matching, missing-ingredient counts and shopping recommendations.
 - Recipe details, quantities for 1–8 servings and step-by-step mixing guidance.
 - Chinese / English switch with a saved language preference.
 - Locally saved favorites and cabinet, responsive layouts, keyboard focus and reduced-motion support.
+
+### Browser interaction tests
+
+```bash
+npx playwright install chromium
+npm run test:e2e
+```
+
+The tests run desktop and touch-enabled iPhone-size Chromium projects. They check touch controls, random recipe linkage, empty / single-recipe bars, reduced motion and mobile control bounds. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
 
 ### Recipe sources
 
@@ -46,13 +57,17 @@ The 50 recipes use the publicly accessible [teijo/iba-cocktails](https://github.
 
 | File | Purpose |
 | --- | --- |
-| `src/main.tsx` | Page components, interactions, SVG artwork and recipe dialog |
+| `src/main.tsx` | Page components, card artwork and recipe dialog |
+| `src/MixStudio.tsx` | Touch / pointer pouring controls and random cocktail studio |
+| `src/mix-utils.ts` | Shuffle bag, shared bottle / stream geometry and garnish selection |
+| `src/mix-studio.css` | Studio layout and mobile touch targets |
 | `src/style.css` | Colors, typography and responsive layouts |
 | `src/data.ts` | Types, matching and recommendations |
 | `src/cocktails.json` | 50 bilingual recipes, measures and pinned source links |
 | `src/i18n.tsx` | Language provider, UI translations and English recipe instructions |
 | `src/data.test.ts` | Matching and recommendation tests |
 | `src/i18n.test.ts` | Translation and recipe coverage tests |
+| `src/mix-utils.test.ts` | Random draws, pour geometry and garnish tests |
 
 **Stack:** React 19, TypeScript, Vite, Lucide, CSS and Vitest.
 
@@ -91,12 +106,23 @@ npm run preview
 
 ### 已包含
 
-- 首页鼠标跟随倒酒、液面上升、点击控制和重新倒酒。
+- 手机轻点及键盘开始、暂停和清空；电脑鼠标控制酒瓶，酒流对齐瓶口，满杯自动停止。
+- 随机抽取真实配方，一轮内不重复；可选择全部 50 款或仅抽酒柜能调的酒，杯型、配色、装饰和配方入口同步变化。
+- “减少动态效果”模式保留操作按钮，以即时成杯预览替代动画。
 - 50 款经典配方，按基酒、风味、名称和材料筛选。
 - 酒柜材料管理、完整配方匹配、缺失材料数量与补货建议。
 - 配方详情、1–8 杯用量换算及分步教学。
 - 中英文切换与本地语言偏好保存。
 - 本地保存酒柜与收藏，移动端布局、键盘焦点和减少动态效果支持。
+
+### 浏览器交互测试
+
+```bash
+npx playwright install chromium
+npm run test:e2e
+```
+
+自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证触控、随机配方联动、空酒柜及单配方酒柜、减少动态效果和手机控件边界。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
 
 ### 配方来源
 
@@ -106,13 +132,17 @@ npm run preview
 
 | 文件 | 用途 |
 | --- | --- |
-| `src/main.tsx` | 页面、交互、SVG 插画与配方弹窗 |
+| `src/main.tsx` | 页面、卡片插画与配方弹窗 |
+| `src/MixStudio.tsx` | 触屏及鼠标倒酒操作、随机调酒工作台 |
+| `src/mix-utils.ts` | 不重复抽选、瓶口与酒流统一坐标、装饰选择 |
+| `src/mix-studio.css` | 工作台布局及手机触控区域 |
 | `src/style.css` | 颜色、排版、响应式样式 |
 | `src/data.ts` | 数据类型、材料匹配和补货推荐 |
 | `src/cocktails.json` | 50 款双语配方、用量与固定版本来源链接 |
 | `src/i18n.tsx` | 语言状态、界面翻译及英文配方教学 |
 | `src/data.test.ts` | 核心匹配逻辑测试 |
 | `src/i18n.test.ts` | 翻译与配方完整性测试 |
+| `src/mix-utils.test.ts` | 随机抽选、倒酒几何及装饰测试 |
 
 **技术栈：**React 19、TypeScript、Vite、Lucide、原生 CSS、Vitest。
 
