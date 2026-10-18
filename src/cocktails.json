@@ -47,6 +47,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Negroni",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Negroni",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/negroni/"
     }
   },
   {
@@ -103,6 +109,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Margarita",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Margarita",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/margarita/"
     }
   },
   {
@@ -165,6 +177,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Mojito",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Mojito",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/mojito/"
     }
   },
   {
@@ -221,6 +239,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Whiskey Sour",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Whiskey Sour",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/whiskey-sour/"
     }
   },
   {
@@ -269,6 +293,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Daiquiri",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Daiquiri",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/daiquiri/"
     }
   },
   {
@@ -322,6 +352,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Espresso Martini",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Espresso Martini",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/espresso-martini/"
     }
   },
   {
@@ -367,6 +403,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Dry Martini",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Dry Martini",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/dry-martini/"
     }
   },
   {
@@ -422,6 +464,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Old Fashioned",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Old Fashioned",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/old-fashioned/"
     }
   },
   {
@@ -472,6 +520,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Manhattan",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Manhattan",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/manhattan/"
     }
   },
   {
@@ -520,6 +574,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Tommy's Margarita",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Tommy's Margarita",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/tommys-margarita/"
     }
   },
   {
@@ -568,6 +628,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Caipirinha",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Caipirinha",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/caipirinha/"
     }
   },
   {
@@ -625,6 +691,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Sazerac",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Sazerac",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/sazerac/"
     }
   },
   {
@@ -700,6 +772,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Singapore Sling",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Singapore Sling",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/singapore-sling/"
     }
   },
   {
@@ -750,6 +828,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Vesper",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Vesper",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/vesper/"
     }
   },
   {
@@ -800,6 +884,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Sea Breeze",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Sea Breeze",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/sea-breeze/"
     }
   },
   {
@@ -875,6 +965,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Long Island Iced Tea",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Long Island Iced Tea",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/long-island-iced-tea/"
     }
   },
   {
@@ -928,6 +1024,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Clover Club",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Clover Club",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/clover-club/"
     }
   },
   {
@@ -976,6 +1078,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Angel Face",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Angel Face",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/angel-face/"
     }
   },
   {
@@ -1021,51 +1129,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Mimosa",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
-    }
-  },
-  {
-    "id": "screwdriver",
-    "name": "Screwdriver",
-    "zh": "螺丝刀",
-    "base": "伏特加",
-    "flavor": "果香甜润",
-    "difficulty": "简单",
-    "minutes": 3,
-    "color": "#e3aa3b",
-    "glass": "highball",
-    "description": "螺丝刀，一杯以伏特加为主角的经典调酒。准备好材料，跟随步骤调出果香甜润的风味。",
-    "ingredients": [
-      {
-        "name": "伏特加",
-        "amount": 50,
-        "unit": "ml"
-      },
-      {
-        "name": "橙汁",
-        "amount": 100,
-        "unit": "ml"
-      }
-    ],
-    "steps": [
-      "在酒杯中放入冰块，倒入所列材料。",
-      "轻轻搅拌混合。",
-      "以橙片装饰。"
-    ],
-    "tool": "高球杯 · 吧匙",
-    "english": {
-      "description": "Screwdriver: a fruity & mellow classic featuring vodka. Gather the ingredients and follow the steps to mix your own.",
-      "steps": [
-        "Fill the serving glass with ice and add the listed ingredients.",
-        "Stir gently to combine.",
-        "Garnish with an orange slice."
-      ],
-      "tool": "Highball glass · Bar spoon"
     },
-    "source": {
-      "name": "IBA Cocktails · teijo/iba-cocktails",
-      "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
-      "originalName": "Screwdriver",
-      "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    "iba": {
+      "name": "Mimosa",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/mimosa/"
     }
   },
   {
@@ -1116,6 +1185,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Cuba Libre",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Cuba Libre",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/cuba-libre/"
     }
   },
   {
@@ -1171,6 +1246,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Gin Fizz",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Gin Fizz",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/gin-fizz/"
     }
   },
   {
@@ -1224,59 +1305,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "French 75",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
-    }
-  },
-  {
-    "id": "yellow-bird",
-    "name": "Yellow Bird",
-    "zh": "黄鸟",
-    "base": "朗姆酒",
-    "flavor": "果香甜润",
-    "difficulty": "简单",
-    "minutes": 5,
-    "color": "#d6be52",
-    "glass": "coupe",
-    "description": "黄鸟，一杯以朗姆酒为主角的经典调酒。准备好材料，跟随步骤调出果香甜润的风味。",
-    "ingredients": [
-      {
-        "name": "白朗姆酒",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "加利亚诺利口酒",
-        "amount": 15.0,
-        "unit": "ml"
-      },
-      {
-        "name": "橙味利口酒",
-        "amount": 15.0,
-        "unit": "ml"
-      },
-      {
-        "name": "青柠汁",
-        "amount": 15.0,
-        "unit": "ml"
-      }
-    ],
-    "steps": [
-      "将所列液体材料倒入摇酒壶，加入冰块。",
-      "充分摇匀后，滤入预先冰镇的鸡尾酒杯。"
-    ],
-    "tool": "鸡尾酒杯 · 摇酒壶",
-    "english": {
-      "description": "Yellow Bird: a fruity & mellow classic featuring rum. Gather the ingredients and follow the steps to mix your own.",
-      "steps": [
-        "Add the listed liquid ingredients to a cocktail shaker with ice.",
-        "Shake to mix and chill, then strain into a chilled cocktail glass."
-      ],
-      "tool": "Cocktail glass · Cocktail shaker"
     },
-    "source": {
-      "name": "IBA Cocktails · teijo/iba-cocktails",
-      "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
-      "originalName": "Yellow Bird",
-      "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    "iba": {
+      "name": "French 75",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/french-75/"
     }
   },
   {
@@ -1327,6 +1361,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Pina Colada",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Pina Colada",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/pina-colada/"
     }
   },
   {
@@ -1375,6 +1415,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Aviation",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Aviation",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/aviation/"
     }
   },
   {
@@ -1418,6 +1464,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Bellini",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Bellini",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/bellini/"
     }
   },
   {
@@ -1466,6 +1518,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Grasshopper",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Grasshopper",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/grasshopper/"
     }
   },
   {
@@ -1516,6 +1574,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Tequila Sunrise",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Tequila Sunrise",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/tequila-sunrise/"
     }
   },
   {
@@ -1561,6 +1625,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Rusty Nail",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Rusty Nail",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/rusty-nail/"
     }
   },
   {
@@ -1604,108 +1674,18 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Stinger",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
-    }
-  },
-  {
-    "id": "golden-dream",
-    "name": "Golden Dream",
-    "zh": "金色梦幻",
-    "base": "利口酒",
-    "flavor": "奶油柔滑",
-    "difficulty": "简单",
-    "minutes": 5,
-    "color": "#dfc17c",
-    "glass": "coupe",
-    "description": "金色梦幻，一杯以利口酒为主角的经典调酒。准备好材料，跟随步骤调出奶油柔滑的风味。",
-    "ingredients": [
-      {
-        "name": "加利亚诺利口酒",
-        "amount": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "橙味利口酒",
-        "amount": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "橙汁",
-        "amount": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "奶油",
-        "amount": 10,
-        "unit": "ml"
-      }
-    ],
-    "steps": [
-      "将所列液体材料倒入摇酒壶，加入冰块。",
-      "充分摇匀后，滤入预先冰镇的鸡尾酒杯。"
-    ],
-    "tool": "鸡尾酒杯 · 摇酒壶",
-    "english": {
-      "description": "Golden Dream: a creamy & smooth classic featuring liqueur. Gather the ingredients and follow the steps to mix your own.",
-      "steps": [
-        "Add the listed liquid ingredients to a cocktail shaker with ice.",
-        "Shake to mix and chill, then strain into a chilled cocktail glass."
-      ],
-      "tool": "Cocktail glass · Cocktail shaker"
     },
-    "source": {
-      "name": "IBA Cocktails · teijo/iba-cocktails",
-      "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
-      "originalName": "Golden Dream",
-      "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
-    }
-  },
-  {
-    "id": "god-mother",
-    "name": "God Mother",
-    "zh": "教母",
-    "base": "伏特加",
-    "flavor": "苦甜浓郁",
-    "difficulty": "简单",
-    "minutes": 3,
-    "color": "#bd9862",
-    "glass": "rocks",
-    "description": "教母，一杯以伏特加为主角的经典调酒。准备好材料，跟随步骤调出苦甜浓郁的风味。",
-    "ingredients": [
-      {
-        "name": "伏特加",
-        "amount": 35.0,
-        "unit": "ml"
-      },
-      {
-        "name": "杏仁利口酒",
-        "amount": 35.0,
-        "unit": "ml"
-      }
-    ],
-    "steps": [
-      "在酒杯中放入冰块，倒入所列材料。",
-      "轻轻搅拌混合。"
-    ],
-    "tool": "古典杯 · 吧匙",
-    "english": {
-      "description": "God Mother: a bold & bittersweet classic featuring vodka. Gather the ingredients and follow the steps to mix your own.",
-      "steps": [
-        "Fill the serving glass with ice and add the listed ingredients.",
-        "Stir gently to combine."
-      ],
-      "tool": "Rocks glass · Bar spoon"
-    },
-    "source": {
-      "name": "IBA Cocktails · teijo/iba-cocktails",
-      "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
-      "originalName": "God Mother",
-      "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    "iba": {
+      "name": "Stinger",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/stinger/"
     }
   },
   {
     "id": "spritz-veneziano",
-    "name": "Spritz Veneziano",
-    "zh": "威尼斯斯普利茨",
+    "name": "Spritz",
+    "zh": "斯普利茨",
     "base": "葡萄酒",
     "flavor": "清爽气泡",
     "difficulty": "简单",
@@ -1750,6 +1730,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Spritz Veneziano",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Spritz",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/spritz/"
     }
   },
   {
@@ -1805,6 +1791,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Bramble",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Bramble",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/bramble/"
     }
   },
   {
@@ -1861,6 +1853,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Alexander",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Alexander",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/alexander/"
     }
   },
   {
@@ -1919,6 +1917,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Lemon Drop Martini",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Lemon Drop Martini",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/lemon-drop-martini/"
     }
   },
   {
@@ -1975,6 +1979,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "French Martini",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "French Martini",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/french-martini/"
     }
   },
   {
@@ -2018,6 +2028,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Black Russian",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Black Russian",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/black-russian/"
     }
   },
   {
@@ -2073,6 +2089,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Sex on the Beach",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Sex on the Beach",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/"
     }
   },
   {
@@ -2121,6 +2143,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Sidecar",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Sidecar",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/sidecar/"
     }
   },
   {
@@ -2164,6 +2192,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "French Connection",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "French Connection",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/french-connection/"
     }
   },
   {
@@ -2217,6 +2251,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Moscow Mule",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Moscow Mule",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/moscow-mule/"
     }
   },
   {
@@ -2280,6 +2320,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "John Collins",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "John Collins",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/john-collins/"
     }
   },
   {
@@ -2323,6 +2369,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Kir",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Kir",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/kir/"
     }
   },
   {
@@ -2376,6 +2428,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Mary Pickford",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Mary Pickford",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/mary-pickford/"
     }
   },
   {
@@ -2429,6 +2487,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Hemingway Special",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "Hemingway Special",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/hemingway-special/"
     }
   },
   {
@@ -2474,49 +2538,12 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "Dark 'n' Stormy",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
-    }
-  },
-  {
-    "id": "god-father",
-    "name": "God Father",
-    "zh": "教父",
-    "base": "威士忌",
-    "flavor": "苦甜浓郁",
-    "difficulty": "简单",
-    "minutes": 3,
-    "color": "#b9833c",
-    "glass": "rocks",
-    "description": "教父，一杯以威士忌为主角的经典调酒。准备好材料，跟随步骤调出苦甜浓郁的风味。",
-    "ingredients": [
-      {
-        "name": "苏格兰威士忌",
-        "amount": 35.0,
-        "unit": "ml"
-      },
-      {
-        "name": "杏仁利口酒",
-        "amount": 35.0,
-        "unit": "ml"
-      }
-    ],
-    "steps": [
-      "在酒杯中放入冰块，倒入所列材料。",
-      "轻轻搅拌混合。"
-    ],
-    "tool": "古典杯 · 吧匙",
-    "english": {
-      "description": "God Father: a bold & bittersweet classic featuring whiskey. Gather the ingredients and follow the steps to mix your own.",
-      "steps": [
-        "Fill the serving glass with ice and add the listed ingredients.",
-        "Stir gently to combine."
-      ],
-      "tool": "Rocks glass · Bar spoon"
     },
-    "source": {
-      "name": "IBA Cocktails · teijo/iba-cocktails",
-      "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
-      "originalName": "God Father",
-      "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    "iba": {
+      "name": "Dark ‘N’ Stormy",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/dark-n-stormy/"
     }
   },
   {
@@ -2565,6 +2592,3704 @@
       "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json",
       "originalName": "White Lady",
       "version": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    "iba": {
+      "name": "White Lady",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/white-lady/"
+    }
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "zh": "美国佬",
+    "base": "利口酒",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c8673d",
+    "glass": "rocks",
+    "description": "美国佬，一款以利口酒为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金巴利",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "苏打水",
+        "amount": null,
+        "unit": "少许"
+      }
+    ],
+    "steps": [
+      "将金巴利与甜味美思倒入加冰的古典杯。",
+      "加入少许苏打水，轻轻搅拌。",
+      "以半片橙子和柠檬皮装饰。"
+    ],
+    "tool": "古典杯 · 吧匙",
+    "english": {
+      "description": "Americano is a bold & bittersweet cocktail featuring liqueur. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Add Campari and sweet vermouth to an ice-filled rocks glass.",
+        "Finish with a splash of soda water and stir gently.",
+        "Garnish with half an orange slice and lemon zest."
+      ],
+      "tool": "Rocks glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Americano",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Americano",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/americano/"
+    }
+  },
+  {
+    "id": "bees-knees",
+    "name": "Bee’s Knees",
+    "zh": "蜜蜂之膝",
+    "base": "金酒",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d5c57c",
+    "glass": "coupe",
+    "description": "蜜蜂之膝，一款以金酒为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 52.5,
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜糖浆",
+        "amount": 2.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": 22.5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将蜂蜜糖浆与柠檬汁、橙汁搅拌混合。",
+      "加入金酒和冰块摇匀，滤入冰镇鸡尾酒杯。",
+      "可选用柠檬皮或橙皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Bee’s Knees is a bright & citrusy cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Stir the honey syrup with the lemon and orange juices until combined.",
+        "Add gin and ice, shake, then strain into a chilled cocktail glass.",
+        "Optionally garnish with lemon or orange zest."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Bee’s Knees",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Bee’s Knees",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/bees-knees/"
+    }
+  },
+  {
+    "id": "between-the-sheets",
+    "name": "Between the Sheets",
+    "zh": "床笫之间",
+    "base": "混合基酒",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d9c48d",
+    "glass": "coupe",
+    "description": "床笫之间，一款以混合基酒为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "白朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "干邑白兰地",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙味利口酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 20.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Between the Sheets is a bright & citrusy cocktail featuring mixed spirits. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Between the Sheets",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Between the Sheets",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/between-the-sheets/"
+    }
+  },
+  {
+    "id": "bloody-mary",
+    "name": "Bloody Mary",
+    "zh": "血腥玛丽",
+    "base": "伏特加",
+    "flavor": "辛香咸鲜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#b84b36",
+    "glass": "rocks",
+    "description": "血腥玛丽，一款以伏特加为主角、呈现辛香咸鲜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "伏特加",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "番茄汁",
+        "amount": 90.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "伍斯特酱",
+        "amount": 2.0,
+        "unit": "dash"
+      },
+      {
+        "name": "塔巴斯科辣椒酱",
+        "amount": null,
+        "unit": "按口味"
+      },
+      {
+        "name": "芹菜盐",
+        "amount": null,
+        "unit": "按口味"
+      },
+      {
+        "name": "胡椒",
+        "amount": null,
+        "unit": "按口味"
+      }
+    ],
+    "steps": [
+      "将全部材料与冰块放入搅拌杯，轻轻搅拌。",
+      "倒入古典杯；如需加冰饮用，可改用高球杯。",
+      "可用芹菜和柠檬角装饰。"
+    ],
+    "tool": "古典杯 · 吧匙",
+    "english": {
+      "description": "Bloody Mary is a spicy & savory cocktail featuring vodka. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine all the ingredients with ice in a mixing glass and stir gently.",
+        "Pour into a rocks glass, or use an ice-filled highball glass if preferred.",
+        "Celery and a lemon wedge are optional garnishes."
+      ],
+      "tool": "Rocks glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Bloody Mary",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Bloody Mary",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/bloody-mary/"
+    }
+  },
+  {
+    "id": "boulevardier",
+    "name": "Boulevardier",
+    "zh": "林荫大道",
+    "base": "威士忌",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#ac492d",
+    "glass": "coupe",
+    "description": "林荫大道，一款以威士忌为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "波本或黑麦威士忌",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "金巴利",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以橙皮装饰，也可用柠檬皮。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Boulevardier is a bold & bittersweet cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with orange zest, or lemon zest if preferred."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Boulevardier",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Boulevardier",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/boulevardier/"
+    }
+  },
+  {
+    "id": "brandy-crusta",
+    "name": "Brandy Crusta",
+    "zh": "白兰地克鲁斯塔",
+    "base": "白兰地",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c99b57",
+    "glass": "coupe",
+    "description": "白兰地克鲁斯塔，一款以白兰地为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "白兰地",
+        "amount": 52.5,
+        "unit": "ml"
+      },
+      {
+        "name": "马拉斯奇诺利口酒",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "橙味库拉索",
+        "amount": 1.0,
+        "unit": "吧匙"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 1.0,
+        "unit": "吧匙"
+      },
+      {
+        "name": "芳香苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "用橙子或柠檬润湿杯沿，蘸糖做糖边，再将长果皮卷入杯内。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Brandy Crusta is a bright & citrusy cocktail featuring brandy. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Moisten the rim with citrus and dip in sugar. Curl a long orange or lemon peel inside the glass."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Brandy Crusta",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Brandy Crusta",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/brandy-crusta/"
+    }
+  },
+  {
+    "id": "canchanchara",
+    "name": "Canchanchara",
+    "zh": "坎昌查拉",
+    "base": "朗姆酒",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d8be79",
+    "glass": "rocks",
+    "description": "坎昌查拉，一款以朗姆酒为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "古巴蔗渣烈酒",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "原蜜",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "水",
+        "amount": 50.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将蜂蜜、水和青柠汁混匀，润湿酒杯内壁。",
+      "加入碎冰和古巴蔗渣烈酒，从杯底向上充分搅拌。",
+      "以青柠角装饰。"
+    ],
+    "tool": "古典杯 · 吧匙",
+    "english": {
+      "description": "Canchanchara is a bright & citrusy cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Mix the honey, water and lime juice, coating the inside of the serving glass.",
+        "Add cracked ice and Cuban aguardiente, then stir firmly from the bottom upward.",
+        "Garnish with a lime wedge before serving."
+      ],
+      "tool": "Rocks glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Canchanchara",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Canchanchara",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/canchanchara/"
+    }
+  },
+  {
+    "id": "cardinale",
+    "name": "Cardinale",
+    "zh": "红衣主教",
+    "base": "金酒",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c77265",
+    "glass": "coupe",
+    "description": "红衣主教，一款以金酒为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "干味美思",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "金巴利",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以柠檬皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Cardinale is a bold & bittersweet cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with lemon zest before serving."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Cardinale",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Cardinale",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/cardinale/"
+    }
+  },
+  {
+    "id": "casino",
+    "name": "Casino",
+    "zh": "赌场",
+    "base": "金酒",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d4cf9a",
+    "glass": "rocks",
+    "description": "赌场，一款以金酒为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "老汤姆金酒",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "马拉斯奇诺利口酒",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙味苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入装有新冰块的冰镇古典杯。",
+      "以柠檬皮和马拉斯奇诺樱桃装饰。"
+    ],
+    "tool": "古典杯 · 摇酒壶",
+    "english": {
+      "description": "Casino is a bright & citrusy cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain into a chilled rocks glass filled with fresh ice.",
+        "Garnish with lemon zest and a maraschino cherry."
+      ],
+      "tool": "Rocks glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Casino",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Casino",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/casino/"
+    }
+  },
+  {
+    "id": "champagne-cocktail",
+    "name": "Champagne Cocktail",
+    "zh": "香槟鸡尾酒",
+    "base": "葡萄酒",
+    "flavor": "清爽气泡",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d8c581",
+    "glass": "coupe",
+    "description": "香槟鸡尾酒，一款以葡萄酒为主角、呈现清爽气泡风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "香槟",
+        "amount": 90.0,
+        "unit": "ml"
+      },
+      {
+        "name": "干邑白兰地",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      },
+      {
+        "name": "格兰玛尼耶",
+        "amount": null,
+        "unit": "几滴",
+        "optional": true
+      },
+      {
+        "name": "方糖",
+        "amount": 1.0,
+        "unit": "块"
+      }
+    ],
+    "steps": [
+      "在香槟杯中放入方糖，滴上苦精。",
+      "加入干邑，缓缓注入冰镇香槟；格兰玛尼耶为可选。",
+      "以橙皮和马拉斯奇诺樱桃装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Champagne Cocktail is a fresh & fizzy cocktail featuring wine. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Place the sugar cube in a champagne glass and moisten it with the bitters.",
+        "Add cognac and gently pour in chilled champagne. Grand Marnier is optional.",
+        "Garnish with orange zest and a maraschino cherry."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Champagne Cocktail",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Champagne Cocktail",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/champagne-cocktail/"
+    }
+  },
+  {
+    "id": "chartreuse-swizzle",
+    "name": "Chartreuse Swizzle",
+    "zh": "查特酒斯维兹",
+    "base": "利口酒",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#bdc879",
+    "glass": "highball",
+    "description": "查特酒斯维兹，一款以利口酒为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "绿查特酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "菠萝汁",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "法勒南糖酒",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将全部材料倒入高杯，加入小颗粒冰。",
+      "用斯维兹搅拌棒或吧匙充分搅拌，再补满小颗粒冰。",
+      "以薄荷叶及现磨肉豆蔻装饰。"
+    ],
+    "tool": "高球杯 · 吧匙",
+    "english": {
+      "description": "Chartreuse Swizzle is a herbal & crisp cocktail featuring liqueur. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Pour the ingredients into a tall glass and add pebble ice.",
+        "Mix vigorously with a swizzle stick or bar spoon, then add more pebble ice.",
+        "Garnish with mint leaves and freshly grated nutmeg."
+      ],
+      "tool": "Highball glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Chartreuse Swizzle",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Chartreuse Swizzle",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/"
+    }
+  },
+  {
+    "id": "corpse-reviver-2",
+    "name": "Corpse Reviver #2",
+    "zh": "亡者复苏二号",
+    "base": "金酒",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#dcd6ab",
+    "glass": "coupe",
+    "description": "亡者复苏二号，一款以金酒为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙味利口酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "利莱白开胃酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "苦艾酒",
+        "amount": 1.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以橙皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Corpse Reviver #2 is a bright & citrusy cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with orange zest before serving."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Corpse Reviver #2",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Corpse Reviver #2",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/corpse-reviver-2/"
+    }
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "zh": "大都会",
+    "base": "伏特加",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#cf7d91",
+    "glass": "coupe",
+    "description": "大都会，一款以伏特加为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "柠檬伏特加",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙味利口酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蔓越莓汁",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以柠檬皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Cosmopolitan is a fruity & mellow cocktail featuring vodka. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with a lemon twist before serving."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Cosmopolitan",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Cosmopolitan",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/cosmopolitan/"
+    }
+  },
+  {
+    "id": "don-s-special-daiquiri",
+    "name": "Don's Special Daiquiri",
+    "zh": "唐氏特调戴基里",
+    "base": "朗姆酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d9b76c",
+    "glass": "highball",
+    "description": "唐氏特调戴基里，一款以朗姆酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "牙买加金朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "古巴朗姆酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "百香果糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将材料与碎冰放入奶昔搅拌机，短暂搅打。",
+      "倒入带脚高杯，再补满碎冰。",
+      "以半个百香果装饰。"
+    ],
+    "tool": "高球杯 · 搅拌机",
+    "english": {
+      "description": "Don's Special Daiquiri is a fruity & mellow cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Flash blend the ingredients with crushed ice in a milkshake mixer.",
+        "Pour into a footed copo glass and finish with more crushed ice.",
+        "Garnish with half a passion fruit before serving."
+      ],
+      "tool": "Highball glass · Blender"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Don's Special Daiquiri",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Don's Special Daiquiri",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/"
+    }
+  },
+  {
+    "id": "fernandito",
+    "name": "Fernandito",
+    "zh": "费尔南迪托",
+    "base": "利口酒",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#765338",
+    "glass": "rocks",
+    "description": "费尔南迪托，一款以利口酒为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "菲奈特布兰卡",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "可乐",
+        "amount": null,
+        "unit": "补满"
+      }
+    ],
+    "steps": [
+      "将菲奈特布兰卡倒入加冰的大古典杯。",
+      "用可乐补满，轻轻搅拌。"
+    ],
+    "tool": "古典杯 · 吧匙",
+    "english": {
+      "description": "Fernandito is a bold & bittersweet cocktail featuring liqueur. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Pour Fernet-Branca into a large rocks glass filled with ice.",
+        "Top up with cola and stir gently to combine."
+      ],
+      "tool": "Rocks glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Fernandito",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Fernandito",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/fernandito/"
+    }
+  },
+  {
+    "id": "garibaldi",
+    "name": "Garibaldi",
+    "zh": "加里波第",
+    "base": "利口酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#df8652",
+    "glass": "highball",
+    "description": "加里波第，一款以利口酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金巴利",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": 120.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "在酒杯中放入冰块，加入所列材料。",
+      "轻轻搅拌，让材料充分混合。",
+      "以橙角装饰。"
+    ],
+    "tool": "高球杯 · 吧匙",
+    "english": {
+      "description": "Garibaldi is a fruity & mellow cocktail featuring liqueur. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Fill the serving glass with ice, then add the listed ingredients.",
+        "Stir gently to combine the ingredients without losing their texture.",
+        "Garnish with an orange wedge before serving."
+      ],
+      "tool": "Highball glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Garibaldi",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Garibaldi",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/garibaldi/"
+    }
+  },
+  {
+    "id": "gin-basil-smash",
+    "name": "Gin Basil Smash",
+    "zh": "金酒罗勒司马什",
+    "base": "金酒",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#a5b875",
+    "glass": "coupe",
+    "description": "金酒罗勒司马什，一款以金酒为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "罗勒叶",
+        "amount": 10.0,
+        "unit": "片"
+      }
+    ],
+    "steps": [
+      "将金酒、柠檬汁、糖浆和罗勒叶放入摇酒壶，加冰用力摇匀。",
+      "滤入冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Gin Basil Smash is a herbal & crisp cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Add gin, lemon juice, syrup and basil to a shaker with ice. Shake vigorously.",
+        "Strain the drink into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Gin Basil Smash",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Gin Basil Smash",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/gin-basil-smash/"
+    }
+  },
+  {
+    "id": "grand-margarita",
+    "name": "Grand Margarita",
+    "zh": "格兰玛格丽特",
+    "base": "龙舌兰",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d3c48c",
+    "glass": "rocks",
+    "description": "格兰玛格丽特，一款以龙舌兰为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "龙舌兰",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "格兰玛尼耶",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "用海盐装饰古典杯杯沿，杯中及摇酒壶都加入冰块。",
+      "将龙舌兰、格兰玛尼耶和青柠汁摇和约十秒，滤入杯中。",
+      "以青柠片装饰。"
+    ],
+    "tool": "古典杯 · 摇酒壶",
+    "english": {
+      "description": "Grand Margarita is a bright & citrusy cocktail featuring tequila. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Prepare a sea-salt rim on a rocks glass. Add ice to the glass and shaker.",
+        "Shake tequila, Grand Marnier and lime juice for about ten seconds and strain into the glass.",
+        "Garnish with a lime slice before serving."
+      ],
+      "tool": "Rocks glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Grand Margarita",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Grand Margarita",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/grand-margarita/"
+    }
+  },
+  {
+    "id": "hanky-panky",
+    "name": "Hanky Panky",
+    "zh": "花招",
+    "base": "金酒",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#a7553b",
+    "glass": "coupe",
+    "description": "花招，一款以金酒为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "菲奈特布兰卡",
+        "amount": 7.5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以橙皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Hanky Panky is a bold & bittersweet cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with orange zest before serving."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Hanky Panky",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Hanky Panky",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/hanky-panky/"
+    }
+  },
+  {
+    "id": "horses-neck",
+    "name": "Horse’s Neck",
+    "zh": "马颈",
+    "base": "白兰地",
+    "flavor": "清爽气泡",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c49c53",
+    "glass": "highball",
+    "description": "马颈，一款以白兰地为主角、呈现清爽气泡风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "干邑白兰地",
+        "amount": 40.0,
+        "unit": "ml"
+      },
+      {
+        "name": "姜汁汽水",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": null,
+        "unit": "少许",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "在酒杯中放入冰块，加入所列材料。",
+      "轻轻搅拌，让材料充分混合。",
+      "以一整条螺旋柠檬皮装饰。"
+    ],
+    "tool": "高球杯 · 吧匙",
+    "english": {
+      "description": "Horse’s Neck is a fresh & fizzy cocktail featuring brandy. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Fill the serving glass with ice, then add the listed ingredients.",
+        "Stir gently to combine the ingredients without losing their texture.",
+        "Garnish with a long spiral of lemon peel."
+      ],
+      "tool": "Highball glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Horse’s Neck",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Horse’s Neck",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/horses-neck/"
+    }
+  },
+  {
+    "id": "iba-tiki",
+    "name": "IBA Tiki",
+    "zh": "IBA 提基",
+    "base": "朗姆酒",
+    "flavor": "果香甜润",
+    "difficulty": "进阶",
+    "minutes": 7,
+    "color": "#d7a96b",
+    "glass": "highball",
+    "description": "IBA 提基，一款以朗姆酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "哈瓦那俱乐部深邃朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "哈瓦那俱乐部烟熏朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "杏仁利口酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "榛果利口酒",
+        "amount": 5.0,
+        "unit": "ml"
+      },
+      {
+        "name": "马拉斯奇诺利口酒",
+        "amount": 5.0,
+        "unit": "滴"
+      },
+      {
+        "name": "百香果果泥",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "菠萝汁",
+        "amount": 90,
+        "unit": "原文未注明单位"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 30,
+        "unit": "原文未注明单位"
+      },
+      {
+        "name": "姜片",
+        "amount": 1.0,
+        "unit": "片"
+      }
+    ],
+    "steps": [
+      "在摇酒壶中轻压一片姜。",
+      "加入其余材料和冰块，用力摇匀。",
+      "滤入装满颗粒冰的冰镇提基杯；两项果汁用量单位须核对来源。",
+      "以柑橘及脱水菠萝片装饰。"
+    ],
+    "tool": "高球杯 · 摇酒壶",
+    "english": {
+      "description": "IBA Tiki is a fruity & mellow cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Gently muddle a thin ginger slice in a cocktail shaker.",
+        "Add the remaining ingredients and ice, then shake vigorously.",
+        "Strain into a chilled tiki glass filled with pebble ice. Check the source for the two unspecified juice units.",
+        "Garnish with citrus and a dehydrated pineapple slice."
+      ],
+      "tool": "Highball glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "IBA Tiki",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "IBA Tiki",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/iba-tiki/"
+    },
+    "notes": {
+      "zh": [
+        "来源快照中的菠萝汁 90、青柠汁 30 未注明单位；这里保留原文数值，不推测为 ml。"
+      ],
+      "en": [
+        "The snapshot lists pineapple juice as 90 and lime juice as 30 without units. These values are preserved, not assumed to be ml."
+      ]
+    }
+  },
+  {
+    "id": "illegal",
+    "name": "Illegal",
+    "zh": "非法",
+    "base": "梅斯卡尔",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d8d19c",
+    "glass": "coupe",
+    "description": "非法，一款以梅斯卡尔为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "梅斯卡尔",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "牙买加高酒精白朗姆酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "法勒南糖酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "马拉斯奇诺利口酒",
+        "amount": 1.0,
+        "unit": "吧匙"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蛋清",
+        "amount": null,
+        "unit": "几滴",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入冰镇鸡尾酒杯，或装有冰块的传统陶杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Illegal is a bright & citrusy cocktail featuring mezcal. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain into a chilled cocktail glass, or serve over ice in a traditional clay mug."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Illegal",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Illegal",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/illegal/"
+    }
+  },
+  {
+    "id": "irish-coffee",
+    "name": "Irish Coffee",
+    "zh": "爱尔兰咖啡",
+    "base": "威士忌",
+    "flavor": "咖啡醇香",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#77513b",
+    "glass": "highball",
+    "description": "爱尔兰咖啡，一款以威士忌为主角、呈现咖啡醇香风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "爱尔兰威士忌",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "热咖啡",
+        "amount": 120.0,
+        "unit": "ml"
+      },
+      {
+        "name": "奶油",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖",
+        "amount": 1.0,
+        "unit": "茶匙"
+      }
+    ],
+    "steps": [
+      "预热耐热咖啡杯，加入热咖啡。",
+      "加入威士忌和糖，搅拌至糖溶解。",
+      "将冰镇奶油沿吧匙背缓缓倒在表面，保持奶油层不混合。"
+    ],
+    "tool": "耐热咖啡杯 · 吧匙",
+    "english": {
+      "description": "Irish Coffee is a rich & coffee-forward cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Preheat a heatproof coffee glass and pour in the hot coffee.",
+        "Add the whiskey and sugar, stirring until the sugar dissolves.",
+        "Slowly pour chilled cream over the back of a spoon so it floats above the coffee."
+      ],
+      "tool": "Heatproof coffee glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Irish Coffee",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Irish Coffee",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/irish-coffee/"
+    }
+  },
+  {
+    "id": "jungle-bird",
+    "name": "Jungle Bird",
+    "zh": "丛林鸟",
+    "base": "朗姆酒",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#ba724b",
+    "glass": "rocks",
+    "description": "丛林鸟，一款以朗姆酒为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "黑糖蜜朗姆酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "金巴利",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "菠萝汁",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "德梅拉拉糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入装有新冰块的古典杯。",
+      "以菠萝角装饰。"
+    ],
+    "tool": "古典杯 · 摇酒壶",
+    "english": {
+      "description": "Jungle Bird is a bold & bittersweet cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain into a rocks glass filled with fresh ice.",
+        "Garnish with a pineapple wedge before serving."
+      ],
+      "tool": "Rocks glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Jungle Bird",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Jungle Bird",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/jungle-bird/"
+    }
+  },
+  {
+    "id": "last-word",
+    "name": "Last Word",
+    "zh": "最后一句",
+    "base": "金酒",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c5d09c",
+    "glass": "coupe",
+    "description": "最后一句，一款以金酒为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "绿查特酒",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "马拉斯奇诺利口酒",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 22.5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Last Word is a herbal & crisp cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Last Word",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Last Word",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/last-word/"
+    }
+  },
+  {
+    "id": "mai-tai",
+    "name": "Mai-Tai",
+    "zh": "迈泰",
+    "base": "朗姆酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c69c61",
+    "glass": "rocks",
+    "description": "迈泰，一款以朗姆酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "牙买加琥珀朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "马提尼克糖蜜朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙味库拉索",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "杏仁糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 7.5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "连冰倒入双份古典杯或高球杯。",
+      "以菠萝长条、薄荷及青柠皮装饰。"
+    ],
+    "tool": "古典杯 · 摇酒壶",
+    "english": {
+      "description": "Mai-Tai is a fruity & mellow cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Pour the drink with its ice into a double rocks or highball glass.",
+        "Garnish with a pineapple spear, mint and lime peel."
+      ],
+      "tool": "Rocks glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Mai-Tai",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Mai-Tai",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/mai-tai/"
+    },
+    "notes": {
+      "zh": [
+        "此版本使用马提尼克糖蜜朗姆酒，与农业朗姆酒不同。"
+      ],
+      "en": [
+        "This version calls for Martinique molasses rum, which is distinct from agricole rhum."
+      ]
+    }
+  },
+  {
+    "id": "martinez",
+    "name": "Martinez",
+    "zh": "马丁内斯",
+    "base": "金酒",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#bb7650",
+    "glass": "coupe",
+    "description": "马丁内斯，一款以金酒为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "马拉斯奇诺利口酒",
+        "amount": 1.0,
+        "unit": "吧匙"
+      },
+      {
+        "name": "橙味苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以柠檬皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Martinez is a bold & bittersweet cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with lemon zest before serving."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Martinez",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Martinez",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/martinez/"
+    }
+  },
+  {
+    "id": "mint-julep",
+    "name": "Mint Julep",
+    "zh": "薄荷朱莉普",
+    "base": "威士忌",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c8b078",
+    "glass": "highball",
+    "description": "薄荷朱莉普，一款以威士忌为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "波本威士忌",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "薄荷",
+        "amount": 4,
+        "unit": "枝"
+      },
+      {
+        "name": "糖粉",
+        "amount": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "水",
+        "amount": 2.0,
+        "unit": "茶匙"
+      }
+    ],
+    "steps": [
+      "在金属朱莉普杯中轻压薄荷、糖粉和水。",
+      "加满碎冰，倒入波本威士忌，充分搅拌至杯身结霜。",
+      "以薄荷枝装饰。"
+    ],
+    "tool": "高球杯 · 吧匙",
+    "english": {
+      "description": "Mint Julep is a herbal & crisp cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Gently muddle the mint, powdered sugar and water in a metal julep cup.",
+        "Fill with cracked ice, add bourbon and stir until the outside of the cup frosts.",
+        "Garnish with a fresh mint sprig before serving."
+      ],
+      "tool": "Highball glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Mint Julep",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Mint Julep",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/mint-julep/"
+    }
+  },
+  {
+    "id": "missionary-s-downfall",
+    "name": "Missionary's Downfall",
+    "zh": "传教士的堕落",
+    "base": "朗姆酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#b8c48b",
+    "glass": "coupe",
+    "description": "传教士的堕落，一款以朗姆酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "白朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "桃子白兰地",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜水混合液",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "薄荷",
+        "amount": 10.0,
+        "unit": "片"
+      },
+      {
+        "name": "菠萝块",
+        "amount": 3,
+        "unit": "块",
+        "amountMax": 4
+      }
+    ],
+    "steps": [
+      "将全部材料与半杯碎冰放入搅拌机。",
+      "搅打均匀，倒入大碟形酒杯。",
+      "以薄荷枝和菠萝片装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 搅拌机",
+    "english": {
+      "description": "Missionary's Downfall is a fruity & mellow cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Place all the ingredients in a blender with half a cup of crushed ice.",
+        "Blend until combined and pour into a large coupe glass.",
+        "Garnish with a mint sprig and a pineapple slice."
+      ],
+      "tool": "Cocktail glass · Blender"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Missionary's Downfall",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Missionary's Downfall",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/missionarys-downfall/"
+    }
+  },
+  {
+    "id": "monkey-gland",
+    "name": "Monkey Gland",
+    "zh": "猴腺",
+    "base": "金酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d6a16b",
+    "glass": "coupe",
+    "description": "猴腺，一款以金酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "苦艾酒",
+        "amount": 1.0,
+        "unit": "汤匙"
+      },
+      {
+        "name": "红石榴糖浆",
+        "amount": 1.0,
+        "unit": "汤匙"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Monkey Gland is a fruity & mellow cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Monkey Gland",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Monkey Gland",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/monkey-gland/"
+    }
+  },
+  {
+    "id": "naked-and-famous",
+    "name": "Naked and Famous",
+    "zh": "裸露与名气",
+    "base": "梅斯卡尔",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#cabb81",
+    "glass": "coupe",
+    "description": "裸露与名气，一款以梅斯卡尔为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "梅斯卡尔",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "黄查特酒",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "阿佩罗",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 22.5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Naked and Famous is a herbal & crisp cocktail featuring mezcal. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Naked and Famous",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Naked and Famous",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/naked-and-famous/"
+    }
+  },
+  {
+    "id": "new-york-sour",
+    "name": "New York Sour",
+    "zh": "纽约酸",
+    "base": "威士忌",
+    "flavor": "清新酸甜",
+    "difficulty": "进阶",
+    "minutes": 7,
+    "color": "#a76c70",
+    "glass": "rocks",
+    "description": "纽约酸，一款以威士忌为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "波本或黑麦威士忌",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蛋清",
+        "amount": null,
+        "unit": "几滴"
+      },
+      {
+        "name": "西拉或马尔贝克红酒",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "除红酒外，将材料加冰用力摇匀。",
+      "滤入装有新冰块的冰镇古典杯。",
+      "将红酒缓缓浮在表面，保留分层。",
+      "以柠檬皮或橙皮及樱桃装饰。"
+    ],
+    "tool": "古典杯 · 摇酒壶",
+    "english": {
+      "description": "New York Sour is a bright & citrusy cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake all ingredients except the red wine vigorously with ice.",
+        "Strain into a chilled rocks glass filled with fresh ice.",
+        "Carefully float the red wine on top to keep the layers separate.",
+        "Garnish with citrus zest and a cherry before serving."
+      ],
+      "tool": "Rocks glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "New York Sour",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "New York Sour",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/new-york-sour/"
+    }
+  },
+  {
+    "id": "old-cuban",
+    "name": "Old Cuban",
+    "zh": "老古巴",
+    "base": "朗姆酒",
+    "flavor": "清爽气泡",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c9c098",
+    "glass": "coupe",
+    "description": "老古巴，一款以朗姆酒为主角、呈现清爽气泡风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "薄荷",
+        "amount": 6,
+        "unit": "片",
+        "amountMax": 8
+      },
+      {
+        "name": "陈年朗姆酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      },
+      {
+        "name": "香槟或普罗塞克",
+        "amount": 60.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "除起泡酒外，将材料放入摇酒壶，加冰摇匀。",
+      "滤入冰镇鸡尾酒杯，加入香槟或普罗塞克。",
+      "以薄荷枝装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Old Cuban is a fresh & fizzy cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake all ingredients except the sparkling wine with ice.",
+        "Strain into a chilled cocktail glass and finish with champagne or prosecco.",
+        "Garnish with a mint sprig before serving."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Old Cuban",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Old Cuban",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/old-cuban/"
+    }
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "zh": "帕洛玛",
+    "base": "龙舌兰",
+    "flavor": "清爽气泡",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#dbb5ab",
+    "glass": "highball",
+    "description": "帕洛玛，一款以龙舌兰为主角、呈现清爽气泡风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "龙舌兰",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 5.0,
+        "unit": "ml"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "一撮"
+      },
+      {
+        "name": "粉红西柚汽水",
+        "amount": 100.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将龙舌兰和青柠汁倒入高球杯。",
+      "加入冰块和盐，再倒入粉红西柚汽水，轻轻搅拌。",
+      "以青柠片装饰。"
+    ],
+    "tool": "高球杯 · 吧匙",
+    "english": {
+      "description": "Paloma is a fresh & fizzy cocktail featuring tequila. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Pour tequila and lime juice into a highball glass.",
+        "Add ice and salt, pour in the pink grapefruit soda and stir gently.",
+        "Garnish with a lime slice before serving."
+      ],
+      "tool": "Highball glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Paloma",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Paloma",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/paloma/"
+    }
+  },
+  {
+    "id": "paper-plane",
+    "name": "Paper Plane",
+    "zh": "纸飞机",
+    "base": "威士忌",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#cf9b75",
+    "glass": "coupe",
+    "description": "纸飞机，一款以威士忌为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "波本威士忌",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "诺尼诺阿玛罗",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "阿佩罗",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Paper Plane is a bright & citrusy cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Paper Plane",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Paper Plane",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/paper-plane/"
+    }
+  },
+  {
+    "id": "paradise",
+    "name": "Paradise",
+    "zh": "天堂",
+    "base": "金酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d8b775",
+    "glass": "coupe",
+    "description": "天堂，一款以金酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "杏桃白兰地",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Paradise is a fruity & mellow cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Paradise",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Paradise",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/paradise/"
+    }
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "zh": "盘尼西林",
+    "base": "威士忌",
+    "flavor": "清新酸甜",
+    "difficulty": "进阶",
+    "minutes": 7,
+    "color": "#cda75d",
+    "glass": "rocks",
+    "description": "盘尼西林，一款以威士忌为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "调和苏格兰威士忌",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "乐加维林16年威士忌",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜糖浆",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "姜片",
+        "amount": 2,
+        "unit": "片",
+        "amountMax": 3
+      }
+    ],
+    "steps": [
+      "在摇酒壶中轻压姜片，加入除乐加维林外的材料。",
+      "加冰摇匀，细滤入放有冰块的冰镇古典杯。",
+      "将乐加维林威士忌缓缓浮在表面。",
+      "以糖渍姜片装饰。"
+    ],
+    "tool": "古典杯 · 摇酒壶",
+    "english": {
+      "description": "Penicillin is a bright & citrusy cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Muddle the ginger in a shaker and add the ingredients except the Lagavulin whisky.",
+        "Shake with ice and fine-strain into a chilled rocks glass over fresh ice.",
+        "Gently float the Lagavulin whisky on top of the drink.",
+        "Garnish with slices of candied ginger before serving."
+      ],
+      "tool": "Rocks glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Penicillin",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Penicillin",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/penicillin/"
+    }
+  },
+  {
+    "id": "pisco-punch",
+    "name": "Pisco Punch",
+    "zh": "皮斯科潘趣",
+    "base": "皮斯科",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d8c187",
+    "glass": "coupe",
+    "description": "皮斯科潘趣，一款以皮斯科为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "皮斯科",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "菠萝汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "干白葡萄酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "丁香",
+        "amount": 3.0,
+        "unit": "颗"
+      }
+    ],
+    "steps": [
+      "轻压糖浆与丁香，加入除白葡萄酒外的材料。",
+      "加冰用力摇匀，双重过滤到大酒杯中。",
+      "倒入白葡萄酒，轻轻搅拌。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Pisco Punch is a fruity & mellow cocktail featuring pisco. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Gently crush the cloves with syrup, then add the other ingredients except the white wine.",
+        "Shake vigorously with ice and double-strain into a large goblet.",
+        "Add the dry white wine and stir gently to combine."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Pisco Punch",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Pisco Punch",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/pisco-punch/"
+    }
+  },
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "zh": "皮斯科酸",
+    "base": "皮斯科",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#dcd7ac",
+    "glass": "coupe",
+    "description": "皮斯科酸，一款以皮斯科为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "皮斯科",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蛋清",
+        "amount": 1.0,
+        "unit": "个"
+      }
+    ],
+    "steps": [
+      "将皮斯科、柠檬汁、糖浆和蛋清放入摇酒壶，加冰摇匀。",
+      "滤入冰镇的高脚酒杯。",
+      "在表面滴少许阿玛格苦精增香。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Pisco Sour is a bright & citrusy cocktail featuring pisco. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake pisco, lemon juice, syrup and egg white with ice in a cocktail shaker.",
+        "Strain the mixture into a chilled goblet glass.",
+        "Add a few dashes of Amargo bitters on top as an aromatic garnish."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Pisco Sour",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Pisco Sour",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/pisco-sour/"
+    }
+  },
+  {
+    "id": "planters-punch",
+    "name": "Planters Punch",
+    "zh": "种植园主潘趣",
+    "base": "朗姆酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#cf9c65",
+    "glass": "rocks",
+    "description": "种植园主潘趣，一款以朗姆酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "牙买加朗姆酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甘蔗汁",
+        "amount": 30.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将牙买加朗姆酒、青柠汁和甘蔗汁倒入小酒杯或陶杯。",
+      "按口味用冰、水或果汁调节稀释度。",
+      "以橙皮装饰。"
+    ],
+    "tool": "古典杯 · 吧匙",
+    "english": {
+      "description": "Planters Punch is a fruity & mellow cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Pour Jamaican rum, lime juice and sugar cane juice into a small tumbler or terracotta cup.",
+        "Adjust the dilution to taste with ice, water or fresh juice.",
+        "Garnish with orange zest before serving."
+      ],
+      "tool": "Rocks glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Planters Punch",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Planters Punch",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/planters-punch/"
+    }
+  },
+  {
+    "id": "porn-star-martini",
+    "name": "Porn Star Martini",
+    "zh": "激情之星马天尼",
+    "base": "伏特加",
+    "flavor": "果香甜润",
+    "difficulty": "进阶",
+    "minutes": 7,
+    "color": "#dfbd6a",
+    "glass": "coupe",
+    "description": "激情之星马天尼，一款以伏特加为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "香草伏特加",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "百香果利口酒",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "百香果果泥",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "香草糖",
+        "amount": 2.0,
+        "unit": "吧匙"
+      },
+      {
+        "name": "香槟",
+        "amount": 50.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "除香槟外，将材料加冰摇匀。",
+      "双重过滤到冰镇的大鸡尾酒杯。",
+      "香槟另盛小杯，搭配饮用，不倒进摇酒壶。",
+      "以百香果及糖装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Porn Star Martini is a fruity & mellow cocktail featuring vodka. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake all ingredients except the champagne with ice.",
+        "Double-strain into a large chilled cocktail glass.",
+        "Serve the champagne separately in a small glass alongside the cocktail.",
+        "Garnish with passion fruit and sugar before serving."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Porn Star Martini",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Porn Star Martini",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/porn-star-martini/"
+    }
+  },
+  {
+    "id": "porto-flip",
+    "name": "Porto Flip",
+    "zh": "波特翻转",
+    "base": "白兰地",
+    "flavor": "奶油柔滑",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#b18f84",
+    "glass": "coupe",
+    "description": "波特翻转，一款以白兰地为主角、呈现奶油柔滑风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "白兰地",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "红棕波特酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蛋黄",
+        "amount": 10.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "表面撒少许现磨肉豆蔻。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Porto Flip is a creamy & smooth cocktail featuring brandy. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Finish with a little freshly grated nutmeg."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Porto Flip",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Porto Flip",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/porto-flip/"
+    }
+  },
+  {
+    "id": "rabo-de-galo",
+    "name": "Rabo de Galo",
+    "zh": "公鸡尾",
+    "base": "卡莎萨",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#ad6f44",
+    "glass": "rocks",
+    "description": "公鸡尾，一款以卡莎萨为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "卡莎萨",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "西纳尔",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": 2.0,
+        "unit": "滴",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "在酒杯中放入冰块，加入所列材料。",
+      "轻轻搅拌，让材料充分混合。",
+      "以橙皮装饰。"
+    ],
+    "tool": "古典杯 · 吧匙",
+    "english": {
+      "description": "Rabo de Galo is a bold & bittersweet cocktail featuring cachaça. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Fill the serving glass with ice, then add the listed ingredients.",
+        "Stir gently to combine the ingredients without losing their texture.",
+        "Garnish with an orange twist before serving."
+      ],
+      "tool": "Rocks glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Rabo de Galo",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Rabo de Galo",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/rabo-de-galo/"
+    }
+  },
+  {
+    "id": "ramos-fizz",
+    "name": "Ramos Fizz",
+    "zh": "拉莫斯菲士",
+    "base": "金酒",
+    "flavor": "奶油柔滑",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#e0ddc4",
+    "glass": "highball",
+    "description": "拉莫斯菲士，一款以金酒为主角、呈现奶油柔滑风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "奶油",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蛋清",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "橙花水",
+        "amount": 3.0,
+        "unit": "dash"
+      },
+      {
+        "name": "香草精",
+        "amount": 2.0,
+        "unit": "滴"
+      },
+      {
+        "name": "苏打水",
+        "amount": null,
+        "unit": "补满"
+      }
+    ],
+    "steps": [
+      "除苏打水外，将材料加冰摇和两分钟。",
+      "双重过滤后倒回摇酒壶，不加冰，再用力摇和一分钟。",
+      "滤入高球杯，以苏打水补满。"
+    ],
+    "tool": "高球杯 · 摇酒壶",
+    "english": {
+      "description": "Ramos Fizz is a creamy & smooth cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake all ingredients except soda water with ice for two minutes.",
+        "Double-strain back into the shaker and shake hard without ice for another minute.",
+        "Strain into a highball glass and top up with soda water."
+      ],
+      "tool": "Highball glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Ramos Fizz",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Ramos Fizz",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/ramos-fizz/"
+    }
+  },
+  {
+    "id": "remember-the-maine",
+    "name": "Remember the Maine",
+    "zh": "缅因号记忆",
+    "base": "威士忌",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#a86e48",
+    "glass": "coupe",
+    "description": "缅因号记忆，一款以威士忌为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "黑麦威士忌",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "樱桃白兰地",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "苦艾酒",
+        "amount": 7.5,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "用苦艾酒润洗碟形杯，倒掉多余酒液。",
+      "将其余材料与冰块搅拌至冰镇，滤入处理好的酒杯。",
+      "以柠檬皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Remember the Maine is a bold & bittersweet cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Coat a coupe glass with absinthe and discard the excess.",
+        "Stir the remaining ingredients with ice until chilled, then strain into the rinsed glass.",
+        "Garnish with lemon zest before serving."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Remember the Maine",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Remember the Maine",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/remember-the-maine/"
+    }
+  },
+  {
+    "id": "russian-spring-punch",
+    "name": "Russian Spring Punch",
+    "zh": "俄罗斯春日潘趣",
+    "base": "伏特加",
+    "flavor": "清爽气泡",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#b38b9b",
+    "glass": "highball",
+    "description": "俄罗斯春日潘趣，一款以伏特加为主角、呈现清爽气泡风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "伏特加",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "黑醋栗利口酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "起泡葡萄酒",
+        "amount": null,
+        "unit": "补满"
+      }
+    ],
+    "steps": [
+      "除起泡酒外，将材料加冰摇匀。",
+      "滤入装有冰块的冰镇高杯，以起泡酒补满。",
+      "以黑莓装饰，可另加柠檬片。"
+    ],
+    "tool": "高球杯 · 摇酒壶",
+    "english": {
+      "description": "Russian Spring Punch is a fresh & fizzy cocktail featuring vodka. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake all ingredients except the sparkling wine with ice.",
+        "Strain into a chilled tall glass over ice and top up with sparkling wine.",
+        "Garnish with blackberries and an optional lemon slice."
+      ],
+      "tool": "Highball glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Russian Spring Punch",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Russian Spring Punch",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/russian-spring-punch/"
+    }
+  },
+  {
+    "id": "sherry-cobbler",
+    "name": "Sherry Cobbler",
+    "zh": "雪莉考布勒",
+    "base": "葡萄酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#bd9964",
+    "glass": "highball",
+    "description": "雪莉考布勒，一款以葡萄酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "阿蒙提亚多雪莉酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "帕罗科塔多雪莉酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖粉",
+        "amount": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "橙子",
+        "amount": 0.5,
+        "unit": "片"
+      },
+      {
+        "name": "柠檬",
+        "amount": 0.5,
+        "unit": "片"
+      }
+    ],
+    "steps": [
+      "将雪莉酒、糖及柠檬、橙子切片放入加冰的摇酒壶。",
+      "快速摇匀，滤入装满碎冰的朱莉普杯。",
+      "以浆果和柑橘切片装饰，搭配吸管。"
+    ],
+    "tool": "高球杯 · 摇酒壶",
+    "english": {
+      "description": "Sherry Cobbler is a fruity & mellow cocktail featuring wine. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Add the sherries, sugar and sliced orange and lemon to a shaker with ice.",
+        "Shake briskly and strain into a julep cup filled with crushed ice.",
+        "Garnish with fresh berries and citrus slices. Serve with a straw."
+      ],
+      "tool": "Highball glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Sherry Cobbler",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Sherry Cobbler",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/sherry-cobbler/"
+    }
+  },
+  {
+    "id": "south-side",
+    "name": "South Side",
+    "zh": "南区",
+    "base": "金酒",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#ced6a9",
+    "glass": "coupe",
+    "description": "南区，一款以金酒为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": 60.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "薄荷",
+        "amount": 5,
+        "unit": "片",
+        "amountMax": 6
+      },
+      {
+        "name": "蛋清",
+        "amount": null,
+        "unit": "几滴",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "将全部材料加入摇酒壶，加冰摇匀；加入可选蛋清时需充分摇和。",
+      "双重过滤到冰镇鸡尾酒杯。",
+      "以薄荷枝装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "South Side is a herbal & crisp cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the ingredients with ice, shaking vigorously if using the optional egg white.",
+        "Double-strain into a chilled cocktail glass.",
+        "Garnish with a mint sprig before serving."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "South Side",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "South Side",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/south-side/"
+    }
+  },
+  {
+    "id": "spicy-fifty",
+    "name": "Spicy Fifty",
+    "zh": "香辣五十",
+    "base": "伏特加",
+    "flavor": "辛香咸鲜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d8bd87",
+    "glass": "coupe",
+    "description": "香辣五十，一款以伏特加为主角、呈现辛香咸鲜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "香草伏特加",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "接骨木花浓缩糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜糖浆",
+        "amount": 10.0,
+        "unit": "ml"
+      },
+      {
+        "name": "红辣椒",
+        "amount": 2,
+        "unit": "片"
+      }
+    ],
+    "steps": [
+      "将材料与红辣椒片一起放入摇酒壶，加冰摇匀。",
+      "双重过滤到冰镇鸡尾酒杯。",
+      "以红辣椒装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Spicy Fifty is a spicy & savory cocktail featuring vodka. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the ingredients, including the chili slices, with ice.",
+        "Double-strain into a chilled cocktail glass.",
+        "Garnish with a red chili pepper before serving."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Spicy Fifty",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Spicy Fifty",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/spicy-fifty/"
+    }
+  },
+  {
+    "id": "suffering-bastard",
+    "name": "Suffering Bastard",
+    "zh": "受苦之人",
+    "base": "混合基酒",
+    "flavor": "清爽气泡",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#cba96e",
+    "glass": "highball",
+    "description": "受苦之人，一款以混合基酒为主角、呈现清爽气泡风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "白兰地",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "金酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      },
+      {
+        "name": "姜汁啤酒",
+        "amount": null,
+        "unit": "补满"
+      }
+    ],
+    "steps": [
+      "除姜汁啤酒外，将材料加冰摇匀。",
+      "连冰倒入柯林斯杯或陶杯，以姜汁啤酒补满。",
+      "以薄荷枝装饰，可加橙片。"
+    ],
+    "tool": "高球杯 · 摇酒壶",
+    "english": {
+      "description": "Suffering Bastard is a fresh & fizzy cocktail featuring mixed spirits. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake all ingredients except ginger beer with ice.",
+        "Pour unstrained into a Collins glass or mug and top up with ginger beer.",
+        "Garnish with a mint sprig and an optional orange slice."
+      ],
+      "tool": "Highball glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Suffering Bastard",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Suffering Bastard",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/suffering-bastard/"
+    }
+  },
+  {
+    "id": "three-dots-and-a-dash",
+    "name": "Three Dots and a Dash",
+    "zh": "三点一划",
+    "base": "朗姆酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c69454",
+    "glass": "highball",
+    "description": "三点一划，一款以朗姆酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "马提尼克农业朗姆酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "陈年朗姆酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "法勒南糖酒",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "多香果利口酒",
+        "amount": 7.5,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "橙汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜糖浆",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将全部材料与约十二盎司碎冰放入搅拌机。",
+      "短暂搅打，倒入带脚高杯，再补入碎冰。",
+      "以三颗樱桃和一块长方形菠萝装饰。"
+    ],
+    "tool": "高球杯 · 搅拌机",
+    "english": {
+      "description": "Three Dots and a Dash is a fruity & mellow cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Add the ingredients to a blender with about twelve ounces of crushed ice.",
+        "Flash blend, pour into a footed copo glass and finish with more crushed ice.",
+        "Garnish with three cherries and a rectangular piece of pineapple."
+      ],
+      "tool": "Highball glass · Blender"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Three Dots and a Dash",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Three Dots and a Dash",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/"
+    }
+  },
+  {
+    "id": "tipperary",
+    "name": "Tipperary",
+    "zh": "蒂珀雷里",
+    "base": "威士忌",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#ba9564",
+    "glass": "coupe",
+    "description": "蒂珀雷里，一款以威士忌为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "爱尔兰威士忌",
+        "amount": 50.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "绿查特酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以橙片装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Tipperary is a herbal & crisp cocktail featuring whiskey. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with an orange slice before serving."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Tipperary",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Tipperary",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/tipperary/"
+    }
+  },
+  {
+    "id": "trinidad-sour",
+    "name": "Trinidad Sour",
+    "zh": "特立尼达酸",
+    "base": "苦精",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#a65b40",
+    "glass": "coupe",
+    "description": "特立尼达酸，一款以苦精为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "安格仕苦精",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "杏仁糖浆",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "黑麦威士忌",
+        "amount": 15.0,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入预先冰镇的鸡尾酒杯。"
+    ],
+    "tool": "鸡尾酒杯 · 摇酒壶",
+    "english": {
+      "description": "Trinidad Sour is a bold & bittersweet cocktail featuring bitters. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain the mixture into a chilled cocktail glass."
+      ],
+      "tool": "Cocktail glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Trinidad Sour",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Trinidad Sour",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/trinidad-sour/"
+    }
+  },
+  {
+    "id": "tuxedo",
+    "name": "Tuxedo",
+    "zh": "燕尾服",
+    "base": "金酒",
+    "flavor": "草本清冽",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d6d5ad",
+    "glass": "coupe",
+    "description": "燕尾服，一款以金酒为主角、呈现草本清冽风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "老汤姆金酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "干味美思",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "马拉斯奇诺利口酒",
+        "amount": 0.5,
+        "unit": "吧匙"
+      },
+      {
+        "name": "苦艾酒",
+        "amount": 0.25,
+        "unit": "吧匙"
+      },
+      {
+        "name": "橙味苦精",
+        "amount": 3.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以樱桃和柠檬皮装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Tuxedo is a herbal & crisp cocktail featuring gin. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with a cherry and lemon zest before serving."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Tuxedo",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Tuxedo",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/tuxedo/"
+    }
+  },
+  {
+    "id": "ve-n-to",
+    "name": "Ve.N.To",
+    "zh": "威尼托",
+    "base": "格拉帕",
+    "flavor": "清新酸甜",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#d9cf9b",
+    "glass": "rocks",
+    "description": "威尼托，一款以格拉帕为主角、呈现清新酸甜风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "白格拉帕",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": 22.5,
+        "unit": "ml"
+      },
+      {
+        "name": "蜂蜜水混合液",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "洋甘菊浓缩液",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "蛋清",
+        "amount": null,
+        "unit": "几滴",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "将所列液体材料放入加冰的摇酒壶，充分摇匀。",
+      "滤入装有新冰块的冰镇小酒杯。",
+      "以柠檬皮和白葡萄装饰。"
+    ],
+    "tool": "古典杯 · 摇酒壶",
+    "english": {
+      "description": "Ve.N.To is a bright & citrusy cocktail featuring grappa. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Shake the listed liquid ingredients with ice to combine and chill.",
+        "Strain into a chilled small tumbler filled with fresh ice.",
+        "Garnish with lemon zest and white grapes before serving."
+      ],
+      "tool": "Rocks glass · Cocktail shaker"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Ve.N.To",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Ve.N.To",
+      "category": "新时代饮品",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/ve-n-to/"
+    },
+    "notes": {
+      "zh": [
+        "蜂蜜混合液中的水可按原文说明改用洋甘菊浸泡液。"
+      ],
+      "en": [
+        "The source allows chamomile infusion in place of water in the honey mix."
+      ]
+    }
+  },
+  {
+    "id": "vieux-carre",
+    "name": "Vieux Carré",
+    "zh": "老广场",
+    "base": "混合基酒",
+    "flavor": "苦甜浓郁",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#b67547",
+    "glass": "coupe",
+    "description": "老广场，一款以混合基酒为主角、呈现苦甜浓郁风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "黑麦威士忌",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "干邑白兰地",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "廊酒",
+        "amount": 1.0,
+        "unit": "吧匙"
+      },
+      {
+        "name": "佩肖苦精",
+        "amount": 2.0,
+        "unit": "dash"
+      }
+    ],
+    "steps": [
+      "将材料与冰块放入搅拌杯，搅拌至冰镇。",
+      "滤入预先冰镇的鸡尾酒杯。",
+      "以橙皮和马拉斯奇诺樱桃装饰。"
+    ],
+    "tool": "鸡尾酒杯 · 吧匙",
+    "english": {
+      "description": "Vieux Carré is a bold & bittersweet cocktail featuring mixed spirits. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Combine the ingredients with ice in a mixing glass and stir until chilled.",
+        "Strain the mixture into a chilled cocktail glass.",
+        "Garnish with orange zest and a maraschino cherry."
+      ],
+      "tool": "Cocktail glass · Bar spoon"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Vieux Carré",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Vieux Carré",
+      "category": "经典传世",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/vieux-carre/"
+    }
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "zh": "僵尸",
+    "base": "朗姆酒",
+    "flavor": "果香甜润",
+    "difficulty": "简单",
+    "minutes": 5,
+    "color": "#c58e4e",
+    "glass": "highball",
+    "description": "僵尸，一款以朗姆酒为主角、呈现果香甜润风味的调酒。按所列用量准备材料，再跟着步骤完成。",
+    "ingredients": [
+      {
+        "name": "牙买加深色朗姆酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "波多黎各金朗姆酒",
+        "amount": 45.0,
+        "unit": "ml"
+      },
+      {
+        "name": "德梅拉拉朗姆酒",
+        "amount": 30.0,
+        "unit": "ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "法勒南糖酒",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "唐氏混合汁",
+        "amount": 15.0,
+        "unit": "ml"
+      },
+      {
+        "name": "红石榴糖浆",
+        "amount": 1.0,
+        "unit": "茶匙"
+      },
+      {
+        "name": "安格仕苦精",
+        "amount": 1.0,
+        "unit": "dash"
+      },
+      {
+        "name": "潘诺茴香酒",
+        "amount": 6.0,
+        "unit": "滴"
+      }
+    ],
+    "steps": [
+      "将全部材料和一百七十克碎冰放入搅拌机。",
+      "使用脉冲模式短暂搅打，倒入高杯。",
+      "以薄荷叶装饰。"
+    ],
+    "tool": "高球杯 · 搅拌机",
+    "english": {
+      "description": "Zombie is a fruity & mellow cocktail featuring rum. Measure the listed ingredients and follow the method to mix your own.",
+      "steps": [
+        "Add all ingredients to an electric blender with 170 grams of cracked ice.",
+        "Pulse-blend briefly and pour into a tall tumbler glass.",
+        "Garnish with fresh mint leaves before serving."
+      ],
+      "tool": "Highball glass · Blender"
+    },
+    "source": {
+      "name": "IBA snapshot · matt-parish/iba-cocktails",
+      "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+      "originalName": "Zombie",
+      "version": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    "iba": {
+      "name": "Zombie",
+      "category": "当代经典",
+      "snapshot": "2025-09-20",
+      "url": "https://iba-world.com/iba-cocktail/zombie/"
+    },
+    "notes": {
+      "zh": [
+        "唐氏混合汁：新鲜黄色西柚汁与肉桂糖浆按 2:1 混合。"
+      ],
+      "en": [
+        "Donn’s mix uses two parts fresh yellow grapefruit juice to one part cinnamon syrup."
+      ]
     }
   }
 ]

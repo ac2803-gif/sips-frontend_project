@@ -3,16 +3,16 @@ import { cocktails } from './data';
 import { drawCocktail, pourGeometry, recipeGarnish, flowForTilt, rightDragTilt, autoPourGeometry } from './mix-utils';
 
 describe('random cocktail selection', () => {
- it('visits all 50 recipes before repeating, then avoids an immediate repeat', () => {
+ it('visits the entire current catalog before repeating, then avoids an immediate repeat', () => {
   const ids = cocktails.map(c => c.id);
   let current = ids[0];
   let remaining: string[] = [];
   const seen = [current];
-  for (let i=1;i<50;i++) {
+  for (let i=1;i<ids.length;i++) {
    const result = drawCocktail(ids,current,remaining,()=>.37);
    current=result.id!; remaining=result.remaining; seen.push(current);
   }
-  expect(new Set(seen).size).toBe(50);
+  expect(new Set(seen).size).toBe(ids.length);
   expect(remaining).toHaveLength(0);
   expect(drawCocktail(ids,current,remaining,()=>.37).id).not.toBe(current);
  });

@@ -1,0 +1,797 @@
+{
+  "edition": "2024 list, captured 2025-09-20; not verified against the live 2026 website",
+  "sourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2",
+  "sourceUrl": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json",
+  "snapshotSha256": "e482bbd126e8ca2a85807b20384dac3fc74a697829a3cde184a801e278097e06",
+  "crossCheck": {
+    "repository": "kolaente/iba-cocktails-list",
+    "commit": "92cbe7f40d0fee14b37ca7a3e938c8ce070242a2",
+    "date": "2025-08-16"
+  },
+  "count": 102,
+  "added": 57,
+  "historicalIds": [
+    "screwdriver",
+    "yellow-bird",
+    "golden-dream",
+    "god-mother",
+    "god-father"
+  ],
+  "preservedIds": [
+    "negroni",
+    "margarita",
+    "mojito",
+    "whiskey-sour",
+    "daiquiri",
+    "espresso-martini",
+    "dry-martini",
+    "old-fashioned",
+    "manhattan",
+    "tommy-s-margarita",
+    "caipirinha",
+    "sazerac",
+    "singapore-sling",
+    "vesper",
+    "sea-breeze",
+    "long-island-iced-tea",
+    "clover-club",
+    "angel-face",
+    "mimosa",
+    "screwdriver",
+    "cuba-libre",
+    "gin-fizz",
+    "french-75",
+    "yellow-bird",
+    "pina-colada",
+    "aviation",
+    "bellini",
+    "grasshopper",
+    "tequila-sunrise",
+    "rusty-nail",
+    "stinger",
+    "golden-dream",
+    "god-mother",
+    "spritz-veneziano",
+    "bramble",
+    "alexander",
+    "lemon-drop-martini",
+    "french-martini",
+    "black-russian",
+    "sex-on-the-beach",
+    "sidecar",
+    "french-connection",
+    "moscow-mule",
+    "john-collins",
+    "kir",
+    "mary-pickford",
+    "hemingway-special",
+    "dark-n-stormy",
+    "god-father",
+    "white-lady"
+  ],
+  "entries": [
+    {
+      "id": "negroni",
+      "officialName": "Negroni",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/negroni/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "margarita",
+      "officialName": "Margarita",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/margarita/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "mojito",
+      "officialName": "Mojito",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/mojito/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "whiskey-sour",
+      "officialName": "Whiskey Sour",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "daiquiri",
+      "officialName": "Daiquiri",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/daiquiri/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "espresso-martini",
+      "officialName": "Espresso Martini",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/espresso-martini/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "dry-martini",
+      "officialName": "Dry Martini",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/dry-martini/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "old-fashioned",
+      "officialName": "Old Fashioned",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/old-fashioned/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "manhattan",
+      "officialName": "Manhattan",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/manhattan/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "tommy-s-margarita",
+      "officialName": "Tommy's Margarita",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "caipirinha",
+      "officialName": "Caipirinha",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/caipirinha/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "sazerac",
+      "officialName": "Sazerac",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/sazerac/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "singapore-sling",
+      "officialName": "Singapore Sling",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/singapore-sling/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "vesper",
+      "officialName": "Vesper",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/vesper/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "sea-breeze",
+      "officialName": "Sea Breeze",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/sea-breeze/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "long-island-iced-tea",
+      "officialName": "Long Island Iced Tea",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "clover-club",
+      "officialName": "Clover Club",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/clover-club/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "angel-face",
+      "officialName": "Angel Face",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/angel-face/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "mimosa",
+      "officialName": "Mimosa",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/mimosa/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "cuba-libre",
+      "officialName": "Cuba Libre",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/cuba-libre/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "gin-fizz",
+      "officialName": "Gin Fizz",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/gin-fizz/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "french-75",
+      "officialName": "French 75",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/french-75/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "pina-colada",
+      "officialName": "Pina Colada",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/pina-colada/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "aviation",
+      "officialName": "Aviation",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/aviation/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "bellini",
+      "officialName": "Bellini",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/bellini/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "grasshopper",
+      "officialName": "Grasshopper",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/grasshopper/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "tequila-sunrise",
+      "officialName": "Tequila Sunrise",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "rusty-nail",
+      "officialName": "Rusty Nail",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/rusty-nail/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "stinger",
+      "officialName": "Stinger",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/stinger/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "spritz-veneziano",
+      "officialName": "Spritz",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/spritz/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "bramble",
+      "officialName": "Bramble",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/bramble/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "alexander",
+      "officialName": "Alexander",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/alexander/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "lemon-drop-martini",
+      "officialName": "Lemon Drop Martini",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "french-martini",
+      "officialName": "French Martini",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/french-martini/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "black-russian",
+      "officialName": "Black Russian",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/black-russian/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "sex-on-the-beach",
+      "officialName": "Sex on the Beach",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "sidecar",
+      "officialName": "Sidecar",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/sidecar/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "french-connection",
+      "officialName": "French Connection",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/french-connection/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "moscow-mule",
+      "officialName": "Moscow Mule",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/moscow-mule/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "john-collins",
+      "officialName": "John Collins",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/john-collins/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "kir",
+      "officialName": "Kir",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/kir/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "mary-pickford",
+      "officialName": "Mary Pickford",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/mary-pickford/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "hemingway-special",
+      "officialName": "Hemingway Special",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/hemingway-special/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "dark-n-stormy",
+      "officialName": "Dark ‘N’ Stormy",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "white-lady",
+      "officialName": "White Lady",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/white-lady/",
+      "recipeSourceCommit": "5f1e5dd4a2189adc3854a51d7b48640bd86e9f76"
+    },
+    {
+      "id": "americano",
+      "officialName": "Americano",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/americano/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "bees-knees",
+      "officialName": "Bee’s Knees",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/bees-knees/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "between-the-sheets",
+      "officialName": "Between the Sheets",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "bloody-mary",
+      "officialName": "Bloody Mary",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/bloody-mary/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "boulevardier",
+      "officialName": "Boulevardier",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/boulevardier/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "brandy-crusta",
+      "officialName": "Brandy Crusta",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "canchanchara",
+      "officialName": "Canchanchara",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/canchanchara/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "cardinale",
+      "officialName": "Cardinale",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/cardinale/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "casino",
+      "officialName": "Casino",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/casino/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "champagne-cocktail",
+      "officialName": "Champagne Cocktail",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "chartreuse-swizzle",
+      "officialName": "Chartreuse Swizzle",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "corpse-reviver-2",
+      "officialName": "Corpse Reviver #2",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "cosmopolitan",
+      "officialName": "Cosmopolitan",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "don-s-special-daiquiri",
+      "officialName": "Don's Special Daiquiri",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "fernandito",
+      "officialName": "Fernandito",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/fernandito/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "garibaldi",
+      "officialName": "Garibaldi",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/garibaldi/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "gin-basil-smash",
+      "officialName": "Gin Basil Smash",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "grand-margarita",
+      "officialName": "Grand Margarita",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/grand-margarita/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "hanky-panky",
+      "officialName": "Hanky Panky",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/hanky-panky/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "horses-neck",
+      "officialName": "Horse’s Neck",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/horses-neck/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "iba-tiki",
+      "officialName": "IBA Tiki",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/iba-tiki/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "illegal",
+      "officialName": "Illegal",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/illegal/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "irish-coffee",
+      "officialName": "Irish Coffee",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/irish-coffee/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "jungle-bird",
+      "officialName": "Jungle Bird",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/jungle-bird/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "last-word",
+      "officialName": "Last Word",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/last-word/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "mai-tai",
+      "officialName": "Mai-Tai",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/mai-tai/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "martinez",
+      "officialName": "Martinez",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/martinez/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "mint-julep",
+      "officialName": "Mint Julep",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/mint-julep/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "missionary-s-downfall",
+      "officialName": "Missionary's Downfall",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "monkey-gland",
+      "officialName": "Monkey Gland",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/monkey-gland/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "naked-and-famous",
+      "officialName": "Naked and Famous",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "new-york-sour",
+      "officialName": "New York Sour",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/new-york-sour/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "old-cuban",
+      "officialName": "Old Cuban",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/old-cuban/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "paloma",
+      "officialName": "Paloma",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/paloma/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "paper-plane",
+      "officialName": "Paper Plane",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/paper-plane/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "paradise",
+      "officialName": "Paradise",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/paradise/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "penicillin",
+      "officialName": "Penicillin",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/penicillin/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "pisco-punch",
+      "officialName": "Pisco Punch",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/pisco-punch/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "pisco-sour",
+      "officialName": "Pisco Sour",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/pisco-sour/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "planters-punch",
+      "officialName": "Planters Punch",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/planters-punch/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "porn-star-martini",
+      "officialName": "Porn Star Martini",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "porto-flip",
+      "officialName": "Porto Flip",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/porto-flip/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "rabo-de-galo",
+      "officialName": "Rabo de Galo",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "ramos-fizz",
+      "officialName": "Ramos Fizz",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "remember-the-maine",
+      "officialName": "Remember the Maine",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "russian-spring-punch",
+      "officialName": "Russian Spring Punch",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "sherry-cobbler",
+      "officialName": "Sherry Cobbler",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "south-side",
+      "officialName": "South Side",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/south-side/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "spicy-fifty",
+      "officialName": "Spicy Fifty",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "suffering-bastard",
+      "officialName": "Suffering Bastard",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "three-dots-and-a-dash",
+      "officialName": "Three Dots and a Dash",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "tipperary",
+      "officialName": "Tipperary",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/tipperary/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "trinidad-sour",
+      "officialName": "Trinidad Sour",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "tuxedo",
+      "officialName": "Tuxedo",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/tuxedo/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "ve-n-to",
+      "officialName": "Ve.N.To",
+      "category": "新时代饮品",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/ve-n-to/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "vieux-carre",
+      "officialName": "Vieux Carré",
+      "category": "经典传世",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/vieux-carre/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    },
+    {
+      "id": "zombie",
+      "officialName": "Zombie",
+      "category": "当代经典",
+      "referenceUrl": "https://iba-world.com/iba-cocktail/zombie/",
+      "recipeSourceCommit": "cb781316c6a9579648ba54360917b8a35ea975b2"
+    }
+  ],
+  "normalizations": [
+    "Existing recipe variants and IDs are preserved; official-list membership does not assert latest recipe measures.",
+    "Spritz Veneziano is matched to the Spritz list entry without creating a duplicate.",
+    "Three Dots and a Dash merged Allspice Saint Elizabeth15 ml Fresh Lime Juice row is separated losslessly into 7.5 ml allspice and 15 ml lime juice.",
+    "Combined Bloody Mary seasonings are split into three unmeasured, to-taste ingredients.",
+    "IBA Tiki 90 pineapple juice and 30 lime juice have no source unit; shown explicitly as unspecified.",
+    "Source ranges (6/8 mint leaves, 2-3 ginger slices) are preserved as ranges.",
+    "No source photographs are used."
+  ]
+}

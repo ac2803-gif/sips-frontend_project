@@ -1,8 +1,10 @@
-import { cocktails } from './data';
+import { allCocktails } from './data';
+import catalogTranslations from './catalog-translations.json';
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 
 export type Language = 'zh' | 'en';
 export const translations: Record<string, string> = {
+ ...catalogTranslations,
 "向右拖动酒瓶倾倒":"Drag the bottle right to pour",
 "按住酒瓶向右拖动，松手自动回正":"Drag the bottle right. Release to set it upright.",
 
@@ -161,4 +163,4 @@ export function LanguageProvider({children}:{children:ReactNode}) {
  return <I18nContext.Provider value={{language,setLanguage,t:(text)=>translate(text,language)}}>{children}</I18nContext.Provider>;
 }
 export const useI18n=()=>useContext(I18nContext);
-export const recipeEnglish = Object.fromEntries(cocktails.map(c => [c.id, c.english]));
+export const recipeEnglish = Object.fromEntries(allCocktails.map(c => [c.id, c.english]));

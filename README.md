@@ -33,9 +33,10 @@ In the managed cloud workspace, use `npm ci --cache /tmp/sips-npm-cache` when th
 
 - Desktop: random selection automatically pours and reveals the drink, the bottle fades away, and the recipe link remains available. Subtle mouse-follow movement is retained; page scrolling does not control the pour.
 - Phone / touch layouts: drag the bottle to the right to tip it. Leftward swipes do not pour. A larger tilt pours faster; release returns it upright and preserves the liquid already poured. Vertical swipes remain normal page scrolling. The bottle also supports holding Space or Enter on the keyboard.
-- Random recipes drawn without replacement; choose all 50 cocktails or only recipes available in your bar. Glass shape, color, garnish and recipe link follow the selected drink.
+- Random recipes drawn without replacement; choose all 102 cocktails or only recipes available in your bar. Glass shape, color, garnish and recipe link follow the selected drink.
 - Reduced-motion mode uses static poses instead of continuous liquid animation. Mobile pours stop when the page is hidden or a gesture is cancelled. Desktop and phone controllers are chosen using viewport width and pointer capabilities.
-- Fifty classic cocktails searchable by name and ingredient, with spirit and flavor filters.
+- 102 cocktails covering the IBA list snapshot, searchable by name and ingredient, with spirit and flavor filters.
+- Editor’s pick badges for a fixed set of 20 popular classics; badges remain attached to the recipe when searching, filtering or viewing favorites.
 - Ingredient cabinet, recipe matching, missing-ingredient counts and shopping recommendations.
 - Recipe details, quantities for 1–8 servings and step-by-step mixing guidance.
 - Chinese / English switch with a saved language preference.
@@ -48,11 +49,18 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The tests run desktop and touch-enabled iPhone-size Chromium projects. They check automatic desktop reveals, rightward touch-drag speed and release, rejection of leftward pouring, vertical scrolling, keyboard operation, random recipe linkage, reduced motion and mobile bounds. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
+The tests run desktop and touch-enabled iPhone-size Chromium projects. They check automatic desktop reveals, rightward touch-drag speed and release, rejection of leftward pouring, vertical scrolling, keyboard operation, random recipe linkage, reduced motion, mobile bounds, stable editor tags, historical favorites and quantity ranges. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
 
 ### Recipe sources
 
-The 50 recipes use the publicly accessible [teijo/iba-cocktails](https://github.com/teijo/iba-cocktails) compilation at commit `5f1e5dd4a2189adc3854a51d7b48640bd86e9f76`. This is a third-party IBA compilation, **not a verification against the current IBA website and not Difford’s Guide recipes**. Ingredient measures are converted from cl to ml (1 cl = 10 ml). Instructions are paraphrased and translated. Necessary ingredients mentioned in preparation are included; garnishes appear in the steps. Time estimates, flavor labels, colors and simplified glass artwork are editorial. Each recipe links to the pinned source, and `data/sources/iba-provenance.json` records the original ingredient facts used for verification.
+The current catalog covers **102 entries** (34 per category) in the IBA list captured on **September 20, 2025** by [matt-parish/iba-cocktails](https://github.com/matt-parish/iba-cocktails/tree/cb781316c6a9579648ba54360917b8a35ea975b2), cross-checked against an August 2025 snapshot from [kolaente/iba-cocktails-list](https://github.com/kolaente/iba-cocktails-list/tree/92cbe7f40d0fee14b37ca7a3e938c8ce070242a2). This is third-party snapshot coverage, **not a live verification of the 2026 official website or Difford’s Guide recipes**.
+
+- 57 recipes were added from the September snapshot. Existing measures and IDs for 45 overlapping recipes were preserved from [teijo/iba-cocktails](https://github.com/teijo/iba-cocktails/tree/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76), with cl converted to ml (1 cl = 10 ml). List membership does not imply that an older recipe variant has been updated to the latest measures. Spritz keeps its existing `spritz-veneziano` ID.
+- Five historical recipes outside the snapshot remain accessible in saved favorites: Screwdriver, Yellow Bird, Golden Dream, God Mother and God Father. They are excluded from the default collection and random draws. All original 50 IDs still resolve.
+- Source ranges and fractions are retained. Qualitative quantities remain unmeasured. IBA Tiki’s source omits the units for pineapple juice (90) and lime juice (30); the detail view explicitly shows that limitation rather than assuming ml. A merged allspice/lime row in Three Dots and a Dash is split without changing its measures.
+- Instructions are paraphrased and translated. Time, difficulty, flavor, color, simplified glass illustrations and editor’s picks are house editorial choices. Source photographs are not used.
+
+Each recipe links to its pinned source. `data/sources/iba-2025-snapshot.json` stores the relevant source facts; `iba-catalog-coverage.json` records membership, aliases, preserved IDs and normalization decisions; `iba-provenance.json` retains the original 50-recipe audit. The September source’s MIT notice is retained in `data/sources/licenses/iba-scraper-MIT.txt`.
 
 ### Project structure
 
@@ -65,7 +73,10 @@ The 50 recipes use the publicly accessible [teijo/iba-cocktails](https://github.
 | `src/mix-studio.css` | Studio layout and mobile touch targets |
 | `src/style.css` | Colors, typography and responsive layouts |
 | `src/data.ts` | Types, matching and recommendations |
-| `src/cocktails.json` | 50 bilingual recipes, measures and pinned source links |
+| `src/cocktails.json` | 102 bilingual recipes, measures and pinned source links |
+| `src/historical-cocktails.json` | Five legacy recipes kept for saved favorites |
+| `src/editors-choice.ts` | Stable IDs for 20 editor’s picks |
+| `src/catalog-translations.json` | Additional ingredient, unit and category labels |
 | `src/i18n.tsx` | Language provider, UI translations and English recipe instructions |
 | `src/data.test.ts` | Matching and recommendation tests |
 | `src/i18n.test.ts` | Translation and recipe coverage tests |
@@ -110,9 +121,10 @@ npm run preview
 
 - 电脑端：抽酒后自动倒酒、酒瓶淡出，展示成杯和配方入口；保留轻微鼠标跟随，滚动页面不控制倒酒。
 - 手机及触屏端：仅向右拖动酒瓶，倾角越大流速越快；向左滑动不倒酒，松手停止并回正，已倒入的酒保留。上下滑动正常滚动页面；键盘可按住空格或回车倒酒。
-- 随机抽取真实配方，一轮内不重复；可选择全部 50 款或仅抽酒柜能调的酒，杯型、配色、装饰和配方入口同步变化。
+- 随机抽取真实配方，一轮内不重复；可选择全部 102 款或仅抽酒柜能调的酒，杯型、配色、装饰和配方入口同步变化。
 - “减少动态效果”模式使用静态姿态替代连续动画；手机切到后台或手势取消时停止倒酒。根据屏幕宽度及指针能力切换控制方式。
-- 50 款经典配方，按基酒、风味、名称和材料筛选。
+- 覆盖 IBA 名单快照的 102 款配方，按基酒、风味、名称和材料筛选。
+- 固定 20 款常见热门酒标记“编辑之选”，搜索、筛选和收藏时保持对应关系；它是本站精选，不是权威热度排名。
 - 酒柜材料管理、完整配方匹配、缺失材料数量与补货建议。
 - 配方详情、1–8 杯用量换算及分步教学。
 - 中英文切换与本地语言偏好保存。
@@ -125,11 +137,18 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证电脑自动成杯、手机仅右拖倒酒及松手停止、正常上下滚动、键盘操作、随机配方联动、减少动态效果和手机控件边界。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
+自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证电脑自动成杯、手机仅右拖倒酒及松手停止、正常上下滚动、键盘操作、随机配方联动、减少动态效果、手机控件边界、编辑标签、旧收藏及范围用量。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
 
 ### 配方来源
 
-50 款配方采用可访问的 [teijo/iba-cocktails](https://github.com/teijo/iba-cocktails) 公开整理数据，固定版本为 `5f1e5dd4a2189adc3854a51d7b48640bd86e9f76`。它是第三方整理的 IBA 配方，**未与当前 IBA 官网核验，也不是 Difford’s Guide 的配方版本**。按 1 cl = 10 ml 转换用量，制作步骤经过转述及翻译。原文做法中提及的必需材料已补入清单，装饰材料在步骤中说明。时间、风味分类、颜色与简化杯型为编辑信息。每款详情都提供固定版本来源链接，`data/sources/iba-provenance.json` 保存用于核对的原始材料事实。
+当前酒单覆盖 [matt-parish/iba-cocktails](https://github.com/matt-parish/iba-cocktails/tree/cb781316c6a9579648ba54360917b8a35ea975b2) 在 **2025 年 9 月 20 日**保存的 IBA 名单，**共 102 款、三个分类各 34 款**，并与 [kolaente/iba-cocktails-list](https://github.com/kolaente/iba-cocktails-list/tree/92cbe7f40d0fee14b37ca7a3e938c8ce070242a2) 的 2025 年 8 月快照交叉核对。这是第三方快照，**未实时核验 2026 年 IBA 官网，也不是 Difford’s Guide 的配方版本**。
+
+- 新增 57 款配方；45 款重合酒款保留原有用量和标识，原来源为 [teijo/iba-cocktails](https://github.com/teijo/iba-cocktails/tree/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76)，按 1 cl = 10 ml 换算。名单齐全不代表旧版配方的用量已全部更新为最新版本。Spritz 沿用 `spritz-veneziano` 标识。
+- 名单之外的五款历史配方（Screwdriver、Yellow Bird、Golden Dream、God Mother、God Father）仍可从已有收藏打开，不进入默认列表或随机抽选。原有 50 个标识均可继续使用。
+- 保留原文的范围、分数和定性用量。IBA Tiki 来源中的菠萝汁 90、青柠汁 30 未注明单位，详情明确标注，不推测成 ml。Three Dots and a Dash 原文连在一起的多香果利口酒与青柠汁条目已拆分，用量不变。
+- 步骤经过转述与翻译，时间、难度、风味、配色、简化杯型及编辑之选为本站编辑信息；未使用来源照片。
+
+每款详情均提供固定版本来源。`data/sources/iba-2025-snapshot.json` 保存相关原始事实，`iba-catalog-coverage.json` 记录名单、别名、保留标识与规范化说明，`iba-provenance.json` 保留原始 50 款数据核对记录。新增来源的 MIT 声明保存在 `data/sources/licenses/iba-scraper-MIT.txt`。
 
 ### 继续修改
 
@@ -142,7 +161,10 @@ npm run test:e2e
 | `src/mix-studio.css` | 工作台布局及手机触控区域 |
 | `src/style.css` | 颜色、排版、响应式样式 |
 | `src/data.ts` | 数据类型、材料匹配和补货推荐 |
-| `src/cocktails.json` | 50 款双语配方、用量与固定版本来源链接 |
+| `src/cocktails.json` | 102 款双语配方、用量与固定版本来源链接 |
+| `src/historical-cocktails.json` | 为旧收藏保留的五款历史配方 |
+| `src/editors-choice.ts` | 20 款编辑之选的固定标识 |
+| `src/catalog-translations.json` | 新增材料、单位和分类翻译 |
 | `src/i18n.tsx` | 语言状态、界面翻译及英文配方教学 |
 | `src/data.test.ts` | 核心匹配逻辑测试 |
 | `src/i18n.test.ts` | 翻译与配方完整性测试 |
