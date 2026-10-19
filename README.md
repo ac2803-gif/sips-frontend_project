@@ -15,6 +15,7 @@ The website defaults to **Chinese**, with an **EN / 中文** switch. Favorites, 
 - Random cocktail selection without repeats within a round.
 - Mouse-controlled bottle movement on desktop; drag right to pour on mobile.
 - Step-by-step recipes, quantities for 1–8 servings and saved favorites.
+- Missing-ingredient chips on hover / tap, plus bilingual origin and style notes with further reading.
 
 ### Get started
 
@@ -57,6 +58,7 @@ SIPS · 微醺手册是一个围绕家庭酒柜设计的鸡尾酒探索与调制
 - 随机推荐酒款，一轮内不重复。
 - 电脑端鼠标控制酒瓶，手机端向右拖动倾倒。
 - 分步教学、1–8 杯用量换算及本地收藏。
+- 悬停或点击查看缺失材料卡片；每款详情包含双语来历或风格背景及延伸阅读。
 
 ### 本地运行
 

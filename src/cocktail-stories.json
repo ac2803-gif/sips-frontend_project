@@ -1,0 +1,1291 @@
+{
+  "negroni": {
+    "kind": "disputed",
+    "zh": "最广为流传的说法把它带回 1919 年的佛罗伦萨：内格罗尼伯爵想要一杯更浓的美式鸡尾酒，于是调酒师用金酒替换了苏打水。伯爵身份与细节仍有争议，但这个“换一种材料，长出一款经典”的故事一直流传至今。",
+    "en": "The best-known account takes us to Florence in 1919, where Count Negroni supposedly asked for a stronger Americano and gin replaced the soda. The count's identity and the details remain debated, but the tale captures how one substitution can become a classic.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Negroni+cocktail"
+      }
+    ]
+  },
+  "margarita": {
+    "kind": "disputed",
+    "zh": "它的诞生有许多竞争版本，没有一位创作者得到一致认可。一个理解名字的线索是：Margarita 在西班牙语中意为雏菊，而 Daisy 也是早期酸甜鸡尾酒的一大家族；龙舌兰让这个家族有了鲜明的墨西哥表情。",
+    "en": "Several people have claimed the Margarita, and no single origin is universally accepted. Its name offers a clue: margarita means daisy in Spanish, while the Daisy was already a family of citrus cocktails. Tequila gives that older idea a distinctly Mexican character.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Margarita+cocktail"
+      }
+    ]
+  },
+  "mojito": {
+    "kind": "disputed",
+    "zh": "莫吉托与古巴哈瓦那的饮酒文化紧密相连。有人把它追溯到名为 El Draque 的早期饮品，但从甘蔗烈酒、青柠和薄荷到现代版本的演变，并没有一条毫无争议的时间线。",
+    "en": "The Mojito is closely tied to Havana's drinking culture. One popular account connects it to an earlier drink called El Draque, but the path from cane spirit, lime and mint to the modern recipe has no single undisputed timeline.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Mojito+cocktail"
+      }
+    ]
+  },
+  "whiskey-sour": {
+    "kind": "history",
+    "zh": "酸酒家族用烈酒、柑橘和甜味组成简单骨架。威士忌酸在杰里·托马斯 1862 年的调酒书中已有记载，因此它的经典地位远早于现代酒吧的复兴；蛋清则成为后来常见的口感选择。",
+    "en": "A sour is built on a simple framework of spirit, citrus and sweetness. Whiskey Sour was already documented in Jerry Thomas's 1862 bartending book, long before the modern cocktail revival. Egg white became a familiar way to add texture to the drink.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Whiskey+Sour+cocktail"
+      }
+    ]
+  },
+  "daiquiri": {
+    "kind": "disputed",
+    "zh": "名字来自古巴的戴基里地区，最常见的起源说法与美国工程师詹宁斯·考克斯有关。不过，朗姆酒、青柠与糖在当地本就容易相遇；它的魅力也在于把这三样日常材料调到恰到好处。",
+    "en": "Named for Daiquiri in Cuba, the drink is often linked to American engineer Jennings Cox. Yet rum, lime and sugar were already natural companions in the region. The cocktail's lasting appeal comes from bringing those everyday ingredients into balance.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Daiquiri+cocktail"
+      }
+    ]
+  },
+  "espresso-martini": {
+    "kind": "history",
+    "zh": "这杯酒通常归功于伦敦调酒师迪克·布拉德塞尔，最初也被称为 Vodka Espresso。流传的故事说，一位客人想要一杯能让自己精神起来的酒；新鲜浓缩咖啡与伏特加的相遇，后来成了现代经典。",
+    "en": "Usually credited to London bartender Dick Bradsell, this drink was also known as Vodka Espresso. The familiar story says a guest wanted a cocktail that would wake her up. Fresh espresso and vodka proved an enduring combination, becoming a modern classic.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Espresso+Martini+cocktail"
+      }
+    ]
+  },
+  "dry-martini": {
+    "kind": "disputed",
+    "zh": "干马天尼不是某一天突然诞生的固定配方，而是在十九世纪末到二十世纪的酒吧中逐渐变干的风格。它与马丁内斯等早期金酒、味美思饮品有亲缘关系，具体比例与装饰也一直随时代和饮用者变化。",
+    "en": "The Dry Martini evolved rather than appearing fully formed on one certain date. Related to earlier gin-and-vermouth drinks such as the Martinez, it grew drier through the late nineteenth and twentieth centuries. Its ratio and garnish have continued to change with fashion and preference.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Dry+Martini+cocktail"
+      }
+    ]
+  },
+  "old-fashioned": {
+    "kind": "history",
+    "zh": "“古典”这个名字来自人们对旧式调法的偏爱：烈酒、糖、苦精和水。随着十九世纪的鸡尾酒越来越花哨，一些客人开始要求按老办法来一杯，这个要求最终变成了酒名。",
+    "en": "Its name began as a preference: make the cocktail the old-fashioned way, with spirit, sugar, bitters and water. As nineteenth-century drinks became more elaborate, guests asked for that simpler formula. The request eventually became the name of the drink.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Old+Fashioned+cocktail"
+      }
+    ]
+  },
+  "manhattan": {
+    "kind": "disputed",
+    "zh": "曼哈顿在十九世纪末已与纽约酒吧文化联系在一起。著名的“为丘吉尔母亲举办宴会而创作”故事，时间线受到质疑；比传说更稳固的是它把威士忌、甜味美思和苦精结合成了经典范式。",
+    "en": "The Manhattan was part of New York bar culture by the late nineteenth century. The famous story about a banquet for Winston Churchill's mother has a disputed timeline. More certain is the lasting influence of its whiskey, sweet vermouth and bitters formula.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Manhattan+cocktail"
+      }
+    ]
+  },
+  "tommy-s-margarita": {
+    "kind": "history",
+    "zh": "它以旧金山的 Tommy’s 墨西哥餐厅命名，通常归功于朱利奥·贝尔梅霍。这个版本把重点放回龙舌兰本身，用龙舌兰糖浆连接酒与青柠，省去传统玛格丽特中的橙味利口酒。",
+    "en": "Named for Tommy's Mexican Restaurant in San Francisco and credited to Julio Bermejo, this variation brings tequila into sharper focus. Agave syrup bridges the spirit and lime, taking the place of the orange liqueur used in a traditional Margarita.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Tommy%27s+Margarita+cocktail"
+      }
+    ]
+  },
+  "caipirinha": {
+    "kind": "disputed",
+    "zh": "凯匹林纳与巴西的卡莎萨文化密不可分，名字也带着乡村生活的意味。关于它是从民间家常饮品还是其他配方演变而来，存在不同说法；青柠、糖与甘蔗烈酒的组合则成为巴西最有辨识度的风味之一。",
+    "en": "Caipirinha is inseparable from Brazil's cachaça culture, and its name carries a reference to country life. Accounts of its development differ, but the combination of lime, sugar and cane spirit became one of Brazil's most recognizable drinks.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Caipirinha+cocktail"
+      }
+    ]
+  },
+  "sazerac": {
+    "kind": "disputed",
+    "zh": "萨泽拉克与新奥尔良紧密相连，名字来自早期使用的 Sazerac 品牌干邑。随着当地酒吧习惯改变，黑麦威士忌成为常见主角；它不是一段毫无争议的“世界第一杯鸡尾酒”历史，而是一座城市逐步形成的传统。",
+    "en": "The Sazerac is closely associated with New Orleans and takes its name from a brand of cognac used in early versions. Rye whiskey later became a familiar base. Its history is better understood as an evolving local tradition than as an undisputed claim to be the world's first cocktail.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Sazerac+cocktail"
+      }
+    ]
+  },
+  "singapore-sling": {
+    "kind": "disputed",
+    "zh": "新加坡司令通常与莱佛士酒店及调酒师严崇文联系在一起。它的早期配方记录并不完全一致，今天的版本也经历了重建与调整；这正是经典鸡尾酒在酒店、旅行和酒吧之间传播的一个缩影。",
+    "en": "The Singapore Sling is usually associated with Raffles Hotel and bartender Ngiam Tong Boon. Early recipe records differ, and later versions have been reconstructed and adapted. Its story reflects the way a hotel drink can travel through tourism and changing bar traditions.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Singapore+Sling+cocktail"
+      }
+    ]
+  },
+  "vesper": {
+    "kind": "history",
+    "zh": "维斯珀走红于伊恩·弗莱明 1953 年的小说《皇家赌场》，詹姆斯·邦德在书中点名了它的配方。它也以人物维斯珀·琳德命名，是少数与文学情节直接相连的经典鸡尾酒。",
+    "en": "The Vesper became known through Ian Fleming's 1953 novel Casino Royale, in which James Bond specifies its recipe. Named for Vesper Lynd, it is one of the classic cocktails whose identity is directly tied to a fictional character and a literary scene.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Vesper+cocktail"
+      }
+    ]
+  },
+  "sea-breeze": {
+    "kind": "context",
+    "zh": "“海风”这个名字下曾出现过不止一种配方，今天熟悉的版本以伏特加、蔓越莓和西柚为核心。它与海角鳕鱼、湾风等果汁高杯酒形成一个容易辨认的家族：换一款果汁，就像把同一场海边假期换了风景。",
+    "en": "More than one recipe has carried the Sea Breeze name. The familiar modern version combines vodka, cranberry and grapefruit, placing it alongside juice-based highballs such as the Cape Codder and Bay Breeze. Changing the juice changes the scenery while keeping the same easygoing format.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "long-island-iced-tea": {
+    "kind": "disputed",
+    "zh": "名字里的“茶”指成杯的外观，而不是配方中真的有茶。它的起源有不同主张，其中最常见的版本与纽约长岛有关；多种烈酒、柑橘和少量可乐，最终拼出了像冰茶一样的颜色。",
+    "en": "The tea in its name describes its appearance rather than an actual tea ingredient. Its origins are disputed, with a widely told account placing it on Long Island, New York. Several spirits, citrus and a little cola combine to give it an iced-tea-like color.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Long+Island+Iced+Tea+cocktail"
+      }
+    ]
+  },
+  "clover-club": {
+    "kind": "history",
+    "zh": "它以费城的 Clover Club 社交俱乐部命名，早于美国禁酒令时代。金酒、覆盆子和蛋清的细腻组合，曾属于酒店酒吧的精致饮酒文化，后来又在现代经典复兴中重新受到喜爱。",
+    "en": "Named for Philadelphia's Clover Club, this cocktail predates American Prohibition. Its combination of gin, raspberry and egg white belongs to an older hotel-bar tradition of refined drinks, and it found a new audience during the modern revival of classic cocktails.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Clover+Club+cocktail"
+      }
+    ]
+  },
+  "angel-face": {
+    "kind": "context",
+    "zh": "天使之颜已收录在哈里·克拉多克 1930 年的《萨沃伊鸡尾酒宝典》中，名字背后的确切人物却没有一致结论。金酒、苹果白兰地与杏桃白兰地各占一份，使它成为一款结构简洁、风格却很鲜明的老派短饮。",
+    "en": "Angel Face appears in Harry Craddock's 1930 Savoy Cocktail Book, though the person behind its name is not firmly established. Equal parts gin, apple brandy and apricot brandy give this old-style short drink a simple structure and a distinctive character.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "mimosa": {
+    "kind": "disputed",
+    "zh": "含羞草常与巴黎丽兹酒店的早期早午餐文化联系在一起，但其起源并非毫无争议。它也与伦敦的 Buck’s Fizz 很相近：橙汁和起泡酒这组搭档，在不同酒吧以不同的比例和名字流传。",
+    "en": "The Mimosa is often linked to the Ritz in Paris, though its exact origin is not beyond dispute. It is closely related to London's Buck's Fizz: orange juice and sparkling wine have appeared under different names and proportions in different bars.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Mimosa+cocktail"
+      }
+    ]
+  },
+  "cuba-libre": {
+    "kind": "disputed",
+    "zh": "“Cuba Libre”意为“自由古巴”，名字常被放在古巴独立时代的历史背景中讲述。关于谁先把朗姆酒、可乐和青柠混在一起，有不少品牌故事和民间版本，因此这里把它看作一段流传的饮酒文化。",
+    "en": "Cuba Libre means Free Cuba, and its name is commonly told against the background of Cuban independence. Who first combined rum, cola and lime is the subject of several brand stories and popular accounts, so the origin is best treated as a shared drinking tradition.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Cuba+Libre+cocktail"
+      }
+    ]
+  },
+  "gin-fizz": {
+    "kind": "history",
+    "zh": "金酒菲士属于十九世纪的 Fizz 家族：烈酒、柑橘和糖先摇和，再用苏打带来气泡。它与柯林斯看似相近，却发展出不同的调制与饮用习惯，展示了一个简单酸酒骨架如何分出许多支线。",
+    "en": "Gin Fizz belongs to the nineteenth-century fizz family: spirit, citrus and sugar are shaken before soda adds the sparkle. It resembles a Collins but developed different preparation and serving traditions, showing how one sour framework can grow into several styles.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Gin+Fizz+cocktail"
+      }
+    ]
+  },
+  "french-75": {
+    "kind": "history",
+    "zh": "名字来自法国的七十五毫米野战炮，借用了它强劲而迅速的形象。这个名称下的早期配方曾有变化，后来金酒、柠檬与香槟的组合逐渐成为今天最熟悉的版本。",
+    "en": "Its name refers to the French 75-millimeter field gun, borrowing an image of speed and force. Early recipes under the name varied before gin, lemon and champagne became the version most familiar to modern drinkers.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=French+75+cocktail"
+      }
+    ]
+  },
+  "pina-colada": {
+    "kind": "disputed",
+    "zh": "椰林飘香是波多黎各最有代表性的饮品之一。圣胡安的 Caribe Hilton 酒店与另一家当地酒吧都有起源主张；无论采用哪个版本，菠萝、椰子与朗姆酒都让它成为热带度假的鲜明符号。",
+    "en": "Piña Colada is one of Puerto Rico's signature drinks. Both the Caribe Hilton in San Juan and another local bar have made origin claims. Across those competing accounts, pineapple, coconut and rum became an enduring symbol of a tropical holiday.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Pina+Colada+cocktail"
+      }
+    ]
+  },
+  "aviation": {
+    "kind": "history",
+    "zh": "航空诞生于二十世纪初人们对飞行充满想象的年代，配方出现在雨果·恩斯林 1916 年的调酒书中。紫罗兰利口酒赋予早期版本一抹天空般的色调，后来也出现了省略它的版本。",
+    "en": "The Aviation belongs to the early twentieth century's fascination with flight and appears in Hugo Ensslin's 1916 recipe book. Crème de violette gave early versions a hint of sky-like color, although later recipes sometimes left it out.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Aviation+cocktail"
+      }
+    ]
+  },
+  "bellini": {
+    "kind": "history",
+    "zh": "贝里尼与威尼斯 Harry’s Bar 的朱塞佩·奇普里亚尼联系在一起，酒名致敬画家乔瓦尼·贝里尼。白桃与起泡酒的柔和颜色，常被解释为创作者从画作中获得的灵感。",
+    "en": "Associated with Giuseppe Cipriani of Harry's Bar in Venice, the Bellini honors painter Giovanni Bellini. Its soft peach-and-sparkling-wine color is commonly described as having reminded its creator of a color in the artist's paintings.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Bellini+cocktail"
+      }
+    ]
+  },
+  "grasshopper": {
+    "kind": "disputed",
+    "zh": "蚱蜢常与新奥尔良的 Tujague’s 餐厅联系在一起，关于比赛和创作年份的细节则有不同版本。绿色薄荷、可可与奶油让它拥有近乎甜点的性格，也解释了那个充满画面感的名字。",
+    "en": "The Grasshopper is closely associated with Tujague's in New Orleans, though accounts of its competition debut and date vary. Green mint liqueur, cacao and cream give it an almost dessert-like character and explain its vivid name.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Grasshopper+cocktail"
+      }
+    ]
+  },
+  "tequila-sunrise": {
+    "kind": "history",
+    "zh": "今天常见的龙舌兰日出，以石榴糖浆沉入橙汁后形成的渐层命名。它与更早使用其他材料的同名酒并不完全相同；现代橙汁版本在二十世纪七十年代的美国流行文化中获得了很高的辨识度。",
+    "en": "The familiar Tequila Sunrise is named for grenadine sinking through orange juice to create a sunrise-like gradient. It differs from earlier drinks with the same name and other ingredients. The modern orange-juice version became highly recognizable in 1970s American popular culture.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Tequila+Sunrise+cocktail"
+      }
+    ]
+  },
+  "rusty-nail": {
+    "kind": "context",
+    "zh": "锈钉把苏格兰威士忌与同样来自苏格兰、带蜂蜜和香料风味的杜林标利口酒放在一起。它体现了二十世纪酒吧里很经典的一种思路：只用两种酒，让同一片产地的风味相互呼应。",
+    "en": "The Rusty Nail pairs Scotch whisky with Drambuie, the Scottish liqueur flavored with honey and spices. It expresses a familiar twentieth-century bar idea: use only two ingredients and let flavors from the same place echo one another.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "stinger": {
+    "kind": "history",
+    "zh": "毒刺属于十九世纪末已出现的双材料短饮，白兰地搭配白薄荷利口酒。它后来与精致餐厅和餐后饮酒的形象相连，提醒人们：在复杂的现代配方之前，两种材料也能形成鲜明的经典。",
+    "en": "The Stinger is a two-ingredient short drink known from the late nineteenth century, combining brandy with white crème de menthe. It later became associated with elegant dining and after-dinner drinking, showing how distinctive a classic can be with just two ingredients.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Stinger+cocktail"
+      }
+    ]
+  },
+  "spritz-veneziano": {
+    "kind": "history",
+    "zh": "斯普利茨扎根于意大利东北部的开胃酒文化，名字与德语里“喷洒、加一点水”的说法有关。早期在葡萄酒里加水的习惯，逐渐演变为今天把苦味开胃酒、起泡酒和苏打组合起来的聚会仪式。",
+    "en": "Spritz is rooted in northeastern Italy's aperitivo culture, with a name related to the German idea of adding a splash. The earlier habit of diluting wine with water evolved into today's social ritual of combining a bitter aperitif, sparkling wine and soda.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Spritz+cocktail"
+      }
+    ]
+  },
+  "bramble": {
+    "kind": "history",
+    "zh": "黑莓鸡尾酒通常归功于伦敦调酒师迪克·布拉德塞尔。黑莓利口酒沿碎冰渗下的样子，给清爽的金酒酸酒添上了野果色彩；它也成为现代英国酒吧复兴中的代表酒款。",
+    "en": "The Bramble is credited to London bartender Dick Bradsell. Blackberry liqueur trickling through crushed ice gives a bright gin sour a wild-fruit accent. It became a defining drink of Britain's modern cocktail revival.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Bramble+cocktail"
+      }
+    ]
+  },
+  "alexander": {
+    "kind": "disputed",
+    "zh": "亚历山大家族的早期版本并不都使用白兰地，金酒版本也曾流行。创作者和命名对象有多种说法；今天常见的白兰地、可可与奶油组合，则让它更像一杯带着老派酒吧气息的液体甜点。",
+    "en": "Early members of the Alexander family did not all use brandy; gin versions were also known. Its creator and namesake are disputed. The familiar brandy, cacao and cream combination gives the modern drink the character of an old-fashioned liquid dessert.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Alexander+cocktail"
+      }
+    ]
+  },
+  "lemon-drop-martini": {
+    "kind": "history",
+    "zh": "柠檬糖马天尼通常与二十世纪七十年代旧金山的 Henry Africa’s 酒吧联系在一起。名字借用了柠檬硬糖的酸甜印象，而“马天尼”更多描述了鸡尾酒杯里的呈现方式，并不表示它沿用了经典干马天尼的配方。",
+    "en": "Lemon Drop is commonly linked to Henry Africa's in 1970s San Francisco. Its name borrows the sweet-and-tart impression of lemon candy. Martini describes its cocktail-glass presentation more than a connection to the recipe of a classic Dry Martini.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Lemon+Drop+Martini+cocktail"
+      }
+    ]
+  },
+  "french-martini": {
+    "kind": "context",
+    "zh": "法式马天尼是现代水果马天尼风潮中的一员，名字里的“法式”通常指向覆盆子利口酒。伏特加、菠萝和莓果的组合，展现了现代酒吧如何用熟悉的马天尼杯重新包装一种完全不同的风味。",
+    "en": "French Martini belongs to the modern wave of fruit-forward martinis, with French generally pointing to its raspberry liqueur. Vodka, pineapple and berries show how the familiar martini glass became a setting for an entirely different style of drink.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "black-russian": {
+    "kind": "history",
+    "zh": "黑俄罗斯通常与布鲁塞尔大都会酒店的调酒师古斯塔夫·托普斯联系在一起，时间在二十世纪中叶。名字借用了伏特加与俄罗斯的联想，深色则来自咖啡利口酒；它的实际诞生地并不在俄罗斯。",
+    "en": "The Black Russian is generally linked to Gustave Tops at Brussels' Hotel Metropole in the mid-twentieth century. Russian alludes to vodka, while black comes from coffee liqueur. The drink's birthplace was not Russia.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Black+Russian+cocktail"
+      }
+    ]
+  },
+  "sex-on-the-beach": {
+    "kind": "disputed",
+    "zh": "这杯酒的名字和桃子、橙子、蔓越莓的明亮组合，都带着海滩酒吧的度假想象。关于它如何在美国走红有不同的商业推广故事，确切发明者并没有得到一致认可。",
+    "en": "Its name and bright combination of peach, orange and cranberry belong to the holiday imagination of the beach bar. Different promotional stories explain its rise in the United States, but no single inventor is universally accepted.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Sex+on+the+Beach+cocktail"
+      }
+    ]
+  },
+  "sidecar": {
+    "kind": "disputed",
+    "zh": "边车通常被放在第一次世界大战后的欧洲酒吧故事里讲述，巴黎与伦敦都有相关主张。名字中的摩托车边车，也让它带上一点旅行者的形象；干邑、橙味利口酒和柠檬则延续了酸酒家族的清晰结构。",
+    "en": "The Sidecar is usually discussed in the setting of European bars after the First World War, with claims from both Paris and London. Its motorcycle-sidecar name suggests a traveler, while cognac, orange liqueur and lemon give it the clear framework of a sour.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Sidecar+cocktail"
+      }
+    ]
+  },
+  "french-connection": {
+    "kind": "context",
+    "zh": "法国之恋的名字通常被认为借用了电影《法国贩毒网》的英文片名。干邑与杏仁利口酒把法国白兰地和意大利杏仁风味连在一起，也让这杯只用两种酒的餐后短饮有了一个容易记住的名字。",
+    "en": "French Connection is commonly understood as a reference to the film of the same name. Cognac and amaretto connect French brandy with Italian almond flavors, giving this two-ingredient after-dinner drink a memorable identity.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "moscow-mule": {
+    "kind": "history",
+    "zh": "莫斯科骡子的传播通常与二十世纪四十年代美国对伏特加的推广联系在一起，而非莫斯科的一家酒吧。伏特加、姜汁啤酒和青柠，再加上著名的铜杯呈现，成为一套很成功的饮酒形象。",
+    "en": "The Moscow Mule's rise is usually linked to the promotion of vodka in 1940s America rather than a bar in Moscow. Vodka, ginger beer and lime, together with its famous copper-mug presentation, formed a remarkably recognizable drinking image.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Moscow+Mule+cocktail"
+      }
+    ]
+  },
+  "john-collins": {
+    "kind": "disputed",
+    "zh": "约翰·柯林斯与十九世纪伦敦的柯林斯类长饮有关，名字常被连到酒店侍者身上，但相关人物故事并不完全一致。它后来与汤姆·柯林斯形成紧密的配方家族，让金酒酸酒多了一杯轻快的苏打。",
+    "en": "John Collins belongs to the nineteenth-century Collins family and is often linked to a London hotel waiter, though the personal history is not fully settled. Closely related to Tom Collins, it turns a gin sour into a longer drink with soda.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=John+Collins+cocktail"
+      }
+    ]
+  },
+  "kir": {
+    "kind": "history",
+    "zh": "基尔以法国第戎的费利克斯·基尔命名，他帮助推广了当地白葡萄酒与黑醋栗利口酒的组合。这个故事的主角不是复杂调酒技巧，而是把勃艮第两种地方风味装进同一只杯子。",
+    "en": "Kir is named for Félix Kir of Dijon, who helped popularize the combination of local white wine and blackcurrant liqueur. Its story is less about elaborate technique than about bringing two Burgundian flavors together in one glass.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Kir+cocktail"
+      }
+    ]
+  },
+  "mary-pickford": {
+    "kind": "history",
+    "zh": "玛丽·皮克福德以好莱坞默片明星的名字命名，常被放在禁酒令时代古巴酒店酒吧的背景下讲述。朗姆酒、菠萝与一点红色糖浆，让这款短饮保留了那个年代电影名人与热带旅行交织的想象。",
+    "en": "Named for the silent-film star Mary Pickford, this drink is commonly placed in the setting of Cuban hotel bars during American Prohibition. Rum, pineapple and a touch of grenadine preserve something of that era's intersection of movie celebrity and tropical travel.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Mary+Pickford+cocktail"
+      }
+    ]
+  },
+  "hemingway-special": {
+    "kind": "history",
+    "zh": "海明威特调与哈瓦那的 El Floridita 酒吧，以及作家对戴基里的偏爱联系在一起。关于他要求“少糖、多朗姆”的轶事广为流传，后来形成的西柚、马拉斯奇诺与青柠组合，也成为独立的配方。",
+    "en": "Hemingway Special is associated with Havana's El Floridita and the writer's fondness for Daiquiris. The familiar anecdote has him asking for less sugar and more rum. The later grapefruit, maraschino and lime version became an established recipe in its own right.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Hemingway+Special+cocktail"
+      }
+    ]
+  },
+  "dark-n-stormy": {
+    "kind": "history",
+    "zh": "这杯酒与百慕大及当地的深色朗姆酒文化紧密相连。姜汁啤酒上浮着深色酒液的画面，像海上的阴云，也让“黑暗与暴风雨”这个名字显得格外贴切；相关名称还涉及品牌商标传统。",
+    "en": "Closely tied to Bermuda and its dark-rum culture, the drink takes its character from rum and ginger beer. Dark spirit above the pale mixer suggests storm clouds over the sea. Its name is also associated with a longstanding brand trademark tradition.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Dark+%27n%27+Stormy+cocktail"
+      }
+    ]
+  },
+  "white-lady": {
+    "kind": "disputed",
+    "zh": "白色佳人经历过不止一次改写，早期版本与今天的金酒版本并不完全相同。哈里·麦克艾隆等调酒师与它的发展有关，而金酒、橙味利口酒和柠檬的组合最终让这个优雅的名字留在经典酒单上。",
+    "en": "White Lady has been rewritten more than once, and early versions differed from today's gin-based drink. Harry MacElhone and other bartenders are associated with its development. Gin, orange liqueur and lemon eventually gave the elegant name a lasting place on classic menus.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=White+Lady+cocktail"
+      }
+    ]
+  },
+  "americano": {
+    "kind": "disputed",
+    "zh": "美国佬属于意大利苦味开胃酒文化，通常被看作米兰—都灵组合加上苏打后的亲属。至于名字是来自美国客人的喜好、人物致敬还是推广故事，有不同说法；它也成为理解内格罗尼结构的一把钥匙。",
+    "en": "The Americano belongs to Italy's bitter aperitivo tradition and is usually seen as a relative of the Milano-Torino lengthened with soda. Accounts of its American name vary. Its structure also offers a useful starting point for understanding the Negroni.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Americano+cocktail"
+      }
+    ]
+  },
+  "bees-knees": {
+    "kind": "history",
+    "zh": "“Bee’s knees”曾是英语里形容某样东西特别出色的俏皮说法。蜂蜜之膝也带着早期二十世纪鸡尾酒的气质：用蜂蜜替代普通糖，把金酒酸酒变得圆润而带花香。",
+    "en": "Bee's knees was a playful English expression for something excellent. The cocktail shares that early-twentieth-century spirit: replacing ordinary sugar with honey gives a gin sour a rounder, lightly floral character.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Bee%E2%80%99s+Knees+cocktail"
+      }
+    ]
+  },
+  "between-the-sheets": {
+    "kind": "disputed",
+    "zh": "床笫之间出现在二十世纪早期的经典调酒传统中，常与欧洲的美式酒吧联系在一起，具体创作者有不同说法。它把边车的白兰地、橙酒与柠檬结构接上朗姆酒，名字大胆，配方却保持了老派短饮的整齐。",
+    "en": "Between the Sheets belongs to the early-twentieth-century classic tradition and is often associated with Europe's American-style bars, though its creator is disputed. Rum joins the brandy, orange liqueur and lemon framework of a Sidecar, giving a bold name to a neatly structured drink.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Between+the+Sheets+cocktail"
+      }
+    ]
+  },
+  "bloody-mary": {
+    "kind": "disputed",
+    "zh": "血腥玛丽的故事常在巴黎与纽约之间来回穿梭，费尔南·佩蒂奥和乔治·杰塞尔都出现在相关起源说法里。番茄、伏特加和咸鲜调味让它更像一杯可自由调整的酒吧料理，而不是只有一种标准答案的配方。",
+    "en": "Bloody Mary's stories travel between Paris and New York, with Fernand Petiot and George Jessel both appearing in origin accounts. Tomato, vodka and savory seasonings give it the character of a bar-made dish, with room for interpretation rather than one unquestioned origin.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Bloody+Mary+cocktail"
+      }
+    ]
+  },
+  "boulevardier": {
+    "kind": "history",
+    "zh": "林荫大道与旅居巴黎的美国人厄斯金·格温，以及他同名的杂志联系在一起，配方记载于 1927 年的《Barflies and Cocktails》。威士忌、金巴利和甜味美思的组合，也保留了当时美式酒吧与欧洲开胃酒文化相遇的痕迹。",
+    "en": "Boulevardier is associated with American expatriate Erskine Gwynne and his Paris magazine of the same name, and was recorded in the 1927 book Barflies and Cocktails. Whiskey, Campari and sweet vermouth reflect a meeting between American-bar habits and European aperitifs.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Boulevardier+cocktail"
+      }
+    ]
+  },
+  "brandy-crusta": {
+    "kind": "history",
+    "zh": "白兰地克鲁斯塔通常归功于十九世纪新奥尔良的约瑟夫·桑蒂尼。标志性的糖边和长柑橘皮让酒杯本身成为呈现的一部分，它也常被放在后来边车等白兰地酸酒的历史脉络中理解。",
+    "en": "Brandy Crusta is generally credited to Joseph Santini in nineteenth-century New Orleans. Its sugared rim and long citrus peel make the glass part of the presentation. It is often discussed as a predecessor in the lineage of brandy sours such as the Sidecar.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Brandy+Crusta+cocktail"
+      }
+    ]
+  },
+  "canchanchara": {
+    "kind": "context",
+    "zh": "坎昌查拉扎根于古巴的甘蔗烈酒饮用传统，与蜂蜜、青柠和水的简单组合有关。在古巴特立尼达等地，它也承载了地方酒馆和陶杯饮用的文化，而不只是国际酒单上的一个名字。",
+    "en": "Canchanchara is rooted in Cuba's cane-spirit traditions, combining a local spirit with honey, lime and water. In places such as Trinidad, it also evokes local taverns and earthenware cups, giving the drink a regional identity beyond an international recipe list.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "cardinale": {
+    "kind": "context",
+    "zh": "Cardinale 在意大利语中意为红衣主教，鲜明的红色为这个名字提供了很直观的联想。它与金酒、苦味开胃酒、味美思这一意大利经典家族相近，但干味美思让它走出了一条更干爽的支线。",
+    "en": "Cardinale is Italian for cardinal, a name that naturally evokes its red color. It belongs near the Italian family of gin, bitter aperitif and vermouth drinks, but dry vermouth gives this branch a leaner, drier character.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "casino": {
+    "kind": "context",
+    "zh": "赌场是一款有着老派金酒短饮气质的经典，老汤姆金酒、马拉斯奇诺和柑橘苦精是它的辨识点。它提醒人们，早期金酒鸡尾酒并不只有越来越干的马天尼，也有略甜、带果核与柑橘香的另一条路径。",
+    "en": "Casino expresses an older style of gin cocktail through Old Tom gin, maraschino and orange bitters. It is a reminder that historical gin drinks were not all on a path toward a drier Martini; some favored a little sweetness, stone-fruit notes and citrus aromatics.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "champagne-cocktail": {
+    "kind": "history",
+    "zh": "香槟鸡尾酒属于十九世纪已有记载的经典，早于今天常见的各式水果起泡酒。让方糖吸饱苦精，再缓缓注入香槟，气泡会把香气一点点带上来，简单的动作本身就是它的仪式感。",
+    "en": "Champagne Cocktail was documented in the nineteenth century, before the many fruit-and-sparkling-wine drinks familiar today. A bitters-soaked sugar cube gradually releases its aroma as champagne bubbles rise around it, making a simple preparation into a small ritual.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Champagne+Cocktail+cocktail"
+      }
+    ]
+  },
+  "chartreuse-swizzle": {
+    "kind": "history",
+    "zh": "查特酒斯维兹通常归功于旧金山调酒师马可·迪奥尼索斯。它把加勒比地区的 swizzle 搅拌思路与法国草本利口酒放在一起，让菠萝、青柠和香料成为连接两种酒吧传统的桥梁。",
+    "en": "Chartreuse Swizzle is credited to San Francisco bartender Marco Dionysos. It brings the Caribbean swizzle tradition together with a French herbal liqueur, using pineapple, lime and spice to connect two different bar traditions.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Chartreuse+Swizzle+cocktail"
+      }
+    ]
+  },
+  "corpse-reviver-2": {
+    "kind": "history",
+    "zh": "“亡者复苏”原本是一类带着夸张幽默的酒名，并非只有一杯固定配方。二号因《萨沃伊鸡尾酒宝典》等经典资料而流传，等份结构与一点苦艾酒气息，让它在现代经典复兴中格外容易被重新发现。",
+    "en": "Corpse Reviver was originally a family of humorously named drinks rather than one fixed recipe. Number Two survived through classic references such as the Savoy Cocktail Book. Equal-part ingredients and a touch of absinthe helped it find a new audience in the modern revival.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Corpse+Reviver+%232+cocktail"
+      }
+    ]
+  },
+  "cosmopolitan": {
+    "kind": "disputed",
+    "zh": "大都会的现代配方与多个调酒师有关，不能简单归给一个人。戴尔·德格罗夫帮助推广了它的酒吧版本，而《欲望都市》又把这杯粉红色鸡尾酒带进了大众文化。",
+    "en": "The modern Cosmopolitan developed through the work of several bartenders, rather than one universally accepted inventor. Dale DeGroff helped popularize a bar version, and Sex and the City later carried the pink cocktail into popular culture.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Cosmopolitan+cocktail"
+      }
+    ]
+  },
+  "don-s-special-daiquiri": {
+    "kind": "context",
+    "zh": "戴基里的朗姆酒、青柠和甜味骨架，在提基酒吧里常被继续扩写。这款特调把不同产地的朗姆酒与百香果、蜂蜜连接起来，从一杯古巴式酸酒，走向更浓郁的热带层次。",
+    "en": "Tiki bars often expanded the Daiquiri's framework of rum, lime and sweetness. This special version combines rums from different places with passion fruit and honey, turning the Cuban sour idea into a more layered tropical drink.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "fernandito": {
+    "kind": "context",
+    "zh": "费尔南迪托与阿根廷的 Fernet 搭配可乐文化密切相关。意大利苦味利口酒在移民与地方饮用习惯中获得了新的日常身份，一大杯冰、一份 Fernet 和可乐，就能构成很鲜明的社交场景。",
+    "en": "Fernandito is closely tied to Argentina's tradition of drinking Fernet with cola. An Italian bitter liqueur found a new everyday identity through migration and local habits: a large glass of ice, Fernet and cola became a recognizable social drink.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "garibaldi": {
+    "kind": "history",
+    "zh": "加里波第以意大利统一运动人物朱塞佩·加里波第命名。人们常把来自意大利北部的苦味开胃酒与南方橙子的搭配，读作一场杯中的南北相遇；两种材料也能带出一个完整的文化意象。",
+    "en": "Garibaldi is named for Giuseppe Garibaldi, a figure in Italian unification. The pairing of a northern Italian bitter aperitif with oranges associated with the south is often read as a meeting of north and south in a glass.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Garibaldi+cocktail"
+      }
+    ]
+  },
+  "gin-basil-smash": {
+    "kind": "history",
+    "zh": "金酒罗勒司马什与汉堡调酒师约尔格·迈耶及 Le Lion 酒吧联系在一起，诞生于现代经典复兴时期。它让罗勒不再只是菜肴里的香草，而是能与金酒植物香气正面交谈的主角。",
+    "en": "Gin Basil Smash is associated with Jörg Meyer and Le Lion in Hamburg during the modern cocktail revival. It moves basil from the kitchen into the center of the glass, where the herb can meet gin's botanical flavors on equal terms.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Gin+Basil+Smash+cocktail"
+      }
+    ]
+  },
+  "grand-margarita": {
+    "kind": "context",
+    "zh": "格兰玛格丽特沿着经典玛格丽特的结构，把格兰玛尼耶作为橙味核心。干邑为基础的法国橙味利口酒，与墨西哥龙舌兰和青柠相遇，让熟悉的酸酒骨架多了一层圆润的酒香。",
+    "en": "Grand Margarita follows the Margarita framework while placing Grand Marnier at its orange-flavored center. The French, cognac-based orange liqueur meets Mexican tequila and lime, adding a rounder spirit character to the familiar sour structure.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "hanky-panky": {
+    "kind": "history",
+    "zh": "花招通常归功于伦敦萨沃伊酒店的艾达·科尔曼。相传演员查尔斯·霍特里尝到她的新作后，以当时带有“妙招、魔法”意味的说法称赞它；少量菲奈特也确实给金酒与味美思添了一点出人意料的转折。",
+    "en": "Hanky Panky is credited to Ada Coleman of London's Savoy Hotel. The familiar story has actor Charles Hawtrey praising her creation with the expression that became its name. A little Fernet gives gin and vermouth the unexpected turn that suits the tale.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Hanky+Panky+cocktail"
+      }
+    ]
+  },
+  "horses-neck": {
+    "kind": "history",
+    "zh": "马颈的标志是一整条伸进杯里的螺旋柠檬皮，看起来像一段长长的脖颈。这个名字早先也用于姜汁汽水饮品，后来加入白兰地的版本流传开来，说明装饰有时比基酒更能决定一杯酒的身份。",
+    "en": "Horse's Neck is recognized by a long spiral of lemon peel that resembles an extended neck. The name was also used for an earlier ginger-ale drink before brandy versions became familiar, showing how a garnish can define a drink's identity.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Horse%E2%80%99s+Neck+cocktail"
+      }
+    ]
+  },
+  "iba-tiki": {
+    "kind": "context",
+    "zh": "这是一款把古巴朗姆酒、热带水果与坚果利口酒放进同一只提基杯的现代配方。提基风格常以复合朗姆酒和多层果香制造旅行般的想象，这杯酒也沿着这条路径展开；名字中的 IBA 指国际调酒师协会。",
+    "en": "This modern recipe brings Cuban rums, tropical fruit and nut liqueurs together in a tiki glass. Tiki drinks often build a sense of imagined travel through rum blends and layered fruit flavors. IBA in the name refers to the International Bartenders Association.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "illegal": {
+    "kind": "context",
+    "zh": "“非法”这个带玩笑意味的名字，配的是一场跨产区的组合：墨西哥梅斯卡尔、牙买加高酒精朗姆酒，再加上加勒比香料利口酒。它体现了现代鸡尾酒常见的混合基酒思路，而不是传统酸酒只能选一种烈酒的限制。",
+    "en": "Behind the playful name is a meeting of regions: Mexican mezcal, Jamaican overproof rum and a Caribbean-style spiced liqueur. It illustrates the modern split-base approach, in which several spirits share the job usually assigned to one in a sour.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "irish-coffee": {
+    "kind": "history",
+    "zh": "爱尔兰咖啡通常与乔·谢里丹及爱尔兰早期跨大西洋航空旅行的接待场景联系在一起，后来在旧金山广为传播。咖啡、威士忌与漂浮奶油，让它同时保留了热饮的温度和鸡尾酒的层次。",
+    "en": "Irish Coffee is usually associated with Joe Sheridan and the hospitality surrounding early transatlantic air travel in Ireland. It later became widely known in San Francisco. Coffee, whiskey and floating cream bring the warmth of a hot drink into a layered cocktail.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Irish+Coffee+cocktail"
+      }
+    ]
+  },
+  "jungle-bird": {
+    "kind": "history",
+    "zh": "丛林鸟与马来西亚吉隆坡的希尔顿酒店联系在一起，是提基风格里颇有辨识度的一支。金巴利的苦味打断了单纯的热带甜香，让菠萝与朗姆酒拥有了更鲜明的轮廓。",
+    "en": "Jungle Bird is associated with the Hilton in Kuala Lumpur, Malaysia, and occupies a distinctive place in the tiki family. Campari interrupts the straightforward tropical sweetness, giving pineapple and rum a sharper outline.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Jungle+Bird+cocktail"
+      }
+    ]
+  },
+  "last-word": {
+    "kind": "history",
+    "zh": "最后一句与美国底特律的早期俱乐部酒吧文化有关，后来由现代调酒师重新推广。金酒、绿查特、马拉斯奇诺和青柠各占一份，让它成为“等份配方”中极容易记住、又足够复杂的一杯。",
+    "en": "Last Word is associated with early club-bar culture in Detroit and was later reintroduced by modern bartenders. Equal measures of gin, green Chartreuse, maraschino and lime make it a memorable example of how an equal-parts recipe can still taste complex.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Last+Word+cocktail"
+      }
+    ]
+  },
+  "mai-tai": {
+    "kind": "disputed",
+    "zh": "迈泰最著名的故事来自 Trader Vic：一位塔希提客人用赞叹之语形容新调出的酒，酒名由此而来。它也牵涉早期提基酒吧之间的创作争论；今天回看这段历史，朗姆酒本身才是这杯热带名作的中心。",
+    "en": "The best-known Mai Tai story comes from Trader Vic, whose Tahitian guests supposedly greeted the new drink with the exclamation that became its name. Its history also involves disputes between early tiki bars. Through those stories, rum remains the heart of the drink.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Mai-Tai+cocktail"
+      }
+    ]
+  },
+  "martinez": {
+    "kind": "disputed",
+    "zh": "马丁内斯常被放在干马天尼的家谱里讨论，但它本身的诞生也有不同地方传说。甜味美思、金酒与少量马拉斯奇诺保留了较早时期鸡尾酒偏甜、偏芳香的一面，与后来极干的马天尼形成有趣对照。",
+    "en": "Martinez is often discussed in the Martini's family tree, although its own origin has competing local stories. Sweet vermouth, gin and a little maraschino preserve an earlier preference for sweeter, aromatic cocktails, offering an interesting contrast to the later Dry Martini.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Martinez+cocktail"
+      }
+    ]
+  },
+  "mint-julep": {
+    "kind": "history",
+    "zh": "朱莉普作为饮品家族的历史比现代鸡尾酒还早，后来在美国南方形成了以薄荷、冰和烈酒为核心的风格。它与肯塔基赛马会的联系尤其鲜明，一只结霜的金属杯也逐渐成为这个名字的视觉标志。",
+    "en": "The julep family predates the modern cocktail and developed a distinctive form in the American South around mint, ice and spirit. Its connection with the Kentucky Derby is especially strong, and a frosted metal cup became part of its recognizable identity.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Mint+Julep+cocktail"
+      }
+    ]
+  },
+  "missionary-s-downfall": {
+    "kind": "history",
+    "zh": "传教士的堕落通常与 Donn Beach 的早期提基酒吧联系在一起。与强调深色朗姆酒和香料的提基酒不同，它用薄荷、菠萝、桃子与蜂蜜营造更绿、更轻盈的热带想象。",
+    "en": "Missionary's Downfall is commonly associated with Donn Beach's early tiki bars. Rather than emphasizing dark rum and heavy spice, it uses mint, pineapple, peach and honey to create a greener, lighter expression of the tropical style.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Missionary%27s+Downfall+cocktail"
+      }
+    ]
+  },
+  "monkey-gland": {
+    "kind": "history",
+    "zh": "猴腺的名字借用了二十世纪二十年代一种如今看来荒诞的“返老还童”话题，常与巴黎调酒师哈里·麦克艾隆联系在一起。金酒、橙汁、石榴糖浆与少量茴香气息，保存了那个年代酒吧命名爱赶时髦的一面。",
+    "en": "Monkey Gland takes its unusual name from a now-discredited rejuvenation fad of the 1920s and is commonly associated with Harry MacElhone in Paris. Gin, orange, grenadine and a hint of anise preserve something of an era when bar names borrowed freely from fashionable topics.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Monkey+Gland+cocktail"
+      }
+    ]
+  },
+  "naked-and-famous": {
+    "kind": "history",
+    "zh": "裸露与名气通常归功于纽约调酒师华金·西莫。梅斯卡尔、黄查特、阿佩罗与青柠各占一份，延续了最后一句一类等份鸡尾酒的设计思路，却用烟熏和苦橙写出了完全不同的性格。",
+    "en": "Naked and Famous is credited to New York bartender Joaquín Simó. Equal parts mezcal, yellow Chartreuse, Aperol and lime follow the design logic of equal-parts drinks such as Last Word, but smoke and bitter orange give it a different identity.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Naked+and+Famous+cocktail"
+      }
+    ]
+  },
+  "new-york-sour": {
+    "kind": "context",
+    "zh": "纽约酸最醒目的地方，是经典威士忌酸上那层缓缓浮起的红葡萄酒。名字听起来像一个明确的出生地，但同类红酒酸酒曾以不同名称流传；这里更适合把它理解为酸酒家族里的一次漂亮改写。",
+    "en": "New York Sour is recognized by red wine floated over a Whiskey Sour. Its name sounds like a precise birthplace, but related wine-topped sours circulated under several names. It is best understood as a striking variation within the wider sour family.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "old-cuban": {
+    "kind": "history",
+    "zh": "老古巴通常归功于调酒师奥黛丽·桑德斯，而不是一杯直接从古巴老酒吧流传下来的固定古方。它把朗姆酒、薄荷、青柠与起泡酒连接起来，是现代调酒师重新组合经典语言的代表。",
+    "en": "Old Cuban is credited to bartender Audrey Saunders rather than being a fixed recipe inherited directly from an old Cuban bar. Rum, mint, lime and sparkling wine show how a modern bartender can recombine the language of classic drinks.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Old+Cuban+cocktail"
+      }
+    ]
+  },
+  "paloma": {
+    "kind": "disputed",
+    "zh": "帕洛玛在西班牙语中意为鸽子，是墨西哥龙舌兰饮用文化中很有代表性的高杯酒。它的确切发明者并不清楚；比某一位名人的创作传说更稳固的，是龙舌兰与西柚汽水在当地的日常搭配。",
+    "en": "Paloma means dove in Spanish and is a familiar highball in Mexico's tequila culture. Its exact inventor is not established. The everyday pairing of tequila and grapefruit soda is better grounded than a single celebrity origin story.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Paloma+cocktail"
+      }
+    ]
+  },
+  "paper-plane": {
+    "kind": "history",
+    "zh": "纸飞机通常归功于萨姆·罗斯，酒名与 M.I.A. 的同名歌曲联系在一起。波本、阿佩罗、阿玛罗与柠檬各占一份，把美国威士忌和意大利开胃酒放进了一个容易记住的现代经典结构。",
+    "en": "Paper Plane is credited to Sam Ross and takes its name from M.I.A.'s song. Equal parts bourbon, Aperol, amaro and lemon bring American whiskey and Italian aperitifs into a memorable modern-classic framework.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Paper+Plane+cocktail"
+      }
+    ]
+  },
+  "paradise": {
+    "kind": "context",
+    "zh": "天堂已出现在早期二十世纪的经典调酒资料中，包括《萨沃伊鸡尾酒宝典》。它不用奶油或复杂装饰来营造甜点感，而是用杏桃白兰地和橙汁，把金酒带向柔和、带果核香的方向。",
+    "en": "Paradise appears in early-twentieth-century cocktail references, including the Savoy Cocktail Book. Rather than relying on cream or elaborate decoration, it uses apricot brandy and orange juice to give gin a softer, stone-fruit character.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "penicillin": {
+    "kind": "history",
+    "zh": "盘尼西林与萨姆·罗斯及纽约的现代经典酒吧文化联系在一起。它让调和苏格兰威士忌构成主体，再用少量烟熏单一麦芽作浮层；名字是玩笑，不代表蜂蜜、姜与威士忌真的具有药物作用。",
+    "en": "Penicillin is associated with Sam Ross and New York's modern-classic bar scene. Blended Scotch forms the body, with a little smoky single malt floated above it. The name is playful, not a claim that honey, ginger and whisky act as medicine.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Penicillin+cocktail"
+      }
+    ]
+  },
+  "pisco-punch": {
+    "kind": "history",
+    "zh": "皮斯科潘趣与十九世纪旧金山及 Bank Exchange 酒吧的邓肯·尼科尔联系在一起。南美葡萄蒸馏酒随着贸易进入港口城市，再与菠萝和柑橘相遇，这杯酒也留下了太平洋港口城市生活的痕迹。",
+    "en": "Pisco Punch is associated with Duncan Nicol of San Francisco's nineteenth-century Bank Exchange bar. South American grape spirit reached the port city through trade and met pineapple and citrus, giving the drink a place in the city's wider maritime story.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Pisco+Punch+cocktail"
+      }
+    ]
+  },
+  "pisco-sour": {
+    "kind": "disputed",
+    "zh": "今天常见的皮斯科酸通常与利马的莫里斯酒吧联系在一起，而皮斯科及同名酸酒在秘鲁与智利有各自的传统。蛋清与苦精表面的芳香，使它从普通酸酒结构中长出了非常鲜明的身份。",
+    "en": "The familiar Pisco Sour is usually linked to Morris's Bar in Lima, while pisco and related sours have distinct traditions in Peru and Chile. Egg white and aromatic bitters on the surface give it a recognizable identity within the broader sour family.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Pisco+Sour+cocktail"
+      }
+    ]
+  },
+  "planters-punch": {
+    "kind": "disputed",
+    "zh": "种植园主潘趣更像一个加勒比朗姆潘趣家族，而非从来只有一套比例的单一发明。它曾以不同糖、柑橘与果汁组合流传；理解这段背景，也就能明白为什么同名配方之间会有明显差异。",
+    "en": "Planter's Punch is better understood as a Caribbean rum-punch family than as one invention with a permanent ratio. Versions have circulated with different sugars, citrus and juices, which helps explain the substantial differences between recipes sharing the name.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Planters+Punch+cocktail"
+      }
+    ]
+  },
+  "porn-star-martini": {
+    "kind": "history",
+    "zh": "激情之星马天尼通常归功于伦敦调酒师道格拉斯·安克拉。百香果、香草与另附一小杯香槟，把一杯鸡尾酒变成了一次带表演感的点单体验；它属于现代水果马天尼的世界。",
+    "en": "Porn Star Martini is credited to London bartender Douglas Ankrah. Passion fruit, vanilla and a small glass of champagne served alongside turn a cocktail order into a little performance. It belongs to the modern world of fruit-forward martinis.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Porn+Star+Martini+cocktail"
+      }
+    ]
+  },
+  "porto-flip": {
+    "kind": "context",
+    "zh": "波特翻转属于更古老的 Flip 饮品家族，鸡蛋一直是这类饮品的重要特征。波特酒、白兰地与蛋黄让它保留了浓郁的餐后性格，顶部一点肉豆蔻则把香气带回早期酒吧的传统。",
+    "en": "Porto Flip belongs to the older flip family, in which eggs are an important defining feature. Port, brandy and yolk give it a rich after-dinner character, while a little nutmeg on top recalls the aromatic finish of older bar traditions.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "rabo-de-galo": {
+    "kind": "context",
+    "zh": "Rabo de Galo 在葡萄牙语中就是公鸡的尾巴，是对“cocktail”一词很直观的呼应。它与巴西卡莎萨酒吧文化相连，把本地甘蔗烈酒、味美思和苦味利口酒放在一杯简洁的搅拌短饮中。",
+    "en": "Rabo de Galo literally means rooster's tail in Portuguese, echoing the word cocktail. Rooted in Brazilian cachaça drinking culture, it brings local cane spirit, vermouth and a bitter liqueur together in a concise stirred drink.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "ramos-fizz": {
+    "kind": "history",
+    "zh": "拉莫斯菲士由新奥尔良的亨利·拉莫斯推广，历史可追溯到 1888 年。关于酒吧雇用多人接力摇酒的故事广为流传，说明那层细腻泡沫早已是这杯酒的核心，而不是可有可无的装饰。",
+    "en": "Ramos Fizz was popularized by Henry Ramos in New Orleans, with a history reaching back to 1888. Stories of teams passing shakers along underline how central its fine foam was to the drink, rather than being an optional decoration.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Ramos+Fizz+cocktail"
+      }
+    ]
+  },
+  "remember-the-maine": {
+    "kind": "history",
+    "zh": "缅因号记忆借用了与 1898 年缅因号事件有关的历史口号，后来由查尔斯·贝克的旅行与饮酒著述帮助传播。威士忌、味美思、樱桃与苦艾酒，把一个带政治背景的名字留在了经典酒吧语言里。",
+    "en": "Remember the Maine borrows a slogan associated with the 1898 Maine incident and was later circulated through Charles H. Baker's travel-and-drinking writing. Whiskey, vermouth, cherry and absinthe carried that historically charged name into the classic bar repertoire.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Remember+the+Maine+cocktail"
+      }
+    ]
+  },
+  "russian-spring-punch": {
+    "kind": "history",
+    "zh": "俄罗斯春日潘趣与伦敦调酒师迪克·布拉德塞尔联系在一起，名字并不意味着它一定诞生在俄罗斯。伏特加、黑醋栗、柠檬与起泡酒的组合，把酸酒和庆祝用的长饮连接起来。",
+    "en": "Russian Spring Punch is associated with London bartender Dick Bradsell; its name does not mean it was necessarily born in Russia. Vodka, blackcurrant, lemon and sparkling wine connect a sour's structure with the feel of a celebratory long drink.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Russian+Spring+Punch+cocktail"
+      }
+    ]
+  },
+  "sherry-cobbler": {
+    "kind": "history",
+    "zh": "雪莉考布勒在十九世纪的美国已广为人知，甚至进入了狄更斯的小说世界。碎冰、柑橘和吸管让葡萄酒变成一种新的清凉体验，也提醒人们：现代酒吧对冰与呈现方式的重视，早已有很长的历史。",
+    "en": "Sherry Cobbler was well known in nineteenth-century America and even appeared in Dickens's fiction. Crushed ice, citrus and a straw made wine into a new kind of cooling drink, showing that attention to ice and presentation has a long bar history.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Sherry+Cobbler+cocktail"
+      }
+    ]
+  },
+  "south-side": {
+    "kind": "disputed",
+    "zh": "南区的起源说法在纽约地区的俱乐部与芝加哥等地之间分岔，没有一条故事得到所有人认可。可以确定的是，它把金酒酸酒和新鲜薄荷接在一起，因此常被当作理解薄荷金酒风格的一杯经典。",
+    "en": "South Side's competing stories point toward clubs in the New York area and toward Chicago, without one account winning universal agreement. Its clear identity comes from combining a gin sour with fresh mint, making it a classic reference for that flavor pairing.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=South+Side+cocktail"
+      }
+    ]
+  },
+  "spicy-fifty": {
+    "kind": "history",
+    "zh": "香辣五十与伦敦调酒师萨尔瓦托雷·卡拉布雷斯联系在一起。它把香草、接骨木花和蜂蜜的柔和印象，与一点辣椒的刺激放在同一杯中，呈现了现代酒吧喜欢探索的香甜与辛辣对话。",
+    "en": "Spicy Fifty is associated with London bartender Salvatore Calabrese. Vanilla, elderflower and honey meet a little chili, creating the conversation between sweetness and heat that became a familiar interest of modern cocktail bars.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Spicy+Fifty+cocktail"
+      }
+    ]
+  },
+  "suffering-bastard": {
+    "kind": "history",
+    "zh": "受苦之人通常归功于第二次世界大战时期在开罗工作的乔·夏洛姆。它把白兰地、金酒与姜汁啤酒连在一起，后来也进入提基酒单；战时酒店酒吧与热带酒吧的两条文化线索因此交会。",
+    "en": "Suffering Bastard is usually credited to Joe Scialom working in wartime Cairo during the Second World War. Brandy, gin and ginger beer later found a place on tiki menus too, connecting a hotel-bar origin with a second tropical-bar life.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Suffering+Bastard+cocktail"
+      }
+    ]
+  },
+  "three-dots-and-a-dash": {
+    "kind": "history",
+    "zh": "三点一划与 Donn Beach 的提基酒吧传统有关，名字对应摩尔斯电码里的字母 V，也带有 Victory 的联想。三颗樱桃加一条菠萝的装饰，把那组电码又在杯口上画了一遍。",
+    "en": "Three Dots and a Dash belongs to Donn Beach's tiki tradition. Its name spells V in Morse code and evokes victory. Three cherries and a rectangular piece of pineapple repeat the same pattern as an edible garnish.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Three+Dots+and+a+Dash+cocktail"
+      }
+    ]
+  },
+  "tipperary": {
+    "kind": "history",
+    "zh": "蒂珀雷里以爱尔兰地名命名，也让人联想到《到蒂珀雷里还有很长的路》这首歌。配方已见于二十世纪初的调酒资料，用爱尔兰威士忌与欧洲草本酒搭配，留下了那个年代的跨地域酒吧风格。",
+    "en": "Named for the Irish place, Tipperary also recalls the song It's a Long Way to Tipperary. Documented in early-twentieth-century cocktail references, it pairs Irish whiskey with European herbal ingredients in a way characteristic of that period's international bar culture.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Tipperary+cocktail"
+      }
+    ]
+  },
+  "trinidad-sour": {
+    "kind": "history",
+    "zh": "特立尼达酸通常归功于调酒师朱塞佩·冈萨雷斯，名字指向安格仕苦精的特立尼达背景。它最特别的设计是让苦精从“几滴配角”走到配方中心，再用杏仁糖浆和柠檬把强烈香料感连接起来。",
+    "en": "Trinidad Sour is credited to bartender Giuseppe González and named for the Trinidad connection of Angostura bitters. Its striking idea is to move bitters from a few supporting dashes to the center of the recipe, with orgeat and lemon balancing the intense spice.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Trinidad+Sour+cocktail"
+      }
+    ]
+  },
+  "tuxedo": {
+    "kind": "history",
+    "zh": "燕尾服与纽约 Tuxedo Park 的俱乐部文化相连，酒名和英文礼服名称也共享这段地方联想。老汤姆金酒、干味美思、马拉斯奇诺与茴香气息，让它成为马天尼家族中更芳香的一位亲属。",
+    "en": "Tuxedo is associated with the club culture of Tuxedo Park, New York, a place also connected to the English name for formal evening dress. Old Tom gin, dry vermouth, maraschino and a hint of anise make it an aromatic relative of the Martini family.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Tuxedo+cocktail"
+      }
+    ]
+  },
+  "ve-n-to": {
+    "kind": "context",
+    "zh": "威尼托把意大利葡萄渣蒸馏酒格拉帕带到现代酸酒结构里。蜂蜜、柠檬与洋甘菊并没有遮住产地特征，而是为这种带葡萄香气的烈酒提供了另一种进入鸡尾酒杯的方式。",
+    "en": "Ve.N.To brings the Italian grape-pomace spirit grappa into a modern sour structure. Honey, lemon and chamomile offer another way for the spirit's grape character to enter the cocktail glass, rather than simply covering its regional identity.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/matt-parish/iba-cocktails/blob/cb781316c6a9579648ba54360917b8a35ea975b2/data/cocktails.json"
+      }
+    ]
+  },
+  "vieux-carre": {
+    "kind": "history",
+    "zh": "老广场与新奥尔良蒙特莱昂酒店的沃尔特·伯杰龙联系在一起，名字指向城市的法国区。黑麦威士忌、干邑、味美思与草本利口酒在一杯中并置，也很像这座城市多种饮食文化的相遇。",
+    "en": "Vieux Carré is associated with Walter Bergeron at New Orleans' Hotel Monteleone, and its French name points to the city's French Quarter. Rye, cognac, vermouth and herbal liqueur share one glass, echoing the meeting of food and drink traditions in the city.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Vieux+Carr%C3%A9+cocktail"
+      }
+    ]
+  },
+  "zombie": {
+    "kind": "history",
+    "zh": "僵尸与 Donn Beach 在二十世纪三十年代发展的提基酒吧文化密不可分。早期配方曾靠代号和秘密混合液保护，后来又在提基研究者的整理中被重新认识；它的故事也因此包含了配方如何失传与重现。",
+    "en": "Zombie is inseparable from the tiki culture Donn Beach developed in the 1930s. Early recipes were protected with coded ingredients and secret mixes, then later reconstructed through tiki research. Its story is also about how recipes can disappear and be rediscovered.",
+    "reading": [
+      {
+        "label": "Drinko · 历史资料",
+        "url": "https://github.com/cilippofilia/drinko-learn/blob/9575611922024631e79007e3ba7b8ece7f1cf3f7/cocktails/history/en/history.json"
+      },
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Zombie+cocktail"
+      }
+    ]
+  },
+  "screwdriver": {
+    "kind": "disputed",
+    "zh": "螺丝刀的名字常被解释为工人用手边工具搅拌伏特加与橙汁，但这更像流传很广的轶事，而非已经证实的发明记录。它后来成为高杯酒里最直观的组合之一：一种烈酒，一种果汁，再加冰。",
+    "en": "The name Screwdriver is often explained through a story about workers stirring vodka and orange juice with a tool. That remains a popular anecdote rather than a settled invention record. The drink became one of the most direct highball formulas: spirit, juice and ice.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=Screwdriver+cocktail"
+      }
+    ]
+  },
+  "yellow-bird": {
+    "kind": "context",
+    "zh": "黄鸟这个名字让人想到加勒比海的颜色、音乐与热带想象，但确切命名缘由并没有统一结论。朗姆酒、橙味利口酒与加利亚诺，把草本和柑橘装进了一款明亮的短饮中。",
+    "en": "Yellow Bird evokes Caribbean color, music and tropical imagery, though its exact naming story is not firmly settled. Rum, orange liqueur and Galliano bring herbal and citrus notes together in a bright short drink.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "golden-dream": {
+    "kind": "context",
+    "zh": "金色梦境的名字直接呼应成杯的暖金色。橙味利口酒、加利亚诺与奶油延续了二十世纪餐后鸡尾酒的甜点风格：把果香、草本和柔滑口感压缩进一只小酒杯。",
+    "en": "Golden Dream's name echoes the warm gold color of the finished drink. Orange liqueur, Galliano and cream express the dessert-like style of twentieth-century after-dinner cocktails, bringing fruit, herbs and a smooth texture into a small glass.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "god-mother": {
+    "kind": "context",
+    "zh": "教母通常被看作教父的伏特加变体，仍然保留杏仁利口酒作为另一半。与其替它指定一个缺少共识的发明场景，不如把它看作双材料餐后酒家族的一次换位：基酒改变，熟悉的杏仁主题继续。",
+    "en": "God Mother is generally understood as the vodka variation of God Father, keeping amaretto as its partner. It is best read as a substitution within the family of two-ingredient after-dinner drinks: the base changes while the almond theme remains.",
+    "reading": [
+      {
+        "label": "配方资料",
+        "url": "https://github.com/teijo/iba-cocktails/blob/5f1e5dd4a2189adc3854a51d7b48640bd86e9f76/recipes.json"
+      }
+    ]
+  },
+  "god-father": {
+    "kind": "disputed",
+    "zh": "教父的名字通常被放在同名电影带来的文化热潮中理解，但关于演员偏好和发明者的说法并无一致证据。苏格兰威士忌与杏仁利口酒的双材料组合，最终比这些宣传故事更持久。",
+    "en": "God Father is commonly understood against the cultural backdrop of the film of the same name, but stories about an actor's preference or a particular inventor are not firmly established. Its pairing of Scotch whisky and amaretto proved more lasting than those promotional accounts.",
+    "reading": [
+      {
+        "label": "维基百科检索",
+        "url": "https://en.wikipedia.org/w/index.php?search=God+Father+cocktail"
+      }
+    ]
+  }
+}

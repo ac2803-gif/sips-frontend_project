@@ -1,0 +1,18 @@
+.card-art{container-type:size;overflow:clip}
+.missing-materials{position:absolute;left:12px;right:10px;bottom:12px;display:flex;justify-content:flex-end;pointer-events:none;z-index:2}
+.missing-materials .match-badge{position:static;pointer-events:auto;min-height:32px;padding:7px 10px;font-size:10px;border:1px solid #e5d8b8;background:#fff8e7ed;color:#8b6a32;box-shadow:0 2px 9px #7663380a;border-radius:4px}
+.missing-materials .match-badge:hover,.missing-materials .match-badge[aria-expanded="true"]{background:#f5e6bf;border-color:#d7bc7d}
+.missing-materials-popover{position:absolute;right:0;bottom:100%;width:100%;padding-bottom:8px;pointer-events:auto}
+.missing-materials-popover[hidden]{display:none}
+.missing-materials-sheet{padding:12px;background:#fffaf1f5;border:1px solid #e7d9b5;border-radius:6px;box-shadow:0 5px 18px #6a542b12;max-height:140px;max-height:calc(100cqh - 70px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin}
+.missing-materials-sheet>p{margin:0 0 9px;font-size:9px;letter-spacing:.5px;color:#9b8250}
+.missing-materials-sheet ul{display:flex;gap:6px;flex-wrap:wrap;list-style:none;margin:0;padding:0}
+.missing-materials-sheet li{max-width:100%;padding:7px 9px;border:1px solid #ead18d;border-radius:3px;background:#f7e7b7;color:#82612b;font-size:10px;line-height:1.5;overflow-wrap:anywhere;box-shadow:0 1px 3px #8e74200a}
+.recipe-story{margin-top:26px;padding:20px 0 0;border-top:1px solid var(--line)}
+.recipe-story-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.recipe-story h4{font-weight:500;font-size:13px;margin:0;display:flex;align-items:center;gap:7px;color:#42583b}
+.story-kind{font-size:9px;line-height:1.5;color:#9b8053;flex-shrink:0}
+.recipe-story>p{font-size:12px;color:#737d69;line-height:1.95;margin:13px 0 10px}
+.story-reading{display:flex;align-items:center;gap:7px;flex-wrap:wrap;color:#969a88;font-size:9px;line-height:1.8}
+.story-reading a{display:inline-flex;gap:3px;align-items:center;color:#728366;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+@media(max-width:760px){.missing-materials{left:8px;right:8px;bottom:10px}.missing-materials .match-badge{min-height:44px;padding:7px 8px;font-size:9px}.missing-materials-sheet{padding:9px}.missing-materials-sheet li{font-size:9px;padding:6px 7px}.missing-materials-sheet>p{font-size:8px}.recipe-story{padding-top:19px}.recipe-story-heading{align-items:flex-start;gap:8px}}
