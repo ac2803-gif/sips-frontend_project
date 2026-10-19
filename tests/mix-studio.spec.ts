@@ -19,6 +19,27 @@ async function release(client:CDPSession){await client.send('Input.dispatchTouch
 
 test.beforeEach(async({page})=>{await page.goto('/');});
 
+test('initial visits draw from the catalog instead of always starting with Negroni',async({page})=>{
+ // Controlled randomness proves initialization uses the draw, without a probabilistic assertion.
+ await page.addInitScript(()=>{
+  const seed=new URLSearchParams(location.search).get('test-random');
+  if(seed!==null)Math.random=()=>Number(seed);
+ });
+ const initialRecipes:string[]=[];
+ for(const seed of [0,.999999]){
+  await page.goto(`/?test-random=${seed}`);
+  const selected=await page.locator('.mix-result h3').innerText();
+  initialRecipes.push(selected);
+  await page.getByRole('button',{name:'切换为英文'}).click();
+  await expect(page.locator('.mix-result h3')).toHaveText(selected);
+  await page.locator('.mix-recipe-link').click();
+  await expect(page.locator('.recipe-content h2')).toHaveText(selected);
+  await page.getByRole('button',{name:'Close recipe'}).click();
+  await page.getByRole('button',{name:'Switch to Chinese'}).click();
+ }
+ expect(new Set(initialRecipes).size).toBe(2);
+});
+
 test('desktop starts automatically while phone waits for a rightward drag',async({page,isMobile})=>{
  await expect(page.locator('.mix-studio')).toHaveAttribute('data-layout',isMobile?'drag':'auto');
  await expect(page.locator('.mix-playback, .mix-play, .mix-reset, progress')).toHaveCount(0);

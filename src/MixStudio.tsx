@@ -103,7 +103,7 @@ export function MixStudio({ cabinet, onOpen, onManageBar }: { cabinet: string[];
  const { language, t } = useI18n();
  const desktop=useMedia('(min-width: 901px) and (hover: hover) and (pointer: fine)');
  const [scope, setScope] = useState<'all'|'bar'>('all');
- const [currentId, setCurrentId] = useState(cocktails[0].id);
+ const [currentId, setCurrentId] = useState(() => drawCocktail(cocktails.map(c=>c.id), undefined, []).id);
  const [drawCount, setDrawCount] = useState(0);
  const [finishedKey, setFinishedKey] = useState('');
  const bag = useRef({ key:'', remaining: [] as string[] });
