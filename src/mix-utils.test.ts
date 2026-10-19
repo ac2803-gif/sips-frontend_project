@@ -65,11 +65,31 @@ describe('automatic desktop and rightward phone controls',()=>{
   expect(pourGeometry('highball',30,0).angle).toBe(90);
  });
  it('keeps the desktop stream attached at all pointer extremes',()=>{
-  for(const x of [-1,0,1])for(const y of [-1,0,1]){
-   const pose=autoPourGeometry('highball',50,{x,y},true);
+  for(const glass of ['coupe','rocks','highball'] as const)for(const x of [-1,0,1])for(const y of [-1,0,1])for(const progress of [0,50,100]){
+   const pose=autoPourGeometry(glass,progress,{x,y},true);
    expect(pose.stream.startsWith(`M${pose.spout.x} ${pose.spout.y} `)).toBe(true);
-   expect(pose.spout.x).toBeGreaterThan(pose.shape.left);
-   expect(pose.spout.x).toBeLessThan(pose.shape.right);
+   expect(pose.stream.endsWith(`${pose.landingX} ${pose.liquidY}`)).toBe(true);
+   expect(pose.landingX).toBeGreaterThan(pose.shape.left);
+   expect(pose.landingX).toBeLessThan(pose.shape.right);
+   expect(pose.spout.y).toBeLessThan(pose.shape.top);
+   const angle=pose.angle*Math.PI/180;
+   for(const [cx,cy] of [[-10,-73],[-10,73],[247,-73],[247,73]]){
+    const px=pose.spout.x+cx*Math.cos(angle)-cy*Math.sin(angle);
+    const py=pose.spout.y+cx*Math.sin(angle)+cy*Math.cos(angle);
+    expect(px).toBeGreaterThanOrEqual(13.99);
+    expect(px).toBeLessThanOrEqual(546.01);
+    expect(py).toBeGreaterThanOrEqual(13.99);
+    expect(py).toBeLessThan(480);
+   }
   }
+ });
+ it('lets desktop pointers travel substantially farther on both axes',()=>{
+  const left=autoPourGeometry('rocks',50,{x:-1,y:0},true);
+  const right=autoPourGeometry('rocks',50,{x:1,y:0},true);
+  const up=autoPourGeometry('rocks',50,{x:0,y:-1},true);
+  const down=autoPourGeometry('rocks',50,{x:0,y:1},true);
+  expect(right.spout.x-left.spout.x).toBeGreaterThan(120);
+  expect(down.spout.y-up.spout.y).toBeGreaterThan(90);
+  expect(right.angle-left.angle).toBeGreaterThan(15);
  });
 });

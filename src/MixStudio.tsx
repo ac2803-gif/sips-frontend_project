@@ -25,9 +25,11 @@ function PourCanvas({ drink, desktop, onComplete }: { drink: Cocktail; desktop: 
  const controller=usePourController(desktop,reduced,stageRef);
  const {progress,tilt,dragging,playing}=controller;
  const [aim,setAim]=useState({x:0,y:0});
+ const [aiming,setAiming]=useState(false);
  const phase=progress>=100?'finished':playing?'pouring':progress>0?'paused':desktop?'intro':'ready';
  const uid=useId().replace(/:/g,'');
- const {shape,spout,angle,liquidY,stream}=desktop?autoPourGeometry(drink.glass,progress,reduced?{x:0,y:0}:aim,playing):pourGeometry(drink.glass,progress,tilt);
+ const geometry=desktop?autoPourGeometry(drink.glass,progress,reduced?{x:0,y:0}:aim,playing):pourGeometry(drink.glass,progress,tilt);
+ const {shape,spout,angle,liquidY,stream,landingX}=geometry;
  useEffect(()=>onComplete(progress>=100),[progress>=100,onComplete]);
  const garnish = recipeGarnish(drink);
  const bottleLabel = translate(drink.base, 'en').toUpperCase();
@@ -40,11 +42,12 @@ function PourCanvas({ drink, desktop, onComplete }: { drink: Cocktail; desktop: 
   if(!svg||!matrix)return;
   const point=svg.createSVGPoint();point.x=event.clientX;point.y=event.clientY;
   const local=point.matrixTransform(matrix.inverse());
+  setAiming(true);
   setAim({x:Math.max(-1,Math.min(1,(local.x-280)/230)),y:Math.max(-1,Math.min(1,(local.y-230)/190))});
  };
  return <div className="mix-canvas-wrap">
-  <div className={`mix-stage mix-stage--${phase} ${dragging?'is-dragging':''}`} ref={stageRef}
-   onPointerMove={move} onPointerLeave={()=>{if(desktop)setAim({x:0,y:0})}} onPointerUp={controller.release} onPointerCancel={controller.release} onLostPointerCapture={event=>{if(event.target===event.currentTarget)controller.release(event)}}
+  <div className={`mix-stage mix-stage--${phase} ${dragging?'is-dragging':''} ${desktop&&aiming&&!reduced?'is-aiming':''}`} ref={stageRef}
+   onPointerMove={move} onPointerLeave={()=>{if(desktop){setAim({x:0,y:0});setAiming(false);}}} onPointerUp={controller.release} onPointerCancel={controller.release} onLostPointerCapture={event=>{if(event.target===event.currentTarget)controller.release(event)}}
    role="group" aria-label={`${drink.name} · ${t(desktop?'自动倒酒插画':'向右拖动酒瓶倾倒')}`} data-glass={drink.glass} data-cocktail={drink.id} data-phase={phase} data-progress={progress.toFixed(2)} data-tilt={tilt.toFixed(3)}>
    <span className="mix-orbit mix-orbit-one" /><span className="mix-orbit mix-orbit-two" />
    <span className="mix-art-label">A LITTLE MIX. A LITTLE MAGIC.</span>
@@ -72,12 +75,12 @@ function PourCanvas({ drink, desktop, onComplete }: { drink: Cocktail; desktop: 
      <text x="159" y="12" textAnchor="middle" fill="#35503d" fontFamily="Georgia" fontSize={bottleLabel.length>10?9:bottleLabel.length>6?12:18} letterSpacing="1.5">{bottleLabel}</text>
      <text x="159" y="30" textAnchor="middle" fill="#68775b" fontSize="4.4" letterSpacing=".8">THE COCKTAIL COLLECTION</text></g></g>
     </g></g>
-    <g className="mix-glass-scene" aria-hidden="true" style={desktop&&phase==='finished'?{transform:`translate(${20+aim.x*3}px,${-58+aim.y*2}px)`}:undefined}><ellipse cx="260" cy="458" rx="88" ry="8" fill="#596044" opacity=".12" filter={`url(#${uid}-shadow)`}/>
+    <g className="mix-glass-scene" aria-hidden="true"><ellipse cx="260" cy="458" rx="88" ry="8" fill="#596044" opacity=".12" filter={`url(#${uid}-shadow)`}/>
     <path d={shape.path} fill="#fff" fillOpacity=".17" stroke="#b3b39c" strokeWidth="1.8"/>
     {playing && !reduced && <path className="mix-stream" d={stream} fill="none" stroke={drink.color} strokeWidth="4" strokeLinecap="round" opacity=".8" data-end-y={liquidY}/>}
     <g clipPath={`url(#${uid}-glass)`}>
      {progress > 0 && <><rect className="mix-liquid" x={shape.left - 3} y={liquidY} width={shape.right - shape.left + 6} height={shape.bottom - liquidY + 10} fill={`url(#${uid}-liquid)`}/><ellipse cx="260" cy={liquidY} rx={shape.rim} ry="4" fill={drink.color} opacity=".55"/>
-      {playing && !reduced && <ellipse className="mix-ripple" cx={spout.x} cy={liquidY} rx="10" ry="3" fill="none" stroke="#fffae6" strokeWidth="1" opacity=".6"/>}</>}
+      {playing && !reduced && <ellipse className="mix-ripple" cx={landingX} cy={liquidY} rx="10" ry="3" fill="none" stroke="#fffae6" strokeWidth="1" opacity=".6"/>}</>}
      {drink.glass !== 'coupe' && [0,1,2].map(n => <rect key={n} x={drink.glass==='rocks'?216+n*17:236+(n%2)*10} y={drink.glass==='rocks'?330+(n%2)*25:285+n*35} width="36" height="38" rx="5" fill="#fff" fillOpacity=".22" stroke="#fff" strokeOpacity=".45" transform={`rotate(${n*13-14} 260 350)`}/>)}
      <path d={`M${shape.left+12} ${shape.top+15} L${shape.left+18} ${shape.bottom-17}`} stroke="#fff" strokeWidth="3" opacity=".45"/>
     </g>
@@ -129,6 +132,6 @@ export function MixStudio({ cabinet, onOpen, onManageBar }: { cabinet: string[];
    <button className="mix-recipe-link" type="button" onClick={()=>drink&&onOpen(drink)} disabled={!drink} aria-label={drink ? (language==='zh'?`查看${drink.zh}配方`:`View ${drink.name} recipe`) : t('查看配方')}>{t('看看怎么调')}<ChevronRight size={16}/></button>
   </div>
   <button className="mix-random" type="button" onClick={randomize} disabled={!pool.length}><Shuffle size={17}/>{t(drawCount===0?'今晚喝什么':'换一杯灵感')}<ArrowUpRight size={16}/></button>
-  <p className="mix-footnote">{t(desktop?'按一下，下一杯灵感就来了。':'换一杯，再亲手为它倾倒。')}</p>
+  <p className="mix-footnote">{t(desktop?'移动鼠标，自由移动酒瓶；移出后展示成杯。':'换一杯，再亲手为它倾倒。')}</p>
  </section>;
 }

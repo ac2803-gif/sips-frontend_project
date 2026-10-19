@@ -1,0 +1,17 @@
+.ingredient-intro{font-size:11px;color:#7b866e;line-height:1.8;margin:-4px 0 18px}
+.selected-ingredients{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:-1px 0 18px;padding:12px;background:#f9f9f280;border:1px solid #e0e4d5;border-radius:5px}
+.selected-ingredients-label{font-size:10px;color:#89927d;margin-right:4px}
+.selected-ingredients button{display:inline-flex;align-items:center;gap:7px;font-size:10px;min-height:30px;padding:5px 8px;background:#e0e7d6;color:#425a39;border-radius:3px;text-align:left}
+.selected-ingredients button:hover{background:#d4dec6}.selected-ingredients .selected-expand{background:transparent;text-decoration:underline;text-underline-offset:3px}
+.ingredient-search-row{display:flex;align-items:center;gap:15px;margin-bottom:14px}
+.ingredient-search{display:flex;align-items:center;gap:9px;max-width:460px;width:100%;min-height:44px;padding:0 12px;border:1px solid #d4dac8;border-radius:4px;background:#fbfbf5;color:#8a957b}
+.ingredient-search:focus-within{border-color:#6d8460;box-shadow:0 0 0 2px #6d846015}.ingredient-search input{flex:1;min-width:0;width:100%;padding:12px 0;border:0;background:transparent;outline:none;font:inherit;font-size:12px;color:var(--green)}
+.ingredient-search input::-webkit-search-cancel-button{display:none}.ingredient-search input::placeholder{color:#959e89}.ingredient-search button{display:grid;place-items:center;flex-shrink:0;width:32px;height:32px;background:transparent;color:#7d8a70;border-radius:3px}
+.ingredient-result-count{font-size:10px;color:#8a947e;white-space:nowrap}
+.ingredient-categories{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid #dce1d2;padding-bottom:13px;margin-bottom:15px}
+.ingredient-categories button{min-height:34px;padding:7px 11px;background:transparent;color:#87917a;font-size:11px;border-radius:3px}
+.ingredient-categories button.active{background:#dde5d2;color:#385131}.ingredient-categories button:hover:not(.active){background:#e6eadf}
+.ingredient-picker .ingredient-options{min-height:90px;max-height:265px;align-content:flex-start;gap:8px;padding:2px 6px 4px 0}
+.ingredient-picker .ingredient{min-height:38px;max-width:100%;line-height:1.6;text-align:left}.ingredient-picker .ingredient svg{flex-shrink:0}
+.ingredient-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:140px;color:#8b987c}.ingredient-empty p{font-size:13px;margin:10px 0 6px;color:#5f7452}.ingredient-empty span{font-size:11px;line-height:1.8;text-align:center}
+@media(max-width:760px){.ingredient-search-row{gap:8px;flex-wrap:wrap;margin-bottom:12px}.ingredient-search{max-width:none}.ingredient-result-count{margin-left:2px}.ingredient-categories{gap:4px}.ingredient-categories button{min-height:40px;padding:7px 9px;font-size:10px}.ingredient-picker .ingredient-options{max-height:280px}.ingredient-picker .ingredient{min-height:44px;padding:9px 10px}.selected-ingredients{gap:6px;padding:10px}.selected-ingredients button{min-height:36px}.ingredient-intro{font-size:10px}}

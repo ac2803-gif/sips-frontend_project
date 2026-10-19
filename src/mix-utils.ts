@@ -41,15 +41,27 @@ export function pourGeometry(glass: Cocktail['glass'], progress: number, tilt = 
  const spout = {x:420-160*approach,y:52+106*approach};
  const angle=90-92*approach-18*flowForTilt(amount);
  const liquidY=shape.bottom-(shape.bottom-shape.full)*clamp(progress,0,100)/100;
- return {shape,spout,angle,liquidY,stream:`M${spout.x} ${spout.y} C${spout.x} ${spout.y+40} ${spout.x} ${liquidY-30} ${spout.x} ${liquidY}`};
+ return {shape,spout,angle,liquidY,landingX:spout.x,stream:`M${spout.x} ${spout.y} C${spout.x} ${spout.y+40} ${spout.x} ${liquidY-30} ${spout.x} ${liquidY}`};
 }
 
-/** The restored desktop reveal uses the original tipped-bottle composition. */
+/** Free desktop movement within the canvas, with a stream that still lands inside the glass. */
 export function autoPourGeometry(glass:Cocktail['glass'],progress:number,aim={x:0,y:0},playing=false){
  const base=pourGeometry(glass,progress,1);
  const x=clamp(aim.x,-1,1),y=clamp(aim.y,-1,1);
- const spout={x:260+x*18,y:158+y*7};
- return {...base,spout,angle:-20+(playing?8:0)+x*2,stream:`M${spout.x} ${spout.y} C${spout.x} ${spout.y+40} ${spout.x} ${base.liquidY-30} ${spout.x} ${base.liquidY}`};
+ const angle=clamp(-20+(playing?8:0)+x*10-y*8,-30,4);
+ const radians=angle*Math.PI/180;
+ // Include the full hit box when bounding the rotated bottle, not just its opening.
+ const corners=[[-10,-73],[-10,73],[247,-73],[247,73]].map(([cx,cy])=>({
+  x:cx*Math.cos(radians)-cy*Math.sin(radians),
+  y:cx*Math.sin(radians)+cy*Math.cos(radians),
+ }));
+ const spout={
+  x:clamp(260+x*100,14-Math.min(...corners.map(p=>p.x)),546-Math.max(...corners.map(p=>p.x))),
+  y:clamp(158+y*65,14-Math.min(...corners.map(p=>p.y)),base.shape.top-36),
+ };
+ const landingRoom=glass==='coupe'?base.shape.rim*.55*Math.sqrt(clamp(progress,0,100)/100):base.shape.rim*.45;
+ const landingX=260+x*Math.min(35,landingRoom);
+ return {...base,spout,angle,landingX,stream:`M${spout.x} ${spout.y} C${spout.x} ${spout.y+40} ${landingX} ${base.liquidY-30} ${landingX} ${base.liquidY}`};
 }
 
 /** Decorative citrus is drawn only when the actual instructions mention it. */

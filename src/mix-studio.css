@@ -63,4 +63,7 @@
 .mix-studio--auto .mix-stage--finished .mix-bottle-shell{opacity:0;transform:translate(40px,-50px)}
 .mix-studio--auto .mix-stage--finished .mix-glass-scene{transform:translate(20px,-58px)}
 .mix-studio--auto .mix-stage--finished .mix-orbit{opacity:.55;transition:opacity .8s}
+.mix-studio--auto .mix-stage.is-aiming .mix-bottle-shell{opacity:1;transform:none;animation:none}
+.mix-studio--auto .mix-stage.is-aiming .mix-glass-scene{transform:none}
+.mix-studio--auto .mix-stage.is-aiming .mix-orbit{opacity:1}
 @media(prefers-reduced-motion:reduce){.mix-studio--auto .mix-bottle-shell,.mix-studio--auto .mix-glass-scene{transition:none;animation:none}.mix-studio--auto .mix-stage--finished .mix-bottle-shell{display:none}}

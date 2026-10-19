@@ -31,15 +31,16 @@ In the managed cloud workspace, use `npm ci --cache /tmp/sips-npm-cache` when th
 
 ### Features
 
-- Desktop: random selection automatically pours and reveals the drink, the bottle fades away, and the recipe link remains available. Subtle mouse-follow movement is retained; page scrolling does not control the pour.
+- Desktop: random selection automatically pours and reveals the drink, the bottle fades away, and the recipe link remains available. Mouse movement guides the bottle across a wider area with bounded rotation and an aligned stream. Hovering after the pour brings the bottle back for exploration; leaving reveals the finished glass. Page scrolling does not control the pour.
 - Phone / touch layouts: drag the bottle to the right to tip it. Leftward swipes do not pour. A larger tilt pours faster; release returns it upright and preserves the liquid already poured. Vertical swipes remain normal page scrolling. The bottle also supports holding Space or Enter on the keyboard.
 - Random recipes drawn without replacement; choose all 102 cocktails or only recipes available in your bar. Glass shape, color, garnish and recipe link follow the selected drink.
 - Reduced-motion mode uses static poses instead of continuous liquid animation. Mobile pours stop when the page is hidden or a gesture is cancelled. Desktop and phone controllers are chosen using viewport width and pointer capabilities.
 - 102 cocktails covering the IBA list snapshot, searchable by name and ingredient, with spirit and flavor filters.
-- Editor’s pick badges for a fixed set of 20 popular classics; badges remain attached to the recipe when searching, filtering or viewing favorites.
-- Ingredient cabinet, recipe matching, missing-ingredient counts and shopping recommendations.
+- A fixed set of 20 editor’s picks, with a filter placed first in the collection bar. Other filters are limited to six classic spirits plus Other. Badges remain attached to recipes when searching, filtering or viewing favorites.
+- A compact ingredient cabinet with 16 essentials by default, categories, Chinese/English search across all ingredients, and a separate removable selection summary. Recipe matching, missing-ingredient counts and shopping recommendations use the same saved ingredients.
 - Recipe details, quantities for 1–8 servings and step-by-step mixing guidance.
 - Chinese / English switch with a saved language preference.
+- The eight-ray brand mark uses SVG paths so mobile emoji fonts cannot change its appearance.
 - Locally saved favorites and cabinet, responsive layouts, keyboard focus and reduced-motion support.
 
 ### Browser interaction tests
@@ -49,7 +50,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The tests run desktop and touch-enabled iPhone-size Chromium projects. They check automatic desktop reveals, rightward touch-drag speed and release, rejection of leftward pouring, vertical scrolling, keyboard operation, random recipe linkage, reduced motion, mobile bounds, stable editor tags, historical favorites and quantity ranges. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
+The tests run desktop and touch-enabled iPhone-size Chromium projects. They check automatic desktop reveals, rightward touch-drag speed and release, rejection of leftward pouring, vertical scrolling, keyboard operation, random recipe linkage, reduced motion, mobile bounds, stable editor tags and filtering, historical favorites, quantity ranges, ingredient search/categories, saved selections and the wider desktop bottle movement. This is browser emulation, not a claim of physical iPhone / Safari testing. If Chromium is already installed in a managed environment, set `CHROMIUM_PATH` to its executable path.
 
 ### Recipe sources
 
@@ -72,7 +73,11 @@ Each recipe links to its pinned source. `data/sources/iba-2025-snapshot.json` st
 | `src/mix-utils.ts` | Shuffle bag, shared bottle / stream geometry and garnish selection |
 | `src/mix-studio.css` | Studio layout and mobile touch targets |
 | `src/style.css` | Colors, typography and responsive layouts |
+| `src/SipsMark.tsx` | Font-independent SVG brand mark |
 | `src/data.ts` | Types, matching and recommendations |
+| `src/IngredientPicker.tsx` | Search, category browsing and selected ingredients |
+| `src/ingredient-groups.ts` | Ingredient categories and essentials |
+| `src/catalog-filters.ts` | Editor picks and six-spirit filter options |
 | `src/cocktails.json` | 102 bilingual recipes, measures and pinned source links |
 | `src/historical-cocktails.json` | Five legacy recipes kept for saved favorites |
 | `src/editors-choice.ts` | Stable IDs for 20 editor’s picks |
@@ -119,15 +124,16 @@ npm run preview
 
 ### 已包含
 
-- 电脑端：抽酒后自动倒酒、酒瓶淡出，展示成杯和配方入口；保留轻微鼠标跟随，滚动页面不控制倒酒。
+- 电脑端：抽酒后自动倒酒、酒瓶淡出，展示成杯和配方入口；鼠标可以在更大范围内移动、转动酒瓶，瓶身限制在画布内，酒流保持对齐；成杯后移入插画可继续移动酒瓶，移出后回到成杯展示。滚动页面不控制倒酒。
 - 手机及触屏端：仅向右拖动酒瓶，倾角越大流速越快；向左滑动不倒酒，松手停止并回正，已倒入的酒保留。上下滑动正常滚动页面；键盘可按住空格或回车倒酒。
 - 随机抽取真实配方，一轮内不重复；可选择全部 102 款或仅抽酒柜能调的酒，杯型、配色、装饰和配方入口同步变化。
 - “减少动态效果”模式使用静态姿态替代连续动画；手机切到后台或手势取消时停止倒酒。根据屏幕宽度及指针能力切换控制方式。
 - 覆盖 IBA 名单快照的 102 款配方，按基酒、风味、名称和材料筛选。
-- 固定 20 款常见热门酒标记“编辑之选”，搜索、筛选和收藏时保持对应关系；它是本站精选，不是权威热度排名。
-- 酒柜材料管理、完整配方匹配、缺失材料数量与补货建议。
+- 固定 20 款常见热门酒标记“编辑之选”，并在筛选栏最前面提供入口；基酒筛选收为六大基酒加“其他”。搜索、筛选和收藏时标签保持对应关系；它是本站精选，不是权威热度排名。
+- 酒柜默认展示 16 种常用材料，提供材料分类、跨分类中英文搜索及可单独移除的已选材料摘要；继续支持完整配方匹配、缺失材料数量与补货建议。
 - 配方详情、1–8 杯用量换算及分步教学。
 - 中英文切换与本地语言偏好保存。
+- 八角星品牌标识使用 SVG 路径，避免在手机上被系统字体显示为 Emoji。
 - 本地保存酒柜与收藏，移动端布局、键盘焦点和减少动态效果支持。
 
 ### 浏览器交互测试
@@ -137,7 +143,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证电脑自动成杯、手机仅右拖倒酒及松手停止、正常上下滚动、键盘操作、随机配方联动、减少动态效果、手机控件边界、编辑标签、旧收藏及范围用量。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
+自动测试包括桌面及 iPhone 尺寸的触屏 Chromium，验证电脑自动成杯、手机仅右拖倒酒及松手停止、正常上下滚动、键盘操作、随机配方联动、减少动态效果、手机控件边界、编辑标签及筛选、旧收藏、范围用量、材料搜索分类、已选保存和电脑酒瓶跟随范围。这是浏览器模拟验证，尚未在实体 iPhone / Safari 上测试。如果云环境已安装 Chromium，可通过 `CHROMIUM_PATH` 指定可执行文件。
 
 ### 配方来源
 
@@ -160,7 +166,11 @@ npm run test:e2e
 | `src/mix-utils.ts` | 不重复抽选、瓶口与酒流统一坐标、装饰选择 |
 | `src/mix-studio.css` | 工作台布局及手机触控区域 |
 | `src/style.css` | 颜色、排版、响应式样式 |
+| `src/SipsMark.tsx` | 不依赖字体的 SVG 品牌标识 |
 | `src/data.ts` | 数据类型、材料匹配和补货推荐 |
+| `src/IngredientPicker.tsx` | 材料搜索、分类浏览及已选摘要 |
+| `src/ingredient-groups.ts` | 材料分类和常用材料 |
+| `src/catalog-filters.ts` | 编辑之选及六大基酒筛选 |
 | `src/cocktails.json` | 102 款双语配方、用量与固定版本来源链接 |
 | `src/historical-cocktails.json` | 为旧收藏保留的五款历史配方 |
 | `src/editors-choice.ts` | 20 款编辑之选的固定标识 |
