@@ -29,10 +29,8 @@ export function MissingIngredients({ drink, cabinet }: { drink:Cocktail; cabinet
   onKeyDown={event=>{if(event.key==='Escape'){event.preventDefault();close();}}}>
   <button type="button" className="match-badge" aria-expanded={open} aria-controls={id}
    aria-label={`${drink.name} · ${label}`} onClick={()=>setPinned(value=>!value)}>{label}</button>
-  <div id={id} className="missing-materials-popover" role="region" tabIndex={0} aria-label={t('还需要准备')} hidden={!open}>
-   <div className="missing-materials-sheet"><p>{t('还需要准备')}</p>
-    <ul>{missing.map(item=><li key={item.name}>{t(item.name)}</li>)}</ul>
-   </div>
-  </div>
+  <ul id={id} className="missing-materials-list" tabIndex={0} aria-label={t('还需要准备')} hidden={!open}>
+   {missing.map(item=><li key={item.name}>{t(item.name)}</li>)}
+  </ul>
  </div>;
 }
